@@ -1,0 +1,418 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ALU_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {ALU.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/ALU {C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/ALU/ALU_test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ALU_test
+# 
+# Top level modules:
+# 	ALU_test
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  ALU_test
+# vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps ALU_test 
+# Loading work.ALU_test
+# Loading work.ALU
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from ALU_v.sdo
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# Loading timing data from ALU_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /ALU_test File: C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/ALU/ALU_test.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = xxxxxxxx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = xxxxxXxx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = xxxxXXxx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = xxxXXXxx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = xxxXXXXx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = xXxXXXXx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = xXXXXXXx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XXXXXXXx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XXXXXXXx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XXXXXXXx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XXXXXXXx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XXXXXXXx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XXXXXXXx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XXXXXXXx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XXXXXXXx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XXXXXXXx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XXXXXXXx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XXXX0XXx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XX0X0XXx zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XX0X0XXX zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XX0X0XXX zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XX0X0XXX zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XX0X0XXX zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XX0X0XXX zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XX0X0XXX zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XX0X00XX zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XX0X000X zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XX00000X zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XX00000X zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = XX00000X zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = 0X00000X zero = x
+# ALUctl = 1111 A = xxxxxxxx B = xxxxxxxx ALUOut = 0000000X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 0000000X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 00000X0X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 0000000X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 0000000X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 0008000X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 00080X0X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 00080X8X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = X0080X8X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = X0X80X8X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = X0X80X8X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = X0X8XX8X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 00X8XX8X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = X0X8XX8X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = X0XXXX8X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXXXX8X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXXXX8X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXXXX8X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXXXX8X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXXXX8X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXXXX8X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXXXX8X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXXXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXXXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXXXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXXXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXxXXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXxXXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXxXXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXxXXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXx8XXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXx8XXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXx8XXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXx8XXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXxaXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXxaXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXxaXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXxaXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXxaXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXxaXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXxaXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXxaXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXxXXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXxXXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXXXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXXXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXXXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXXXXXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXX2XXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXX2XXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXX2XXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXX2XXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXX2XXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXX32XXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXX2XXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXX2XXX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXX2XcX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = XXXX2XcX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aXXX2XcX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aXXX2XcX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aXXX2XcX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aXXX6XcX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aXXX65cX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aXXX65cX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aXXX65cX zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aXXX658X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aX9X658X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aX9X648X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aX9X648X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aX9X640X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aX9X640X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aX9X640X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aX9X641X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aX9X641X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aX9X643X zero = x
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = aX9X643X zero = 0
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 2X9X643X zero = 0
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 6X9X643X zero = 0
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 7X9X643X zero = 0
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 7a9X603X zero = 0
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 7e9X603X zero = 0
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 7e9X603X zero = 0
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 7e99603X zero = 0
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 7699603X zero = 0
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 7699683X zero = 0
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 6699683X zero = 0
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 66996834 zero = 0
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 669X6834 zero = 0
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 669b6834 zero = 0
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 66996834 zero = 0
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 46996834 zero = 0
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 4e996834 zero = 0
+# ALUctl = 0010 A = 123f00ab B = 4c5a6789 ALUOut = 5e996834 zero = 0
+# ALUctl = 0010 A = f23f00ab B = 4c5a6789 ALUOut = 5e996834 zero = 0
+# ALUctl = 0010 A = f23f00ab B = 4c5a6789 ALUOut = 7e996834 zero = 0
+# ALUctl = 0010 A = f23f00ab B = 4c5a6789 ALUOut = fe996834 zero = 0
+# ALUctl = 0010 A = f23f00ab B = 4c5a6789 ALUOut = be996834 zero = 0
+# ALUctl = 0010 A = f23f00ab B = 4c5a6789 ALUOut = 3e996834 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 3e996834 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 3e99683c zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 3e99683e zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 3e996a3e zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 3e916a3e zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 3e916b3e zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 3e917b3e zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 3e917b7e zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 3a917b7e zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 3a91fb7e zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 3a91fb76 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 3ad1fb76 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 3ad1f976 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 3ad0f976 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 3ad0fd76 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 7ad0fd76 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 7ad4fd76 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 7a54fd76 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 7a54dd76 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 7a44dd76 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 7a44d576 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 7ac4d576 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 7ac4dd76 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 7ac4dd56 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 7ac4d956 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 7bc4d956 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 5bc4d956 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 5bc4d916 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 5bc4d912 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 5bc4d902 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 5bc4d903 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 5bc49903 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 5be49903 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 5be49983 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 59e49983 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 59e49982 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 51e49982 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 51e499a2 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = d1e499a2 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 91e499a2 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 91e49982 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 91e49992 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 91e499b2 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 81e499b2 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = 81e499a2 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = a1e499a2 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = a1e49922 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = a5e49922 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = a5e69922 zero = 0
+# ALUctl = 0110 A = f23f00ab B = 4c5a6789 ALUOut = a5e49922 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 4c5a6789 ALUOut = a5e49922 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 4c5a6789 ALUOut = 85e49922 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 4c5a6789 ALUOut = 05e49922 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 4c5a6789 ALUOut = 45e49922 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 4c5a6789 ALUOut = c5e49922 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = c5e49922 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = c5e49b22 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = c5e49a22 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = c5e49a20 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = c5e49820 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = c1e49820 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = c1e49800 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = c1e59800 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = c3e59800 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = c3e19800 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = cbe19800 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = cbe18800 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = dbe18800 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = fbe18800 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = fbe1c800 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = fbe1e800 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = ffe1e800 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = ffe9e800 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = ffe9e000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = bfe9e000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = ffe9e000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = ffe9c000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = dfe9c000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = dfedc000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = dfadc000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 5fadc000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 1fadc000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 17adc000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 17bdc000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 07bdc000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 07bd4000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 07fd4000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 07dd4000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 07fd4000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 27fd4000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 27fd0000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 27fc0000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 27f40000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 27f60000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = a7f60000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = e7f60000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = eff60000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = fff60000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = fff20000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = ffb20000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = ff320000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = fb320000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = f9320000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = f9220000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = f9020000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = f8020000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = f8000000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = d8000000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 58000000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 18000000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 10000000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 00000000 zero = 0
+# ALUctl = 0110 A = 123f00ab B = 123f00ab ALUOut = 00000000 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 00000000 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 00000200 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 00000300 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 00001300 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 00001700 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 00003700 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 0000b700 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 0000bf00 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 0000ff00 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 0001ff00 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 0009ff00 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 000dff00 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 004dff00 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 00cdff00 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 04cdff00 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 06cdff00 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 06ddff00 zero = 1
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 06ddff00 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 06fdff00 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 07fdff00 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 07fdff02 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 07fdff03 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 07ffff03 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 07ffff02 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 07fff702 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 27fff702 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = a7fff702 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = a77ff702 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = e77ff702 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = ef7ff702 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = ff7ff702 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 7f7ff702 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 7f7ff502 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 7d7ff502 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 7d7ff503 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 797ff503 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 795ff503 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 795ff50b zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 795ff509 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 795f7509 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 795f7409 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 795f7429 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 595f7429 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 591f7429 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 191f7429 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 191f5429 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 191f4429 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 191f0429 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 181f0429 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 181e0429 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 181a0429 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 181a0409 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 101a0409 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 101a0009 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 001a0009 zero = 0
+# ALUctl = 0000 A = 123f00ab B = 4c5a6789 ALUOut = 001a0089 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 001a0089 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 001a0081 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 00120081 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 00120001 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 00020001 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 00020201 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 000a0201 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 020a0201 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 060a0201 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 060a0601 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 062a0601 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 062a4601 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 462a4681 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 463a4681 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 463a46a1 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 467a46a1 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 467a46a3 zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 467a46ab zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 467a47ab zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 467847ab zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 567847ab zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 5e7847ab zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 5e7947ab zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 5e7967ab zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 5e7b67ab zero = 0
+# ALUctl = 0001 A = 123f00ab B = 4c5a6789 ALUOut = 5e7f67ab zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 5e7f67ab zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 5c7f67ab zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 5c7767ab zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 5c7765ab zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 5c3765ab zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 5c3765a9 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 5c3765a8 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 5c2765a8 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 5c2765a0 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 5c2764a0 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 582764a0 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 502764a0 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 500764a0 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 500760a0 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 500740a0 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 500700a0 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 50070080 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 50070000 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 50050000 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 50040000 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 50040001 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 10040001 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 00040001 zero = 0
+# ALUctl = 0111 A = 123f00ab B = 4c5a6789 ALUOut = 00000001 zero = 0
+# ALUctl = 1100 A = 123f00ab B = 4c5a6789 ALUOut = 00000001 zero = 0
+# ALUctl = 1100 A = 123f00ab B = 4c5a6789 ALUOut = 00000000 zero = 0
+# ALUctl = 1100 A = 123f00ab B = 4c5a6789 ALUOut = 00000800 zero = 0
+# ALUctl = 1100 A = 123f00ab B = 4c5a6789 ALUOut = 00000840 zero = 0
+# ALUctl = 1100 A = 123f00ab B = 4c5a6789 ALUOut = 00008840 zero = 0
+# ALUctl = 1100 A = 123f00ab B = 4c5a6789 ALUOut = 00008840 zero = 1
+# ALUctl = 1100 A = 123f00ab B = 4c5a6789 ALUOut = 00808840 zero = 1
+# ALUctl = 1100 A = 123f00ab B = 4c5a6789 ALUOut = 80808840 zero = 1
+# ALUctl = 1100 A = 123f00ab B = 4c5a6789 ALUOut = 80809840 zero = 1
+# ALUctl = 1100 A = 123f00ab B = 4c5a6789 ALUOut = a0809840 zero = 1
+# ALUctl = 1100 A = 123f00ab B = 4c5a6789 ALUOut = a0809850 zero = 1
+# ALUctl = 1100 A = 123f00ab B = 4c5a6789 ALUOut = a0809854 zero = 1
+# ALUctl = 1100 A = 123f00ab B = 4c5a6789 ALUOut = a1809854 zero = 1
+# ALUctl = 1100 A = 123f00ab B = 4c5a6789 ALUOut = a1809854 zero = 0
+# ** Note: $finish    : C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/ALU/ALU_test.v(45)
+#    Time: 2 us  Iteration: 0  Instance: /ALU_test
+# 1
+# Break in Module ALU_test at C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/ALU/ALU_test.v line 45
+# Simulation Breakpoint: 1
+# Break in Module ALU_test at C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/ALU/ALU_test.v line 45
+# MACRO ./ALU_run_msim_gate_verilog.do PAUSED at line 17

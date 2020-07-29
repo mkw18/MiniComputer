@@ -1,0 +1,150 @@
+$comment
+	File created using the following command:
+		vcd file mux_WriteAddr.msim.vcd -direction
+$end
+$date
+	Sat May 02 17:19:15 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module mux_WriteAddr_vlg_vec_tst $end
+$var reg 5 ! RdAddr [4:0] $end
+$var reg 1 " RegDst $end
+$var reg 5 # RtAddr [4:0] $end
+$var wire 1 $ WriteAddr [4] $end
+$var wire 1 % WriteAddr [3] $end
+$var wire 1 & WriteAddr [2] $end
+$var wire 1 ' WriteAddr [1] $end
+$var wire 1 ( WriteAddr [0] $end
+$var wire 1 ) sampler $end
+$scope module i1 $end
+$var wire 1 * gnd $end
+$var wire 1 + vcc $end
+$var wire 1 , unknown $end
+$var tri1 1 - devclrn $end
+$var tri1 1 . devpor $end
+$var tri1 1 / devoe $end
+$var wire 1 0 RegDst~combout $end
+$var wire 1 1 WriteAddr~0_combout $end
+$var wire 1 2 WriteAddr~1_combout $end
+$var wire 1 3 WriteAddr~2_combout $end
+$var wire 1 4 WriteAddr~3_combout $end
+$var wire 1 5 WriteAddr~4_combout $end
+$var wire 1 6 RtAddr~combout [4] $end
+$var wire 1 7 RtAddr~combout [3] $end
+$var wire 1 8 RtAddr~combout [2] $end
+$var wire 1 9 RtAddr~combout [1] $end
+$var wire 1 : RtAddr~combout [0] $end
+$var wire 1 ; RdAddr~combout [4] $end
+$var wire 1 < RdAddr~combout [3] $end
+$var wire 1 = RdAddr~combout [2] $end
+$var wire 1 > RdAddr~combout [1] $end
+$var wire 1 ? RdAddr~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0"
+b11100 #
+0(
+0'
+1&
+1%
+1$
+x)
+0*
+1+
+x,
+1-
+1.
+1/
+00
+01
+02
+13
+14
+15
+0:
+09
+18
+17
+16
+0?
+0>
+0=
+0<
+0;
+$end
+#190000
+1"
+10
+0)
+05
+04
+03
+0$
+0%
+0&
+#290000
+b1100 #
+b100 #
+b0 #
+b100 !
+b110 !
+b111 !
+1?
+1>
+1=
+08
+07
+06
+1)
+11
+12
+13
+1(
+1'
+1&
+#410000
+0"
+00
+0)
+03
+02
+01
+0&
+0'
+0(
+#650000
+b1 #
+b1001 #
+b11 !
+b1 !
+b0 !
+0?
+0>
+0=
+1:
+17
+1)
+11
+14
+1(
+1%
+#990000
+b1000 #
+b0 #
+0:
+07
+0)
+01
+04
+0(
+0%
+#1000000

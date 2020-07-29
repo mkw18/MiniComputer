@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp4\MiniComputer\ioRead\simulation\modelsim
+vioRead
+Ibd0Rz]>DS6?QE;=>X<YAn3
+V1d;ODULaS=OU^CV7bfgID3
+Z1 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp4\MiniComputer\ioRead\simulation\modelsim
+w1590161595
+8ioRead.vo
+FioRead.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+nio@read
+!i10b 1
+!s100 YkS7]P2ohSI`ad?`6cRCH1
+!s85 0
+!s108 1590161608.511000
+!s107 ioRead.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|ioRead.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vioRead_test
+!i10b 1
+!s100 i0b]WjjkFV<iVVj[4IYKA3
+I]QPOE;V?J_SHf]P`GZO_H3
+V=CNGZ@ZYJ]_Z6I6:H5h:W3
+R1
+w1590161573
+8C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/ioRead/ioRead_test.v
+FC:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/ioRead/ioRead_test.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1590161608.872000
+!s107 C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/ioRead/ioRead_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/ioRead|C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/ioRead/ioRead_test.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/ioRead -O0
+nio@read_test

@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp3\SingleCPU\mainCtl\simulation\modelsim
+vmainCtl
+IZNC4lF>NC50GYX19a?6bR0
+ViV4L[?j^WZVdnljPXY<L61
+Z1 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp3\SingleCPU\mainCtl\simulation\modelsim
+w1588596080
+8mainCtl.vo
+FmainCtl.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+nmain@ctl
+!i10b 1
+!s100 AdcZ_n[j[LXcd@RS8NHLY2
+!s85 0
+!s108 1588596094.603000
+!s107 mainCtl.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|mainCtl.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vmainCtl_test
+!i10b 1
+!s100 ze;iW^BSAoSb8OBkKHCO72
+IooTHT<2jG;clIG?hoMI5D3
+Vnh[F^mkcQRZWnd6c[zPj40
+R1
+w1588585449
+8C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/mainCtl/mainCtl_test.v
+FC:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/mainCtl/mainCtl_test.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1588596094.949000
+!s107 C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/mainCtl/mainCtl_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/mainCtl|C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/mainCtl/mainCtl_test.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/mainCtl -O0
+nmain@ctl_test

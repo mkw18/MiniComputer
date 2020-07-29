@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp4\MiniComputer\showall\simulation\modelsim
+vshowall
+I:X`^NWmIHGi47c7VaI7?>3
+VVHnOnZ1NdFah@C@4AE:@g2
+Z1 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp4\MiniComputer\showall\simulation\modelsim
+w1590733089
+8showall.vo
+Fshowall.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 J9RU`DdD3A;^ecO;<cTzR1
+!s85 0
+!s108 1590733110.131000
+!s107 showall.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|showall.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vshowall_test
+!i10b 1
+!s100 <GVnkFRC792=zMm:aG]:P3
+I=bHTQhCZ7W`2KC=7M47XT1
+Val]<dZ1]2XXjAnTn]XkC82
+R1
+w1590733049
+8C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall/showall_test.v
+FC:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall/showall_test.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1590733110.650000
+!s107 C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall/showall_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall|C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall/showall_test.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall -O0

@@ -1,0 +1,646 @@
+TimeQuest Timing Analyzer report for mainCtl
+Mon May 04 20:41:18 2020
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                       ;
++--------------------+--------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version ;
+; Revision Name      ; mainCtl                                                            ;
+; Device Family      ; Cyclone II                                                         ;
+; Device Name        ; EP2C5T144C6                                                        ;
+; Timing Models      ; Final                                                              ;
+; Delay Model        ; Combined                                                           ;
+; Rise/Fall Delays   ; Unavailable                                                        ;
++--------------------+--------------------------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++--------------------------------------------------------------+
+; Propagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; opcode[0]  ; ALUSrc      ; 11.046 ;        ;        ; 11.046 ;
+; opcode[0]  ; ALUop[0]    ;        ; 11.095 ; 11.095 ;        ;
+; opcode[0]  ; ALUop[1]    ;        ; 11.595 ; 11.595 ;        ;
+; opcode[0]  ; Branch      ;        ; 11.154 ; 11.154 ;        ;
+; opcode[0]  ; M2R         ; 11.751 ;        ;        ; 11.751 ;
+; opcode[0]  ; MemRead     ; 12.034 ;        ;        ; 12.034 ;
+; opcode[0]  ; MemWrite    ; 10.466 ;        ;        ; 10.466 ;
+; opcode[0]  ; RegDst      ;        ; 11.595 ; 11.595 ;        ;
+; opcode[0]  ; RegWrite    ; 12.345 ; 11.738 ; 11.738 ; 12.345 ;
+; opcode[0]  ; jump        ;        ; 10.721 ; 10.721 ;        ;
+; opcode[1]  ; ALUSrc      ; 10.533 ;        ;        ; 10.533 ;
+; opcode[1]  ; ALUop[0]    ;        ; 10.238 ; 10.238 ;        ;
+; opcode[1]  ; ALUop[1]    ;        ; 10.735 ; 10.735 ;        ;
+; opcode[1]  ; Branch      ;        ; 10.297 ; 10.297 ;        ;
+; opcode[1]  ; M2R         ; 11.990 ;        ;        ; 11.990 ;
+; opcode[1]  ; MemRead     ; 12.273 ;        ;        ; 12.273 ;
+; opcode[1]  ; MemWrite    ; 10.701 ;        ;        ; 10.701 ;
+; opcode[1]  ; RegDst      ;        ; 10.735 ; 10.735 ;        ;
+; opcode[1]  ; RegWrite    ; 12.584 ; 10.888 ; 10.888 ; 12.584 ;
+; opcode[1]  ; jump        ; 9.901  ;        ;        ; 9.901  ;
+; opcode[2]  ; ALUSrc      ;        ; 10.399 ; 10.399 ;        ;
+; opcode[2]  ; ALUop[0]    ; 10.377 ;        ;        ; 10.377 ;
+; opcode[2]  ; ALUop[1]    ;        ; 10.877 ; 10.877 ;        ;
+; opcode[2]  ; Branch      ; 10.436 ;        ;        ; 10.436 ;
+; opcode[2]  ; M2R         ;        ; 11.821 ; 11.821 ;        ;
+; opcode[2]  ; MemRead     ;        ; 12.104 ; 12.104 ;        ;
+; opcode[2]  ; MemWrite    ;        ; 10.532 ; 10.532 ;        ;
+; opcode[2]  ; RegDst      ;        ; 10.877 ; 10.877 ;        ;
+; opcode[2]  ; RegWrite    ;        ; 12.415 ; 12.415 ;        ;
+; opcode[2]  ; jump        ;        ; 10.032 ; 10.032 ;        ;
+; opcode[3]  ; ALUop[0]    ;        ; 10.740 ; 10.740 ;        ;
+; opcode[3]  ; ALUop[1]    ;        ; 11.240 ; 11.240 ;        ;
+; opcode[3]  ; Branch      ;        ; 10.799 ; 10.799 ;        ;
+; opcode[3]  ; M2R         ;        ; 10.741 ; 10.741 ;        ;
+; opcode[3]  ; MemRead     ;        ; 11.024 ; 11.024 ;        ;
+; opcode[3]  ; MemWrite    ; 9.464  ;        ;        ; 9.464  ;
+; opcode[3]  ; RegDst      ;        ; 11.240 ; 11.240 ;        ;
+; opcode[3]  ; RegWrite    ;        ; 11.383 ; 11.383 ;        ;
+; opcode[3]  ; jump        ;        ; 10.366 ; 10.366 ;        ;
+; opcode[4]  ; ALUSrc      ;        ; 10.664 ; 10.664 ;        ;
+; opcode[4]  ; ALUop[0]    ;        ; 10.706 ; 10.706 ;        ;
+; opcode[4]  ; ALUop[1]    ;        ; 11.206 ; 11.206 ;        ;
+; opcode[4]  ; Branch      ;        ; 10.765 ; 10.765 ;        ;
+; opcode[4]  ; M2R         ;        ; 11.369 ; 11.369 ;        ;
+; opcode[4]  ; MemRead     ;        ; 11.652 ; 11.652 ;        ;
+; opcode[4]  ; MemWrite    ;        ; 10.084 ; 10.084 ;        ;
+; opcode[4]  ; RegDst      ;        ; 11.206 ; 11.206 ;        ;
+; opcode[4]  ; RegWrite    ;        ; 11.963 ; 11.963 ;        ;
+; opcode[4]  ; jump        ;        ; 10.332 ; 10.332 ;        ;
+; opcode[5]  ; ALUSrc      ; 10.515 ;        ;        ; 10.515 ;
+; opcode[5]  ; ALUop[0]    ;        ; 11.210 ; 11.210 ;        ;
+; opcode[5]  ; ALUop[1]    ;        ; 11.710 ; 11.710 ;        ;
+; opcode[5]  ; Branch      ;        ; 11.269 ; 11.269 ;        ;
+; opcode[5]  ; M2R         ; 11.213 ;        ;        ; 11.213 ;
+; opcode[5]  ; MemRead     ; 11.496 ;        ;        ; 11.496 ;
+; opcode[5]  ; MemWrite    ; 9.925  ;        ;        ; 9.925  ;
+; opcode[5]  ; RegDst      ;        ; 11.710 ; 11.710 ;        ;
+; opcode[5]  ; RegWrite    ; 11.807 ; 11.853 ; 11.853 ; 11.807 ;
+; opcode[5]  ; jump        ;        ; 10.836 ; 10.836 ;        ;
++------------+-------------+--------+--------+--------+--------+
+
+
++--------------------------------------------------------------+
+; Minimum Propagation Delay                                    ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; opcode[0]  ; ALUSrc      ; 11.046 ;        ;        ; 11.046 ;
+; opcode[0]  ; ALUop[0]    ;        ; 11.095 ; 11.095 ;        ;
+; opcode[0]  ; ALUop[1]    ;        ; 11.595 ; 11.595 ;        ;
+; opcode[0]  ; Branch      ;        ; 11.154 ; 11.154 ;        ;
+; opcode[0]  ; M2R         ; 11.751 ;        ;        ; 11.751 ;
+; opcode[0]  ; MemRead     ; 12.034 ;        ;        ; 12.034 ;
+; opcode[0]  ; MemWrite    ; 10.466 ;        ;        ; 10.466 ;
+; opcode[0]  ; RegDst      ;        ; 11.595 ; 11.595 ;        ;
+; opcode[0]  ; RegWrite    ; 12.345 ; 11.738 ; 11.738 ; 12.345 ;
+; opcode[0]  ; jump        ;        ; 10.721 ; 10.721 ;        ;
+; opcode[1]  ; ALUSrc      ; 10.533 ;        ;        ; 10.533 ;
+; opcode[1]  ; ALUop[0]    ;        ; 10.238 ; 10.238 ;        ;
+; opcode[1]  ; ALUop[1]    ;        ; 10.735 ; 10.735 ;        ;
+; opcode[1]  ; Branch      ;        ; 10.297 ; 10.297 ;        ;
+; opcode[1]  ; M2R         ; 11.990 ;        ;        ; 11.990 ;
+; opcode[1]  ; MemRead     ; 12.273 ;        ;        ; 12.273 ;
+; opcode[1]  ; MemWrite    ; 10.701 ;        ;        ; 10.701 ;
+; opcode[1]  ; RegDst      ;        ; 10.735 ; 10.735 ;        ;
+; opcode[1]  ; RegWrite    ; 12.584 ; 10.888 ; 10.888 ; 12.584 ;
+; opcode[1]  ; jump        ; 9.901  ;        ;        ; 9.901  ;
+; opcode[2]  ; ALUSrc      ;        ; 10.399 ; 10.399 ;        ;
+; opcode[2]  ; ALUop[0]    ; 10.377 ;        ;        ; 10.377 ;
+; opcode[2]  ; ALUop[1]    ;        ; 10.877 ; 10.877 ;        ;
+; opcode[2]  ; Branch      ; 10.436 ;        ;        ; 10.436 ;
+; opcode[2]  ; M2R         ;        ; 11.821 ; 11.821 ;        ;
+; opcode[2]  ; MemRead     ;        ; 12.104 ; 12.104 ;        ;
+; opcode[2]  ; MemWrite    ;        ; 10.532 ; 10.532 ;        ;
+; opcode[2]  ; RegDst      ;        ; 10.877 ; 10.877 ;        ;
+; opcode[2]  ; RegWrite    ;        ; 11.019 ; 11.019 ;        ;
+; opcode[2]  ; jump        ;        ; 10.032 ; 10.032 ;        ;
+; opcode[3]  ; ALUop[0]    ;        ; 10.740 ; 10.740 ;        ;
+; opcode[3]  ; ALUop[1]    ;        ; 11.240 ; 11.240 ;        ;
+; opcode[3]  ; Branch      ;        ; 10.799 ; 10.799 ;        ;
+; opcode[3]  ; M2R         ;        ; 10.741 ; 10.741 ;        ;
+; opcode[3]  ; MemRead     ;        ; 11.024 ; 11.024 ;        ;
+; opcode[3]  ; MemWrite    ; 9.464  ;        ;        ; 9.464  ;
+; opcode[3]  ; RegDst      ;        ; 11.240 ; 11.240 ;        ;
+; opcode[3]  ; RegWrite    ;        ; 11.335 ; 11.335 ;        ;
+; opcode[3]  ; jump        ;        ; 10.366 ; 10.366 ;        ;
+; opcode[4]  ; ALUSrc      ;        ; 10.664 ; 10.664 ;        ;
+; opcode[4]  ; ALUop[0]    ;        ; 10.706 ; 10.706 ;        ;
+; opcode[4]  ; ALUop[1]    ;        ; 11.206 ; 11.206 ;        ;
+; opcode[4]  ; Branch      ;        ; 10.765 ; 10.765 ;        ;
+; opcode[4]  ; M2R         ;        ; 11.369 ; 11.369 ;        ;
+; opcode[4]  ; MemRead     ;        ; 11.652 ; 11.652 ;        ;
+; opcode[4]  ; MemWrite    ;        ; 10.084 ; 10.084 ;        ;
+; opcode[4]  ; RegDst      ;        ; 11.206 ; 11.206 ;        ;
+; opcode[4]  ; RegWrite    ;        ; 11.349 ; 11.349 ;        ;
+; opcode[4]  ; jump        ;        ; 10.332 ; 10.332 ;        ;
+; opcode[5]  ; ALUSrc      ; 10.515 ;        ;        ; 10.515 ;
+; opcode[5]  ; ALUop[0]    ;        ; 11.210 ; 11.210 ;        ;
+; opcode[5]  ; ALUop[1]    ;        ; 11.710 ; 11.710 ;        ;
+; opcode[5]  ; Branch      ;        ; 11.269 ; 11.269 ;        ;
+; opcode[5]  ; M2R         ; 11.213 ;        ;        ; 11.213 ;
+; opcode[5]  ; MemRead     ; 11.496 ;        ;        ; 11.496 ;
+; opcode[5]  ; MemWrite    ; 9.925  ;        ;        ; 9.925  ;
+; opcode[5]  ; RegDst      ;        ; 11.710 ; 11.710 ;        ;
+; opcode[5]  ; RegWrite    ; 11.807 ; 11.853 ; 11.853 ; 11.807 ;
+; opcode[5]  ; jump        ;        ; 10.836 ; 10.836 ;        ;
++------------+-------------+--------+--------+--------+--------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++----------------------------------------------------------+
+; Propagation Delay                                        ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; opcode[0]  ; ALUSrc      ; 6.045 ;       ;       ; 6.045 ;
+; opcode[0]  ; ALUop[0]    ;       ; 6.035 ; 6.035 ;       ;
+; opcode[0]  ; ALUop[1]    ;       ; 6.307 ; 6.307 ;       ;
+; opcode[0]  ; Branch      ;       ; 6.060 ; 6.060 ;       ;
+; opcode[0]  ; M2R         ; 6.378 ;       ;       ; 6.378 ;
+; opcode[0]  ; MemRead     ; 6.504 ;       ;       ; 6.504 ;
+; opcode[0]  ; MemWrite    ; 5.779 ;       ;       ; 5.779 ;
+; opcode[0]  ; RegDst      ;       ; 6.307 ; 6.307 ;       ;
+; opcode[0]  ; RegWrite    ; 6.628 ; 6.320 ; 6.320 ; 6.628 ;
+; opcode[0]  ; jump        ;       ; 5.872 ; 5.872 ;       ;
+; opcode[1]  ; ALUSrc      ; 5.794 ;       ;       ; 5.794 ;
+; opcode[1]  ; ALUop[0]    ;       ; 5.657 ; 5.657 ;       ;
+; opcode[1]  ; ALUop[1]    ;       ; 5.924 ; 5.924 ;       ;
+; opcode[1]  ; Branch      ;       ; 5.682 ; 5.682 ;       ;
+; opcode[1]  ; M2R         ; 6.467 ;       ;       ; 6.467 ;
+; opcode[1]  ; MemRead     ; 6.593 ;       ;       ; 6.593 ;
+; opcode[1]  ; MemWrite    ; 5.868 ;       ;       ; 5.868 ;
+; opcode[1]  ; RegDst      ;       ; 5.924 ; 5.924 ;       ;
+; opcode[1]  ; RegWrite    ; 6.717 ; 5.956 ; 5.956 ; 6.717 ;
+; opcode[1]  ; jump        ; 5.501 ;       ;       ; 5.501 ;
+; opcode[2]  ; ALUSrc      ;       ; 5.721 ; 5.721 ;       ;
+; opcode[2]  ; ALUop[0]    ; 5.748 ;       ;       ; 5.748 ;
+; opcode[2]  ; ALUop[1]    ;       ; 5.995 ; 5.995 ;       ;
+; opcode[2]  ; Branch      ; 5.773 ;       ;       ; 5.773 ;
+; opcode[2]  ; M2R         ;       ; 6.389 ; 6.389 ;       ;
+; opcode[2]  ; MemRead     ;       ; 6.515 ; 6.515 ;       ;
+; opcode[2]  ; MemWrite    ;       ; 5.790 ; 5.790 ;       ;
+; opcode[2]  ; RegDst      ;       ; 5.995 ; 5.995 ;       ;
+; opcode[2]  ; RegWrite    ;       ; 6.639 ; 6.639 ;       ;
+; opcode[2]  ; jump        ;       ; 5.553 ; 5.553 ;       ;
+; opcode[3]  ; ALUop[0]    ;       ; 5.886 ; 5.886 ;       ;
+; opcode[3]  ; ALUop[1]    ;       ; 6.158 ; 6.158 ;       ;
+; opcode[3]  ; Branch      ;       ; 5.911 ; 5.911 ;       ;
+; opcode[3]  ; M2R         ;       ; 5.898 ; 5.898 ;       ;
+; opcode[3]  ; MemRead     ;       ; 6.024 ; 6.024 ;       ;
+; opcode[3]  ; MemWrite    ; 5.306 ;       ;       ; 5.306 ;
+; opcode[3]  ; RegDst      ;       ; 6.158 ; 6.158 ;       ;
+; opcode[3]  ; RegWrite    ;       ; 6.171 ; 6.171 ;       ;
+; opcode[3]  ; jump        ;       ; 5.723 ; 5.723 ;       ;
+; opcode[4]  ; ALUSrc      ;       ; 5.857 ; 5.857 ;       ;
+; opcode[4]  ; ALUop[0]    ;       ; 5.876 ; 5.876 ;       ;
+; opcode[4]  ; ALUop[1]    ;       ; 6.148 ; 6.148 ;       ;
+; opcode[4]  ; Branch      ;       ; 5.901 ; 5.901 ;       ;
+; opcode[4]  ; M2R         ;       ; 6.190 ; 6.190 ;       ;
+; opcode[4]  ; MemRead     ;       ; 6.316 ; 6.316 ;       ;
+; opcode[4]  ; MemWrite    ;       ; 5.591 ; 5.591 ;       ;
+; opcode[4]  ; RegDst      ;       ; 6.148 ; 6.148 ;       ;
+; opcode[4]  ; RegWrite    ;       ; 6.440 ; 6.440 ;       ;
+; opcode[4]  ; jump        ;       ; 5.713 ; 5.713 ;       ;
+; opcode[5]  ; ALUSrc      ; 5.866 ;       ;       ; 5.866 ;
+; opcode[5]  ; ALUop[0]    ;       ; 6.175 ; 6.175 ;       ;
+; opcode[5]  ; ALUop[1]    ;       ; 6.447 ; 6.447 ;       ;
+; opcode[5]  ; Branch      ;       ; 6.200 ; 6.200 ;       ;
+; opcode[5]  ; M2R         ; 6.195 ;       ;       ; 6.195 ;
+; opcode[5]  ; MemRead     ; 6.321 ;       ;       ; 6.321 ;
+; opcode[5]  ; MemWrite    ; 5.596 ;       ;       ; 5.596 ;
+; opcode[5]  ; RegDst      ;       ; 6.447 ; 6.447 ;       ;
+; opcode[5]  ; RegWrite    ; 6.445 ; 6.460 ; 6.460 ; 6.445 ;
+; opcode[5]  ; jump        ;       ; 6.012 ; 6.012 ;       ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------+
+; Minimum Propagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; opcode[0]  ; ALUSrc      ; 6.045 ;       ;       ; 6.045 ;
+; opcode[0]  ; ALUop[0]    ;       ; 6.035 ; 6.035 ;       ;
+; opcode[0]  ; ALUop[1]    ;       ; 6.307 ; 6.307 ;       ;
+; opcode[0]  ; Branch      ;       ; 6.060 ; 6.060 ;       ;
+; opcode[0]  ; M2R         ; 6.378 ;       ;       ; 6.378 ;
+; opcode[0]  ; MemRead     ; 6.504 ;       ;       ; 6.504 ;
+; opcode[0]  ; MemWrite    ; 5.779 ;       ;       ; 5.779 ;
+; opcode[0]  ; RegDst      ;       ; 6.307 ; 6.307 ;       ;
+; opcode[0]  ; RegWrite    ; 6.628 ; 6.320 ; 6.320 ; 6.628 ;
+; opcode[0]  ; jump        ;       ; 5.872 ; 5.872 ;       ;
+; opcode[1]  ; ALUSrc      ; 5.794 ;       ;       ; 5.794 ;
+; opcode[1]  ; ALUop[0]    ;       ; 5.657 ; 5.657 ;       ;
+; opcode[1]  ; ALUop[1]    ;       ; 5.924 ; 5.924 ;       ;
+; opcode[1]  ; Branch      ;       ; 5.682 ; 5.682 ;       ;
+; opcode[1]  ; M2R         ; 6.467 ;       ;       ; 6.467 ;
+; opcode[1]  ; MemRead     ; 6.593 ;       ;       ; 6.593 ;
+; opcode[1]  ; MemWrite    ; 5.868 ;       ;       ; 5.868 ;
+; opcode[1]  ; RegDst      ;       ; 5.924 ; 5.924 ;       ;
+; opcode[1]  ; RegWrite    ; 6.717 ; 5.956 ; 5.956 ; 6.717 ;
+; opcode[1]  ; jump        ; 5.501 ;       ;       ; 5.501 ;
+; opcode[2]  ; ALUSrc      ;       ; 5.721 ; 5.721 ;       ;
+; opcode[2]  ; ALUop[0]    ; 5.748 ;       ;       ; 5.748 ;
+; opcode[2]  ; ALUop[1]    ;       ; 5.995 ; 5.995 ;       ;
+; opcode[2]  ; Branch      ; 5.773 ;       ;       ; 5.773 ;
+; opcode[2]  ; M2R         ;       ; 6.389 ; 6.389 ;       ;
+; opcode[2]  ; MemRead     ;       ; 6.515 ; 6.515 ;       ;
+; opcode[2]  ; MemWrite    ;       ; 5.790 ; 5.790 ;       ;
+; opcode[2]  ; RegDst      ;       ; 5.995 ; 5.995 ;       ;
+; opcode[2]  ; RegWrite    ;       ; 6.009 ; 6.009 ;       ;
+; opcode[2]  ; jump        ;       ; 5.553 ; 5.553 ;       ;
+; opcode[3]  ; ALUop[0]    ;       ; 5.886 ; 5.886 ;       ;
+; opcode[3]  ; ALUop[1]    ;       ; 6.158 ; 6.158 ;       ;
+; opcode[3]  ; Branch      ;       ; 5.911 ; 5.911 ;       ;
+; opcode[3]  ; M2R         ;       ; 5.898 ; 5.898 ;       ;
+; opcode[3]  ; MemRead     ;       ; 6.024 ; 6.024 ;       ;
+; opcode[3]  ; MemWrite    ; 5.306 ;       ;       ; 5.306 ;
+; opcode[3]  ; RegDst      ;       ; 6.158 ; 6.158 ;       ;
+; opcode[3]  ; RegWrite    ;       ; 6.148 ; 6.148 ;       ;
+; opcode[3]  ; jump        ;       ; 5.723 ; 5.723 ;       ;
+; opcode[4]  ; ALUSrc      ;       ; 5.857 ; 5.857 ;       ;
+; opcode[4]  ; ALUop[0]    ;       ; 5.876 ; 5.876 ;       ;
+; opcode[4]  ; ALUop[1]    ;       ; 6.148 ; 6.148 ;       ;
+; opcode[4]  ; Branch      ;       ; 5.901 ; 5.901 ;       ;
+; opcode[4]  ; M2R         ;       ; 6.190 ; 6.190 ;       ;
+; opcode[4]  ; MemRead     ;       ; 6.316 ; 6.316 ;       ;
+; opcode[4]  ; MemWrite    ;       ; 5.591 ; 5.591 ;       ;
+; opcode[4]  ; RegDst      ;       ; 6.148 ; 6.148 ;       ;
+; opcode[4]  ; RegWrite    ;       ; 6.161 ; 6.161 ;       ;
+; opcode[4]  ; jump        ;       ; 5.713 ; 5.713 ;       ;
+; opcode[5]  ; ALUSrc      ; 5.866 ;       ;       ; 5.866 ;
+; opcode[5]  ; ALUop[0]    ;       ; 6.175 ; 6.175 ;       ;
+; opcode[5]  ; ALUop[1]    ;       ; 6.447 ; 6.447 ;       ;
+; opcode[5]  ; Branch      ;       ; 6.200 ; 6.200 ;       ;
+; opcode[5]  ; M2R         ; 6.195 ;       ;       ; 6.195 ;
+; opcode[5]  ; MemRead     ; 6.321 ;       ;       ; 6.321 ;
+; opcode[5]  ; MemWrite    ; 5.596 ;       ;       ; 5.596 ;
+; opcode[5]  ; RegDst      ;       ; 6.447 ; 6.447 ;       ;
+; opcode[5]  ; RegWrite    ; 6.445 ; 6.460 ; 6.460 ; 6.445 ;
+; opcode[5]  ; jump        ;       ; 6.012 ; 6.012 ;       ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++--------------------------------------------------------------+
+; Progagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; opcode[0]  ; ALUSrc      ; 11.046 ;        ;        ; 11.046 ;
+; opcode[0]  ; ALUop[0]    ;        ; 11.095 ; 11.095 ;        ;
+; opcode[0]  ; ALUop[1]    ;        ; 11.595 ; 11.595 ;        ;
+; opcode[0]  ; Branch      ;        ; 11.154 ; 11.154 ;        ;
+; opcode[0]  ; M2R         ; 11.751 ;        ;        ; 11.751 ;
+; opcode[0]  ; MemRead     ; 12.034 ;        ;        ; 12.034 ;
+; opcode[0]  ; MemWrite    ; 10.466 ;        ;        ; 10.466 ;
+; opcode[0]  ; RegDst      ;        ; 11.595 ; 11.595 ;        ;
+; opcode[0]  ; RegWrite    ; 12.345 ; 11.738 ; 11.738 ; 12.345 ;
+; opcode[0]  ; jump        ;        ; 10.721 ; 10.721 ;        ;
+; opcode[1]  ; ALUSrc      ; 10.533 ;        ;        ; 10.533 ;
+; opcode[1]  ; ALUop[0]    ;        ; 10.238 ; 10.238 ;        ;
+; opcode[1]  ; ALUop[1]    ;        ; 10.735 ; 10.735 ;        ;
+; opcode[1]  ; Branch      ;        ; 10.297 ; 10.297 ;        ;
+; opcode[1]  ; M2R         ; 11.990 ;        ;        ; 11.990 ;
+; opcode[1]  ; MemRead     ; 12.273 ;        ;        ; 12.273 ;
+; opcode[1]  ; MemWrite    ; 10.701 ;        ;        ; 10.701 ;
+; opcode[1]  ; RegDst      ;        ; 10.735 ; 10.735 ;        ;
+; opcode[1]  ; RegWrite    ; 12.584 ; 10.888 ; 10.888 ; 12.584 ;
+; opcode[1]  ; jump        ; 9.901  ;        ;        ; 9.901  ;
+; opcode[2]  ; ALUSrc      ;        ; 10.399 ; 10.399 ;        ;
+; opcode[2]  ; ALUop[0]    ; 10.377 ;        ;        ; 10.377 ;
+; opcode[2]  ; ALUop[1]    ;        ; 10.877 ; 10.877 ;        ;
+; opcode[2]  ; Branch      ; 10.436 ;        ;        ; 10.436 ;
+; opcode[2]  ; M2R         ;        ; 11.821 ; 11.821 ;        ;
+; opcode[2]  ; MemRead     ;        ; 12.104 ; 12.104 ;        ;
+; opcode[2]  ; MemWrite    ;        ; 10.532 ; 10.532 ;        ;
+; opcode[2]  ; RegDst      ;        ; 10.877 ; 10.877 ;        ;
+; opcode[2]  ; RegWrite    ;        ; 12.415 ; 12.415 ;        ;
+; opcode[2]  ; jump        ;        ; 10.032 ; 10.032 ;        ;
+; opcode[3]  ; ALUop[0]    ;        ; 10.740 ; 10.740 ;        ;
+; opcode[3]  ; ALUop[1]    ;        ; 11.240 ; 11.240 ;        ;
+; opcode[3]  ; Branch      ;        ; 10.799 ; 10.799 ;        ;
+; opcode[3]  ; M2R         ;        ; 10.741 ; 10.741 ;        ;
+; opcode[3]  ; MemRead     ;        ; 11.024 ; 11.024 ;        ;
+; opcode[3]  ; MemWrite    ; 9.464  ;        ;        ; 9.464  ;
+; opcode[3]  ; RegDst      ;        ; 11.240 ; 11.240 ;        ;
+; opcode[3]  ; RegWrite    ;        ; 11.383 ; 11.383 ;        ;
+; opcode[3]  ; jump        ;        ; 10.366 ; 10.366 ;        ;
+; opcode[4]  ; ALUSrc      ;        ; 10.664 ; 10.664 ;        ;
+; opcode[4]  ; ALUop[0]    ;        ; 10.706 ; 10.706 ;        ;
+; opcode[4]  ; ALUop[1]    ;        ; 11.206 ; 11.206 ;        ;
+; opcode[4]  ; Branch      ;        ; 10.765 ; 10.765 ;        ;
+; opcode[4]  ; M2R         ;        ; 11.369 ; 11.369 ;        ;
+; opcode[4]  ; MemRead     ;        ; 11.652 ; 11.652 ;        ;
+; opcode[4]  ; MemWrite    ;        ; 10.084 ; 10.084 ;        ;
+; opcode[4]  ; RegDst      ;        ; 11.206 ; 11.206 ;        ;
+; opcode[4]  ; RegWrite    ;        ; 11.963 ; 11.963 ;        ;
+; opcode[4]  ; jump        ;        ; 10.332 ; 10.332 ;        ;
+; opcode[5]  ; ALUSrc      ; 10.515 ;        ;        ; 10.515 ;
+; opcode[5]  ; ALUop[0]    ;        ; 11.210 ; 11.210 ;        ;
+; opcode[5]  ; ALUop[1]    ;        ; 11.710 ; 11.710 ;        ;
+; opcode[5]  ; Branch      ;        ; 11.269 ; 11.269 ;        ;
+; opcode[5]  ; M2R         ; 11.213 ;        ;        ; 11.213 ;
+; opcode[5]  ; MemRead     ; 11.496 ;        ;        ; 11.496 ;
+; opcode[5]  ; MemWrite    ; 9.925  ;        ;        ; 9.925  ;
+; opcode[5]  ; RegDst      ;        ; 11.710 ; 11.710 ;        ;
+; opcode[5]  ; RegWrite    ; 11.807 ; 11.853 ; 11.853 ; 11.807 ;
+; opcode[5]  ; jump        ;        ; 10.836 ; 10.836 ;        ;
++------------+-------------+--------+--------+--------+--------+
+
+
++----------------------------------------------------------+
+; Minimum Progagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; opcode[0]  ; ALUSrc      ; 6.045 ;       ;       ; 6.045 ;
+; opcode[0]  ; ALUop[0]    ;       ; 6.035 ; 6.035 ;       ;
+; opcode[0]  ; ALUop[1]    ;       ; 6.307 ; 6.307 ;       ;
+; opcode[0]  ; Branch      ;       ; 6.060 ; 6.060 ;       ;
+; opcode[0]  ; M2R         ; 6.378 ;       ;       ; 6.378 ;
+; opcode[0]  ; MemRead     ; 6.504 ;       ;       ; 6.504 ;
+; opcode[0]  ; MemWrite    ; 5.779 ;       ;       ; 5.779 ;
+; opcode[0]  ; RegDst      ;       ; 6.307 ; 6.307 ;       ;
+; opcode[0]  ; RegWrite    ; 6.628 ; 6.320 ; 6.320 ; 6.628 ;
+; opcode[0]  ; jump        ;       ; 5.872 ; 5.872 ;       ;
+; opcode[1]  ; ALUSrc      ; 5.794 ;       ;       ; 5.794 ;
+; opcode[1]  ; ALUop[0]    ;       ; 5.657 ; 5.657 ;       ;
+; opcode[1]  ; ALUop[1]    ;       ; 5.924 ; 5.924 ;       ;
+; opcode[1]  ; Branch      ;       ; 5.682 ; 5.682 ;       ;
+; opcode[1]  ; M2R         ; 6.467 ;       ;       ; 6.467 ;
+; opcode[1]  ; MemRead     ; 6.593 ;       ;       ; 6.593 ;
+; opcode[1]  ; MemWrite    ; 5.868 ;       ;       ; 5.868 ;
+; opcode[1]  ; RegDst      ;       ; 5.924 ; 5.924 ;       ;
+; opcode[1]  ; RegWrite    ; 6.717 ; 5.956 ; 5.956 ; 6.717 ;
+; opcode[1]  ; jump        ; 5.501 ;       ;       ; 5.501 ;
+; opcode[2]  ; ALUSrc      ;       ; 5.721 ; 5.721 ;       ;
+; opcode[2]  ; ALUop[0]    ; 5.748 ;       ;       ; 5.748 ;
+; opcode[2]  ; ALUop[1]    ;       ; 5.995 ; 5.995 ;       ;
+; opcode[2]  ; Branch      ; 5.773 ;       ;       ; 5.773 ;
+; opcode[2]  ; M2R         ;       ; 6.389 ; 6.389 ;       ;
+; opcode[2]  ; MemRead     ;       ; 6.515 ; 6.515 ;       ;
+; opcode[2]  ; MemWrite    ;       ; 5.790 ; 5.790 ;       ;
+; opcode[2]  ; RegDst      ;       ; 5.995 ; 5.995 ;       ;
+; opcode[2]  ; RegWrite    ;       ; 6.009 ; 6.009 ;       ;
+; opcode[2]  ; jump        ;       ; 5.553 ; 5.553 ;       ;
+; opcode[3]  ; ALUop[0]    ;       ; 5.886 ; 5.886 ;       ;
+; opcode[3]  ; ALUop[1]    ;       ; 6.158 ; 6.158 ;       ;
+; opcode[3]  ; Branch      ;       ; 5.911 ; 5.911 ;       ;
+; opcode[3]  ; M2R         ;       ; 5.898 ; 5.898 ;       ;
+; opcode[3]  ; MemRead     ;       ; 6.024 ; 6.024 ;       ;
+; opcode[3]  ; MemWrite    ; 5.306 ;       ;       ; 5.306 ;
+; opcode[3]  ; RegDst      ;       ; 6.158 ; 6.158 ;       ;
+; opcode[3]  ; RegWrite    ;       ; 6.148 ; 6.148 ;       ;
+; opcode[3]  ; jump        ;       ; 5.723 ; 5.723 ;       ;
+; opcode[4]  ; ALUSrc      ;       ; 5.857 ; 5.857 ;       ;
+; opcode[4]  ; ALUop[0]    ;       ; 5.876 ; 5.876 ;       ;
+; opcode[4]  ; ALUop[1]    ;       ; 6.148 ; 6.148 ;       ;
+; opcode[4]  ; Branch      ;       ; 5.901 ; 5.901 ;       ;
+; opcode[4]  ; M2R         ;       ; 6.190 ; 6.190 ;       ;
+; opcode[4]  ; MemRead     ;       ; 6.316 ; 6.316 ;       ;
+; opcode[4]  ; MemWrite    ;       ; 5.591 ; 5.591 ;       ;
+; opcode[4]  ; RegDst      ;       ; 6.148 ; 6.148 ;       ;
+; opcode[4]  ; RegWrite    ;       ; 6.161 ; 6.161 ;       ;
+; opcode[4]  ; jump        ;       ; 5.713 ; 5.713 ;       ;
+; opcode[5]  ; ALUSrc      ; 5.866 ;       ;       ; 5.866 ;
+; opcode[5]  ; ALUop[0]    ;       ; 6.175 ; 6.175 ;       ;
+; opcode[5]  ; ALUop[1]    ;       ; 6.447 ; 6.447 ;       ;
+; opcode[5]  ; Branch      ;       ; 6.200 ; 6.200 ;       ;
+; opcode[5]  ; M2R         ; 6.195 ;       ;       ; 6.195 ;
+; opcode[5]  ; MemRead     ; 6.321 ;       ;       ; 6.321 ;
+; opcode[5]  ; MemWrite    ; 5.596 ;       ;       ; 5.596 ;
+; opcode[5]  ; RegDst      ;       ; 6.447 ; 6.447 ;       ;
+; opcode[5]  ; RegWrite    ; 6.445 ; 6.460 ; 6.460 ; 6.445 ;
+; opcode[5]  ; jump        ;       ; 6.012 ; 6.012 ;       ;
++------------+-------------+-------+-------+-------+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 6     ; 6    ;
+; Unconstrained Input Port Paths  ; 59    ; 59   ;
+; Unconstrained Output Ports      ; 10    ; 10   ;
+; Unconstrained Output Port Paths ; 59    ; 59   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+    Info: Processing started: Mon May 04 20:41:15 2020
+Info: Command: quartus_sta mainCtl -c mainCtl
+Info: qsta_default_script.tcl version: #1
+Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'mainCtl.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4585 megabytes
+    Info: Processing ended: Mon May 04 20:41:18 2020
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:02
+
+

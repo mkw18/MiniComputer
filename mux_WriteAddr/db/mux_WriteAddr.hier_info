@@ -1,0 +1,23 @@
+|mux_WriteAddr
+RegDst => WriteAddr.OUTPUTSELECT
+RegDst => WriteAddr.OUTPUTSELECT
+RegDst => WriteAddr.OUTPUTSELECT
+RegDst => WriteAddr.OUTPUTSELECT
+RegDst => WriteAddr.OUTPUTSELECT
+RtAddr[0] => WriteAddr.DATAB
+RtAddr[1] => WriteAddr.DATAB
+RtAddr[2] => WriteAddr.DATAB
+RtAddr[3] => WriteAddr.DATAB
+RtAddr[4] => WriteAddr.DATAB
+RdAddr[0] => WriteAddr.DATAA
+RdAddr[1] => WriteAddr.DATAA
+RdAddr[2] => WriteAddr.DATAA
+RdAddr[3] => WriteAddr.DATAA
+RdAddr[4] => WriteAddr.DATAA
+WriteAddr[0] <= WriteAddr.DB_MAX_OUTPUT_PORT_TYPE
+WriteAddr[1] <= WriteAddr.DB_MAX_OUTPUT_PORT_TYPE
+WriteAddr[2] <= WriteAddr.DB_MAX_OUTPUT_PORT_TYPE
+WriteAddr[3] <= WriteAddr.DB_MAX_OUTPUT_PORT_TYPE
+WriteAddr[4] <= WriteAddr.DB_MAX_OUTPUT_PORT_TYPE
+
+

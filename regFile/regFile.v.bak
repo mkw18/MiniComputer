@@ -1,0 +1,22 @@
+module regFile(CLK, reset, regWr, RsAddr, RtAddr, WriteAddr, WriteData, RsData, RtData);
+   input CLK, reset, regWr;
+	input [5:0] RsAddr, RtAddr, WriteAddr;
+	input [31:0] WriteData;
+	output [31:0] RsData, RtData;
+	
+	reg [31:0] RF [31:0];
+	
+	if (reset == 0)
+	begin
+	   RF = 0;
+		RsData = 0;
+		RtData = 0;
+	end
+	
+	assign RsData = RF[RsAddr];
+	assign RtData = RF[RtAddr];
+	
+	always begin
+	   @ (posedge CLK) if (regWr) RF[WriteAddr] <= WriteData;
+	end
+endmodule

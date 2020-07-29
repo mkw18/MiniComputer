@@ -1,0 +1,110 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do SCPU_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {SCPU.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module SCPU
+# 
+# Top level modules:
+# 	SCPU
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU {C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module SCPU_test
+# 
+# Top level modules:
+# 	SCPU_test
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  SCPU_test
+# vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps SCPU_test 
+# Loading work.SCPU_test
+# Loading work.SCPU
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# Loading cycloneii_ver.cycloneii_jtag
+# Loading cycloneii_ver.cycloneii_ram_block
+# Loading cycloneii_ver.cycloneii_ram_register
+# Loading cycloneii_ver.cycloneii_ram_pulse_generator
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from SCPU_v.sdo
+# ** Warning: (vsim-3017) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [TFMPC] - Too few port connections. Expected 32, found 28.
+# 
+#         Region: /SCPU_test/cpu
+# ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'altera_reserved_tck'. The port definition is at: SCPU.vo(33).
+# 
+#         Region: /SCPU_test/cpu
+# ** Error: (vsim-3053) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): Illegal output or inout port connection for "port 'altera_reserved_tdo'".
+# 
+#         Region: /SCPU_test/cpu
+# ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'jump'. The port definition is at: SCPU.vo(36).
+# 
+#         Region: /SCPU_test/cpu
+# ** Error: (vsim-3053) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): Illegal output or inout port connection for "port 'Instr'".
+# 
+#         Region: /SCPU_test/cpu
+# ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'Instr'. The port definition is at: SCPU.vo(37).
+# 
+#         Region: /SCPU_test/cpu
+# ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (1 or 1) does not match connection size (5) for port 'Bzero'. The port definition is at: SCPU.vo(42).
+# 
+#         Region: /SCPU_test/cpu
+# ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (5 or 5) does not match connection size (32) for port 'WriteAddr'. The port definition is at: SCPU.vo(46).
+# 
+#         Region: /SCPU_test/cpu
+# ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'RegDst'. The port definition is at: SCPU.vo(47).
+# 
+#         Region: /SCPU_test/cpu
+# ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'WriteData'. The port definition is at: SCPU.vo(48).
+# 
+#         Region: /SCPU_test/cpu
+# ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (32 or 32) does not match connection size (4) for port 'Mem'. The port definition is at: SCPU.vo(51).
+# 
+#         Region: /SCPU_test/cpu
+# ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (1 or 1) does not match connection size (2) for port 'MemWr'. The port definition is at: SCPU.vo(52).
+# 
+#         Region: /SCPU_test/cpu
+# ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'MemRead'. The port definition is at: SCPU.vo(53).
+# 
+#         Region: /SCPU_test/cpu
+# ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'RtData'. The port definition is at: SCPU.vo(54).
+# 
+#         Region: /SCPU_test/cpu
+# ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (4 or 4) does not match connection size (32) for port 'ALUctl'. The port definition is at: SCPU.vo(55).
+# 
+#         Region: /SCPU_test/cpu
+# ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'ALUop'. The port definition is at: SCPU.vo(56).
+# 
+#         Region: /SCPU_test/cpu
+# ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'ALUSrc'. The port definition is at: SCPU.vo(58).
+# 
+#         Region: /SCPU_test/cpu
+# ** Warning: (vsim-3722) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [TFMPC] - Missing connection for port 'Branch'.
+# 
+# ** Warning: (vsim-3722) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [TFMPC] - Missing connection for port 'Bimm'.
+# 
+# ** Warning: (vsim-3722) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [TFMPC] - Missing connection for port 'jumpPC'.
+# 
+# ** Warning: (vsim-3722) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [TFMPC] - Missing connection for port 'newPC'.
+# 
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./SCPU_run_msim_gate_verilog.do PAUSED at line 12

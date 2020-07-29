@@ -1,0 +1,24 @@
+module imm_PC(CLK, reset, Instr, Jump, Bzero, imm, PC);
+   input CLK, reset, Jump, Bzero;
+	input [31:0] Instr, imm;
+	output reg [31:0] PC;
+	
+	reg [31:0] jumpPC;
+	
+	initial begin
+	   PC = 0;
+		jumpPC = 0;
+	end
+	
+	always @ (posedge CLK) begin
+	   PC = PC+4;
+		if (Jump == 1) begin
+		   jumpPC = Instr[25:0] << 2;
+			jumpPC = jumpPC + ((PC >> 28) << 28);
+			PC = jumpPC;
+		end
+		else if (Bzero == 1) begin
+		   PC = PC + (imm << 2);
+		end
+	end
+endmodule

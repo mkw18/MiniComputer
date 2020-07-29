@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp4\MiniComputer\aluCtl\simulation\modelsim
+valuCtl
+I?KV[K:zX_8lPXFMa3:@k71
+VS6H<^m[lCLKl]O@nc>5Sg0
+Z1 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp4\MiniComputer\aluCtl\simulation\modelsim
+w1590733718
+8aluCtl.vo
+FaluCtl.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+nalu@ctl
+!i10b 1
+!s100 GTaf<^PgXXm05jO]FaogC1
+!s85 0
+!s108 1590733731.480000
+!s107 aluCtl.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|aluCtl.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+valuCtl_test
+!i10b 1
+!s100 :XHR_gMX]eJDDinHkA7Xl3
+IB@S@GSB5m_o[_;gDmWnCz2
+VGC2FinBL3NhPN5Q:R=R<G0
+R1
+w1590733698
+8C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl/aluCtl_test.v
+FC:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl/aluCtl_test.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1590733731.839000
+!s107 C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl/aluCtl_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl|C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl/aluCtl_test.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl -O0
+nalu@ctl_test

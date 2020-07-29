@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="SCPU">
+		<CBX_INST_ENTRY INSTANCE_NAME="|SCPU|DataRAM:inst4|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_h0e1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SCPU|InstrROM:inst1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_is91.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

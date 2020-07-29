@@ -1,0 +1,15 @@
+module aluCtl(ALUop, func, ALUCtl);
+   input [1:0] ALUop;
+	input [5:0] func;
+	output reg [3:0] ALUCtl;
+	
+	always case (func)
+	   32: ALUop <= 2;
+		34: ALUop <= 6;
+		36: ALUop <= 0;
+		37: ALUop <= 1;
+		39: ALUop <= 12;
+		42: ALUop <= 7;
+		default: ALUop <= 15;
+	endcase
+endmodule

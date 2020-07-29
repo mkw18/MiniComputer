@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="ioRead">
+		<CBX_INST_ENTRY INSTANCE_NAME="|ioRead|lpm_constant0:inst|lpm_constant:LPM_CONSTANT_component" CBX_FILE_NAME="lpm_constant_vf6.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|ioRead|lpm_mux0:inst1|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_smc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

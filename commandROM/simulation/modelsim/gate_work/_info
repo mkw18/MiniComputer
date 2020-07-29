@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp3\SingleCPU\commandROM\simulation\modelsim
+vcomROM
+ICRYF<b@>i5Jlicf7;XXVa2
+VFC=`<6@JSM?h=:^8WXQ6c2
+Z1 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp3\SingleCPU\commandROM\simulation\modelsim
+w1588836490
+8comROM.vo
+FcomROM.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+ncom@r@o@m
+!i10b 1
+!s100 `0O3D1Z?obZbJo<A0C<e12
+!s85 0
+!s108 1588836503.662000
+!s107 comROM.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|comROM.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vInstrROM_test
+!i10b 1
+!s100 Rga7@nZR65hQSfUDG^Ga_2
+Ij:7dS>iiSnBDh]Y4b5^?F0
+ViA:NcMI<2LhBhlk[DDTN_2
+R1
+w1588835857
+8C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/commandROM/InstrROM_test.v
+FC:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/commandROM/InstrROM_test.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1588836504.058000
+!s107 C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/commandROM/InstrROM_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/commandROM|C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/commandROM/InstrROM_test.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/commandROM -O0
+n@instr@r@o@m_test

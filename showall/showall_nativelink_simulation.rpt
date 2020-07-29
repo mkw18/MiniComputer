@@ -1,0 +1,391 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneii
+Quartus root          :  c:/altera/13.0sp1/quartus/bin64/
+Quartus sim root      :  c:/altera/13.0sp1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  showall.vo
+Sim SDF file          :  showall__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File showall_run_msim_gate_verilog.do already exists - backing up current file as showall_run_msim_gate_verilog.do.bak8
+Probing transcript
+ModelSim-Altera Info: # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+ModelSim-Altera Info: # do showall_run_msim_gate_verilog.do 
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Warning: # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Info: #          Updated modelsim.ini.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {showall.vo}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module showall
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	showall
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall {C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall/showall_test.v}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module showall_test
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	showall_test
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  showall_test
+ModelSim-Altera Info: # vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps showall_test 
+ModelSim-Altera Info: # Loading work.showall_test
+ModelSim-Altera Info: # Loading work.showall
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_io
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_mux21
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_dffe
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_asynch_io
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_clkctrl
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_mux41
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_ena_reg
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_lcell_comb
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_lcell_ff
+ModelSim-Altera Info: # SDF 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Loading instances from showall_v.sdo
+ModelSim-Altera Info: # Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+ModelSim-Altera Info: # Loading timing data from showall_v.sdo
+ModelSim-Altera Info: # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+ModelSim-Altera Info: #    Time: 0 ps  Iteration: 0  Instance: /showall_test File: C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall/showall_test.v
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # add wave *
+ModelSim-Altera Info: # view structure
+ModelSim-Altera Info: # .main_pane.structure.interior.cs.body.struct
+ModelSim-Altera Info: # view signals
+ModelSim-Altera Info: # .main_pane.objects.interior.cs.body.tree
+ModelSim-Altera Info: # run -all
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = xxxx seg = xxxxxxx led = xx
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = xxxx seg = x0xxxxx led = xx
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = xxxx seg = x0xx0xx led = xx
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = xxxx seg = x00x0xx led = xx
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = xxx1 seg = x00x0xx led = xx
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0xx1 seg = x00x0xx led = xx
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0xx1 seg = x0000xx led = xx
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0xx1 seg = x0000x0 led = xx
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0xx1 seg = x000000 led = xx
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 00x1 seg = x000000 led = xx
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = x000000 led = xx
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = xx
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = xX
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = xX
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = XX
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = XX
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = XX
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = 0X
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = 0X
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0100000 led = 00
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0100100 led = 00
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0110100 led = 00
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0111100 led = 00
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0111101 led = 00
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0111111 led = 00
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0011111 led = 00
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0011011 led = 00
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0001011 led = 00
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000011 led = 00
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000010 led = 00
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 14 dig = 0001 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 14 dig = 0001 seg = 0000000 led = 10
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 14 dig = 0001 seg = 0000000 led = 14
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 15 dig = 0001 seg = 0000000 led = 14
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 15 dig = 0001 seg = 0000000 led = 15
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 16 dig = 0001 seg = 0000000 led = 15
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 16 dig = 0001 seg = 0000000 led = 14
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 16 dig = 0001 seg = 0000000 led = 16
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 17 dig = 0001 seg = 0000000 led = 16
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 17 dig = 0001 seg = 0000000 led = 17
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 18 dig = 0001 seg = 0000000 led = 17
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 18 dig = 0001 seg = 0000000 led = 16
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 18 dig = 0001 seg = 0000000 led = 14
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 18 dig = 0001 seg = 0000000 led = 1c
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 18 dig = 0001 seg = 0000000 led = 18
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 19 dig = 0001 seg = 0000000 led = 18
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 19 dig = 0001 seg = 0000000 led = 19
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 1a dig = 0001 seg = 0000000 led = 19
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 1a dig = 0001 seg = 0000000 led = 18
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 1a dig = 0001 seg = 0000000 led = 1a
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 1b dig = 0001 seg = 0000000 led = 1a
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 1b dig = 0001 seg = 0000000 led = 1b
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 1c dig = 0001 seg = 0000000 led = 1b
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 1c dig = 0001 seg = 0000000 led = 1a
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 1c dig = 0001 seg = 0000000 led = 18
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 1c dig = 0001 seg = 0000000 led = 1c
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 1d dig = 0001 seg = 0000000 led = 1c
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 1d dig = 0001 seg = 0000000 led = 1d
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 1e dig = 0001 seg = 0000000 led = 1d
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 1e dig = 0001 seg = 0000000 led = 1c
+ModelSim-Altera Info: # add = 1 sub = 0 ALUOut = 1e dig = 0001 seg = 0000000 led = 1e
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0000000 led = 1e
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0000000 led = 0e
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0000000 led = 0a
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0000000 led = 08
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0000 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0010 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0110 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 1100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 1000 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 1000 seg = 0100000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 1000 seg = 0110000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 1001 seg = 0110000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0110000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0111000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0111001 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0111011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 1111011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 1011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 1011111 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 1001111 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0000 seg = 1001111 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0000 seg = 1000111 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0000 seg = 1000110 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0010 seg = 1000110 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0010 seg = 0000110 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0010 seg = 0000010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0010 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0110 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1e dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 1100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 1000 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 1000 seg = 0100000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 1000 seg = 0110000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 1001 seg = 0110000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 0001 seg = 0110000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 0001 seg = 0110001 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 0001 seg = 1110001 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 0001 seg = 1010001 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 0001 seg = 1010101 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 0001 seg = 1000101 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 0000 seg = 1000101 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 0000 seg = 1000100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 0000 seg = 1000110 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 0010 seg = 1000110 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 0010 seg = 0000110 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 0010 seg = 0000010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 0010 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 0110 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 1f dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 1100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 1000 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 1000 seg = 0100000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 1000 seg = 0100100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 1000 seg = 0110100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 1001 seg = 0110100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 0001 seg = 0110100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 0001 seg = 0111100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 0001 seg = 0111101 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 0001 seg = 0111111 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 0001 seg = 0011111 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 0001 seg = 0011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 0000 seg = 0011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 0010 seg = 0011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 0010 seg = 1011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 0010 seg = 1001011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 0010 seg = 1000011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 0010 seg = 1000010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 0010 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 0110 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 0100 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 20 dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 1100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 1000 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 1000 seg = 0000100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 1001 seg = 0000100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 0001 seg = 0000100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 0001 seg = 0000110 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 0001 seg = 0000010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 0001 seg = 0010010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 0000 seg = 0010010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 0000 seg = 0011010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 0000 seg = 0011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 0010 seg = 0011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 0010 seg = 1011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 0010 seg = 1001011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 0010 seg = 1000011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 0010 seg = 1000010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 0010 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 0110 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 0100 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 21 dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 1100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 1000 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 1000 seg = 0010000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 1001 seg = 0010000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 0001 seg = 0010000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 0001 seg = 0011000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 0001 seg = 0011001 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 0001 seg = 0011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 0001 seg = 1011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 0000 seg = 1011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 0010 seg = 1011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 0010 seg = 1001011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 0010 seg = 1000011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 0010 seg = 1000010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 0010 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 0110 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 0100 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 22 dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 1100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 1000 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 1000 seg = 0000100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 1001 seg = 0000100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 0001 seg = 0000100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 0001 seg = 0001100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 0001 seg = 0001101 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 0001 seg = 0001111 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 0001 seg = 1001111 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 0001 seg = 1001011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 0001 seg = 1011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 0000 seg = 1011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 0010 seg = 1011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 0010 seg = 1001011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 0010 seg = 1000011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 0010 seg = 1000010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 0010 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 0110 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 0100 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 23 dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 1100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 1000 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 1000 seg = 0100000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 1000 seg = 0100100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 1001 seg = 0100100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0001 seg = 0100100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0001 seg = 0100110 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0001 seg = 1100110 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0001 seg = 1000110 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0001 seg = 1000010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0001 seg = 1010010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0000 seg = 1010010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0000 seg = 1011010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0000 seg = 1011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0010 seg = 1011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0010 seg = 1001011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0010 seg = 1000011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0010 seg = 1000010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0010 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0110 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0100 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 24 dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 1100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 1000 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 1000 seg = 0100000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 1000 seg = 0100100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 1001 seg = 0100100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0001 seg = 0100100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0001 seg = 0101100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0001 seg = 0101101 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0001 seg = 1101101 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0001 seg = 1001101 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0001 seg = 1001001 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0001 seg = 1011001 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0000 seg = 1011001 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0000 seg = 1011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0010 seg = 1011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0010 seg = 1001011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0010 seg = 1000011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0010 seg = 1000010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0010 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0110 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0100 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 25 dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 1100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 1000 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 1000 seg = 0100000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 1000 seg = 0100100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 1000 seg = 0110100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 1001 seg = 0110100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 0001 seg = 0110100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 0001 seg = 0111100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 0001 seg = 0111101 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 0001 seg = 1111101 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 0001 seg = 1011101 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 0001 seg = 1011001 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 0000 seg = 1011001 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 0000 seg = 1011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 0010 seg = 1011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 0010 seg = 1001011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 0010 seg = 1000011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 0010 seg = 1000010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 0010 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 0110 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 0100 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 26 dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 1100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 1000 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 1000 seg = 0000100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 1001 seg = 0000100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 0001 seg = 0000100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 0001 seg = 0000101 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 0001 seg = 0000111 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 0001 seg = 0000011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 0001 seg = 0010011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 0000 seg = 0010011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 0000 seg = 0011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 0010 seg = 0011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 0010 seg = 1011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 0010 seg = 1001011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 0010 seg = 1000011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 0010 seg = 1000010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 0010 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 0110 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 0100 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 27 dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 28 dig = 0100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 28 dig = 1100 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 28 dig = 1000 seg = 0000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 28 dig = 1000 seg = 0100000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 28 dig = 1000 seg = 0100100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 28 dig = 1000 seg = 0110100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 28 dig = 1001 seg = 0110100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 28 dig = 0001 seg = 0110100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 28 dig = 0001 seg = 0111100 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 28 dig = 0001 seg = 0111101 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 28 dig = 0001 seg = 0111111 led = 00
+ModelSim-Altera Info: # add = 0 sub = 1 ALUOut = 28 dig = 0001 seg = 1111111 led = 00
+ModelSim-Altera Info: # add = 0 sub = 0 ALUOut = 28 dig = 0001 seg = 1111111 led = 00
+ModelSim-Altera Info: # add = 0 sub = 0 ALUOut = 28 dig = 0001 seg = 1011111 led = 00
+ModelSim-Altera Info: # add = 0 sub = 0 ALUOut = 28 dig = 0001 seg = 1011011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 0 ALUOut = 28 dig = 0001 seg = 1001011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 0 ALUOut = 28 dig = 0001 seg = 1000011 led = 00
+ModelSim-Altera Info: # add = 0 sub = 0 ALUOut = 28 dig = 0001 seg = 1000010 led = 00
+ModelSim-Altera Info: # add = 0 sub = 0 ALUOut = 28 dig = 0001 seg = 1000000 led = 00
+ModelSim-Altera Info: # add = 0 sub = 0 ALUOut = 28 dig = 0001 seg = 0000000 led = 00
+ModelSim-Altera Info: # ** Note: $finish    : C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall/showall_test.v(42)
+ModelSim-Altera Info: #    Time: 3 us  Iteration: 0  Instance: /showall_test
+ModelSim-Altera Info: # 1
+ModelSim-Altera Info: # Break in Module showall_test at C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall/showall_test.v line 42
+ModelSim-Altera Info: # Simulation Breakpoint: 1
+ModelSim-Altera Info: # Break in Module showall_test at C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall/showall_test.v line 42
+ModelSim-Altera Info: # MACRO ./showall_run_msim_gate_verilog.do PAUSED at line 17
+Info: NativeLink simulation flow was successful

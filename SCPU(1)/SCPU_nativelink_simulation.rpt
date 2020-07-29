@@ -1,0 +1,171 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneii
+Quartus root          :  c:/altera/13.0sp1/quartus/bin64/
+Quartus sim root      :  c:/altera/13.0sp1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  SCPU.vo
+Sim SDF file          :  SCPU__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File SCPU_run_msim_gate_verilog.do already exists - backing up current file as SCPU_run_msim_gate_verilog.do.bak9
+Probing transcript
+ModelSim-Altera Info: # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+ModelSim-Altera Info: # do SCPU_run_msim_gate_verilog.do 
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Warning: # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Info: #          Updated modelsim.ini.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {SCPU.vo}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module SCPU
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	SCPU
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU {C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module SCPU_test
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	SCPU_test
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  SCPU_test
+ModelSim-Altera Info: # vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps SCPU_test 
+ModelSim-Altera Info: # Loading work.SCPU_test
+ModelSim-Altera Info: # Loading work.SCPU
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_lcell_comb
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_lcell_ff
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_jtag
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_ram_block
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_ram_register
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_ram_pulse_generator
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_io
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_mux21
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_dffe
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_asynch_io
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_clkctrl
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_mux41
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_ena_reg
+ModelSim-Altera Info: # SDF 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Loading instances from SCPU_v.sdo
+ModelSim-Altera Warning: # ** Warning: (vsim-3017) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [TFMPC] - Too few port connections. Expected 32, found 28.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /SCPU_test/cpu
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'altera_reserved_tck'. The port definition is at: SCPU.vo(33).
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /SCPU_test/cpu
+ModelSim-Altera Error: # ** Error: (vsim-3053) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): Illegal output or inout port connection for "port 'altera_reserved_tdo'".
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /SCPU_test/cpu
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'jump'. The port definition is at: SCPU.vo(36).
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /SCPU_test/cpu
+ModelSim-Altera Error: # ** Error: (vsim-3053) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): Illegal output or inout port connection for "port 'Instr'".
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /SCPU_test/cpu
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'Instr'. The port definition is at: SCPU.vo(37).
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /SCPU_test/cpu
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (1 or 1) does not match connection size (5) for port 'Bzero'. The port definition is at: SCPU.vo(42).
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /SCPU_test/cpu
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (5 or 5) does not match connection size (32) for port 'WriteAddr'. The port definition is at: SCPU.vo(46).
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /SCPU_test/cpu
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'RegDst'. The port definition is at: SCPU.vo(47).
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /SCPU_test/cpu
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'WriteData'. The port definition is at: SCPU.vo(48).
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /SCPU_test/cpu
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (32 or 32) does not match connection size (4) for port 'Mem'. The port definition is at: SCPU.vo(51).
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /SCPU_test/cpu
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (1 or 1) does not match connection size (2) for port 'MemWr'. The port definition is at: SCPU.vo(52).
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /SCPU_test/cpu
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'MemRead'. The port definition is at: SCPU.vo(53).
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /SCPU_test/cpu
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'RtData'. The port definition is at: SCPU.vo(54).
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /SCPU_test/cpu
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (4 or 4) does not match connection size (32) for port 'ALUctl'. The port definition is at: SCPU.vo(55).
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /SCPU_test/cpu
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (2 or 2) does not match connection size (1) for port 'ALUop'. The port definition is at: SCPU.vo(56).
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /SCPU_test/cpu
+ModelSim-Altera Warning: # ** Warning: (vsim-3015) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'ALUSrc'. The port definition is at: SCPU.vo(58).
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: #         Region: /SCPU_test/cpu
+ModelSim-Altera Warning: # ** Warning: (vsim-3722) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [TFMPC] - Missing connection for port 'Branch'.
+ModelSim-Altera Info: # 
+ModelSim-Altera Warning: # ** Warning: (vsim-3722) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [TFMPC] - Missing connection for port 'Bimm'.
+ModelSim-Altera Info: # 
+ModelSim-Altera Warning: # ** Warning: (vsim-3722) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [TFMPC] - Missing connection for port 'jumpPC'.
+ModelSim-Altera Info: # 
+ModelSim-Altera Warning: # ** Warning: (vsim-3722) C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v(39): [TFMPC] - Missing connection for port 'newPC'.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+ModelSim-Altera Info: # Error loading design
+ModelSim-Altera Info: # Error: Error loading design 
+ModelSim-Altera Info: #        Pausing macro execution 
+ModelSim-Altera Info: # MACRO ./SCPU_run_msim_gate_verilog.do PAUSED at line 12
+Error: Errors encountered while running modelsim do file
+Error: NativeLink simulation flow was NOT successful
+
+
+
+================The following additional information is provided to help identify the cause of error while running nativelink scripts=================
+Nativelink TCL script failed with errorCode:  1
+Nativelink TCL script failed with errorInfo:  1
+    (procedure "launch_sim" line 1)
+    invoked from within
+"launch_sim launch_args_hash"
+    ("eval" body line 1)
+    invoked from within
+"eval launch_sim launch_args_hash"
+    invoked from within
+"if [ info exists ::errorCode ] {
+				set savedCode $::errorCode
+				set savedInfo $::errorInfo
+				error $result $savedInfo $savedCode
+			} else {
+			..."
+    invoked from within
+"if [catch {eval launch_sim launch_args_hash} result ] {
+			set status 1
+			if [ info exists ::errorCode ] {
+				set savedCode $::errorCode
+				set sav..."
+    (procedure "run_sim" line 78)
+    invoked from within
+"run_sim run_sim_args_hash"
+    invoked from within
+"if [ info exists ::errorCode ] {
+			set savedCode $::errorCode
+			set savedInfo $::errorInfo
+			error "$result" $savedInfo $savedCode
+		} else {
+			er..."
+    (procedure "run_eda_simulation_tool" line 330)
+    invoked from within
+"run_eda_simulation_tool eda_opts_hash"

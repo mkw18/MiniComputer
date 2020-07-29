@@ -1,0 +1,468 @@
+$comment
+	File created using the following command:
+		vcd file mux_M2R.msim.vcd -direction
+$end
+$date
+	Sat May 02 17:29:20 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module mux_M2R_vlg_vec_tst $end
+$var reg 32 ! ALUOut [31:0] $end
+$var reg 1 " M2R $end
+$var reg 32 # Mem [31:0] $end
+$var wire 1 $ WriteData [31] $end
+$var wire 1 % WriteData [30] $end
+$var wire 1 & WriteData [29] $end
+$var wire 1 ' WriteData [28] $end
+$var wire 1 ( WriteData [27] $end
+$var wire 1 ) WriteData [26] $end
+$var wire 1 * WriteData [25] $end
+$var wire 1 + WriteData [24] $end
+$var wire 1 , WriteData [23] $end
+$var wire 1 - WriteData [22] $end
+$var wire 1 . WriteData [21] $end
+$var wire 1 / WriteData [20] $end
+$var wire 1 0 WriteData [19] $end
+$var wire 1 1 WriteData [18] $end
+$var wire 1 2 WriteData [17] $end
+$var wire 1 3 WriteData [16] $end
+$var wire 1 4 WriteData [15] $end
+$var wire 1 5 WriteData [14] $end
+$var wire 1 6 WriteData [13] $end
+$var wire 1 7 WriteData [12] $end
+$var wire 1 8 WriteData [11] $end
+$var wire 1 9 WriteData [10] $end
+$var wire 1 : WriteData [9] $end
+$var wire 1 ; WriteData [8] $end
+$var wire 1 < WriteData [7] $end
+$var wire 1 = WriteData [6] $end
+$var wire 1 > WriteData [5] $end
+$var wire 1 ? WriteData [4] $end
+$var wire 1 @ WriteData [3] $end
+$var wire 1 A WriteData [2] $end
+$var wire 1 B WriteData [1] $end
+$var wire 1 C WriteData [0] $end
+$var wire 1 D sampler $end
+$scope module i1 $end
+$var wire 1 E gnd $end
+$var wire 1 F vcc $end
+$var wire 1 G unknown $end
+$var tri1 1 H devclrn $end
+$var tri1 1 I devpor $end
+$var tri1 1 J devoe $end
+$var wire 1 K M2R~combout $end
+$var wire 1 L WriteData~0_combout $end
+$var wire 1 M WriteData~1_combout $end
+$var wire 1 N WriteData~2_combout $end
+$var wire 1 O WriteData~3_combout $end
+$var wire 1 P WriteData~4_combout $end
+$var wire 1 Q WriteData~5_combout $end
+$var wire 1 R WriteData~6_combout $end
+$var wire 1 S WriteData~7_combout $end
+$var wire 1 T WriteData~8_combout $end
+$var wire 1 U WriteData~9_combout $end
+$var wire 1 V WriteData~10_combout $end
+$var wire 1 W WriteData~11_combout $end
+$var wire 1 X WriteData~12_combout $end
+$var wire 1 Y WriteData~13_combout $end
+$var wire 1 Z WriteData~14_combout $end
+$var wire 1 [ WriteData~15_combout $end
+$var wire 1 \ WriteData~16_combout $end
+$var wire 1 ] WriteData~17_combout $end
+$var wire 1 ^ WriteData~18_combout $end
+$var wire 1 _ WriteData~19_combout $end
+$var wire 1 ` WriteData~20_combout $end
+$var wire 1 a WriteData~21_combout $end
+$var wire 1 b WriteData~22_combout $end
+$var wire 1 c WriteData~23_combout $end
+$var wire 1 d WriteData~24_combout $end
+$var wire 1 e WriteData~25_combout $end
+$var wire 1 f WriteData~26_combout $end
+$var wire 1 g WriteData~27_combout $end
+$var wire 1 h WriteData~28_combout $end
+$var wire 1 i WriteData~29_combout $end
+$var wire 1 j WriteData~30_combout $end
+$var wire 1 k WriteData~31_combout $end
+$var wire 1 l Mem~combout [31] $end
+$var wire 1 m Mem~combout [30] $end
+$var wire 1 n Mem~combout [29] $end
+$var wire 1 o Mem~combout [28] $end
+$var wire 1 p Mem~combout [27] $end
+$var wire 1 q Mem~combout [26] $end
+$var wire 1 r Mem~combout [25] $end
+$var wire 1 s Mem~combout [24] $end
+$var wire 1 t Mem~combout [23] $end
+$var wire 1 u Mem~combout [22] $end
+$var wire 1 v Mem~combout [21] $end
+$var wire 1 w Mem~combout [20] $end
+$var wire 1 x Mem~combout [19] $end
+$var wire 1 y Mem~combout [18] $end
+$var wire 1 z Mem~combout [17] $end
+$var wire 1 { Mem~combout [16] $end
+$var wire 1 | Mem~combout [15] $end
+$var wire 1 } Mem~combout [14] $end
+$var wire 1 ~ Mem~combout [13] $end
+$var wire 1 !! Mem~combout [12] $end
+$var wire 1 "! Mem~combout [11] $end
+$var wire 1 #! Mem~combout [10] $end
+$var wire 1 $! Mem~combout [9] $end
+$var wire 1 %! Mem~combout [8] $end
+$var wire 1 &! Mem~combout [7] $end
+$var wire 1 '! Mem~combout [6] $end
+$var wire 1 (! Mem~combout [5] $end
+$var wire 1 )! Mem~combout [4] $end
+$var wire 1 *! Mem~combout [3] $end
+$var wire 1 +! Mem~combout [2] $end
+$var wire 1 ,! Mem~combout [1] $end
+$var wire 1 -! Mem~combout [0] $end
+$var wire 1 .! ALUOut~combout [31] $end
+$var wire 1 /! ALUOut~combout [30] $end
+$var wire 1 0! ALUOut~combout [29] $end
+$var wire 1 1! ALUOut~combout [28] $end
+$var wire 1 2! ALUOut~combout [27] $end
+$var wire 1 3! ALUOut~combout [26] $end
+$var wire 1 4! ALUOut~combout [25] $end
+$var wire 1 5! ALUOut~combout [24] $end
+$var wire 1 6! ALUOut~combout [23] $end
+$var wire 1 7! ALUOut~combout [22] $end
+$var wire 1 8! ALUOut~combout [21] $end
+$var wire 1 9! ALUOut~combout [20] $end
+$var wire 1 :! ALUOut~combout [19] $end
+$var wire 1 ;! ALUOut~combout [18] $end
+$var wire 1 <! ALUOut~combout [17] $end
+$var wire 1 =! ALUOut~combout [16] $end
+$var wire 1 >! ALUOut~combout [15] $end
+$var wire 1 ?! ALUOut~combout [14] $end
+$var wire 1 @! ALUOut~combout [13] $end
+$var wire 1 A! ALUOut~combout [12] $end
+$var wire 1 B! ALUOut~combout [11] $end
+$var wire 1 C! ALUOut~combout [10] $end
+$var wire 1 D! ALUOut~combout [9] $end
+$var wire 1 E! ALUOut~combout [8] $end
+$var wire 1 F! ALUOut~combout [7] $end
+$var wire 1 G! ALUOut~combout [6] $end
+$var wire 1 H! ALUOut~combout [5] $end
+$var wire 1 I! ALUOut~combout [4] $end
+$var wire 1 J! ALUOut~combout [3] $end
+$var wire 1 K! ALUOut~combout [2] $end
+$var wire 1 L! ALUOut~combout [1] $end
+$var wire 1 M! ALUOut~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b10010001101000101011001111000 !
+0"
+b0 #
+0C
+0B
+0A
+1@
+1?
+1>
+1=
+0<
+0;
+1:
+19
+08
+17
+06
+15
+04
+03
+02
+11
+00
+1/
+1.
+0-
+0,
+0+
+1*
+0)
+0(
+1'
+0&
+0%
+0$
+xD
+0E
+1F
+xG
+1H
+1I
+1J
+0K
+0L
+0M
+0N
+1O
+1P
+1Q
+1R
+0S
+0T
+1U
+1V
+0W
+1X
+0Y
+1Z
+0[
+0\
+0]
+1^
+0_
+1`
+1a
+0b
+0c
+0d
+1e
+0f
+0g
+1h
+0i
+0j
+0k
+0-!
+0,!
+0+!
+0*!
+0)!
+0(!
+0'!
+0&!
+0%!
+0$!
+0#!
+0"!
+0!!
+0~
+0}
+0|
+0{
+0z
+0y
+0x
+0w
+0v
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+0l
+0M!
+0L!
+0K!
+1J!
+1I!
+1H!
+1G!
+0F!
+0E!
+1D!
+1C!
+0B!
+1A!
+0@!
+1?!
+0>!
+0=!
+0<!
+1;!
+0:!
+19!
+18!
+07!
+06!
+05!
+14!
+03!
+02!
+11!
+00!
+0/!
+0.!
+$end
+#180000
+1"
+1K
+0D
+0h
+0e
+0a
+0`
+0^
+0Z
+0X
+0V
+0U
+0R
+0Q
+0P
+0O
+0'
+0*
+0.
+0/
+01
+05
+07
+09
+0:
+0=
+0>
+0?
+0@
+#310000
+b10001101000101011001111000 !
+b1101000101011001111000 !
+b101000101011001111000 !
+b1000101011001111000 !
+b101011001111000 !
+b1011001111000 !
+b11001111000 !
+b1001111000 !
+b1111000 !
+b111000 !
+b11000 !
+b1000 !
+b0 !
+b100000000000000000000000000000 #
+b110000000000000000000000000000 #
+b110100000000000000000000000000 #
+b110100010000000000000000000000 #
+b110100010100000000000000000000 #
+b110100010101000000000000000000 #
+b110100010101100000000000000000 #
+b110100010101100100000000000000 #
+b110100010101100110000000000000 #
+b110100010101100111000000000000 #
+b110100010101100111100000000000 #
+b110100010101100111100010000000 #
+b110100010101100111100010010000 #
+1)!
+1&!
+1"!
+1!!
+1~
+1}
+1z
+1y
+1w
+1u
+1q
+1o
+1n
+0J!
+0I!
+0H!
+0G!
+0D!
+0C!
+0A!
+0?!
+0;!
+09!
+08!
+04!
+01!
+1D
+1P
+1S
+1W
+1X
+1Y
+1Z
+1]
+1^
+1`
+1b
+1f
+1h
+1i
+1?
+1<
+18
+17
+16
+15
+12
+11
+1/
+1-
+1)
+1'
+1&
+#410000
+0"
+0K
+0D
+0i
+0h
+0f
+0b
+0`
+0^
+0]
+0Z
+0Y
+0X
+0W
+0S
+0P
+0&
+0'
+0)
+0-
+0/
+01
+02
+05
+06
+07
+08
+0<
+0?
+#630000
+b10100010101100111100010010000 #
+b100010101100111100010010000 #
+b10101100111100010010000 #
+b101100111100010010000 #
+b1100111100010010000 #
+b100111100010010000 #
+b111100010010000 #
+b11100010010000 #
+b1100010010000 #
+b100010010000 #
+b10010000 #
+b10000 #
+b0 #
+0)!
+0&!
+0"!
+0!!
+0~
+0}
+0z
+0y
+0w
+0u
+0q
+0o
+0n
+1D
+#1000000

@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp3\SingleCPU\ALU\simulation\modelsim
+vALU
+ITR6BkYC9Ib4cniJNSkiDI2
+VQKh3Mi`JOA[@I6515b[OH2
+Z1 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp3\SingleCPU\ALU\simulation\modelsim
+w1588602860
+8ALU.vo
+FALU.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@a@l@u
+!i10b 1
+!s100 oOB[OChZKVNgJMX@n:?=b1
+!s85 0
+!s108 1588602874.161000
+!s107 ALU.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|ALU.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vALU_test
+!i10b 1
+!s100 34BO^=7oMP_c@BFGf_I6W2
+IjKWEWWgNU899`OIcOI1BZ3
+VZ4[M=f[G4?B3GPjIZHVdi0
+R1
+w1588602839
+8C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/ALU/ALU_test.v
+FC:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/ALU/ALU_test.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1588602874.574000
+!s107 C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/ALU/ALU_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/ALU|C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/ALU/ALU_test.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/ALU -O0
+n@a@l@u_test

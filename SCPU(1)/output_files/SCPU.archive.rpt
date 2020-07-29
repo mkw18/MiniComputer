@@ -1,0 +1,116 @@
+Archive Project report for SCPU
+Sat May 16 23:13:27 2020
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Sat May 16 23:13:27 2020 ;
+; Revision Name          ; SCPU                                  ;
+; Top-level Entity Name  ; SCPU                                  ;
+; Family                 ; Cyclone II                            ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/SCPU.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'SCPU.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/13.0sp1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4482 megabytes
+    Info: Processing ended: Sat May 16 23:13:27 2020
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:04
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                                 ;
++----------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                      ;
++----------------------------------------------------------------------------------------------------------------+
+; ../../../../../../../../../altera/13.0sp1/projects/ALU(1)/freq/freq.v                                          ;
+; ../ALU/ALU.v                                                                                                   ;
+; ../aluCtl/aluCtl.v                                                                                             ;
+; ../imm_PC(1)/imm_PC.v                                                                                          ;
+; ../mainCtl/mainCtl.v                                                                                           ;
+; ../regFile/regFile.v                                                                                           ;
+; C:/altera/13.0sp1/projects/ALU(1)/freq/freq.v                                                                  ;
+; c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf                                                        ;
+; C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/ALU/ALU.v                                  ;
+; C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/aluCtl/aluCtl.v                            ;
+; C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/commandROM/comROM.mif                      ;
+; C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/DataRAM/DataRAM.mif                        ;
+; C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/imm_PC(1)/imm_PC.v                         ;
+; C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/mainCtl/mainCtl.v                          ;
+; C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/regFile/regFile.v                          ;
+; C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/output_files/stp_auto_stripped.stp ;
+; C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/commandROM/comROM.mif                         ;
+; C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/DataRAM/DataRAM.mif                           ;
+; DataRAM.bsf                                                                                                    ;
+; DataRAM.qip                                                                                                    ;
+; DataRAM.v                                                                                                      ;
+; DataRAM_bb.v                                                                                                   ;
+; incremental_db/compiled_partitions/SCPU.db_info                                                                ;
+; InstrROM.bsf                                                                                                   ;
+; InstrROM.qip                                                                                                   ;
+; InstrROM.v                                                                                                     ;
+; InstrROM_bb.v                                                                                                  ;
+; Mux_data.bsf                                                                                                   ;
+; Mux_data.qip                                                                                                   ;
+; Mux_data.v                                                                                                     ;
+; Mux_data_bb.v                                                                                                  ;
+; Mux_M2R.bsf                                                                                                    ;
+; Mux_M2R.qip                                                                                                    ;
+; Mux_M2R.v                                                                                                      ;
+; Mux_M2R_bb.v                                                                                                   ;
+; Mux_writeaddr.bsf                                                                                              ;
+; Mux_writeaddr.qip                                                                                              ;
+; Mux_writeaddr.v                                                                                                ;
+; Mux_writeaddr_bb.v                                                                                             ;
+; output_files/stp.stp                                                                                           ;
+; SCPU.bdf                                                                                                       ;
+; SCPU.qpf                                                                                                       ;
+; SCPU.qsf                                                                                                       ;
+; SCPU_test.v                                                                                                    ;
++----------------------------------------------------------------------------------------------------------------+
+
+

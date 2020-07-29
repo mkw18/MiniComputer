@@ -1,0 +1,100 @@
+|showall
+CLK => CLK.IN2
+add => led.OUTPUTSELECT
+add => led.OUTPUTSELECT
+add => led.OUTPUTSELECT
+add => led.OUTPUTSELECT
+add => led.OUTPUTSELECT
+add => led.OUTPUTSELECT
+add => led.OUTPUTSELECT
+add => led.OUTPUTSELECT
+sub => sub.IN1
+ALUOut[0] => ALUOut[0].IN1
+ALUOut[1] => ALUOut[1].IN1
+ALUOut[2] => ALUOut[2].IN1
+ALUOut[3] => ALUOut[3].IN1
+ALUOut[4] => ALUOut[4].IN1
+ALUOut[5] => ALUOut[5].IN1
+ALUOut[6] => ALUOut[6].IN1
+ALUOut[7] => ALUOut[7].IN1
+dig[0] <= DigChoose:dc.port3
+dig[1] <= DigChoose:dc.port3
+dig[2] <= DigChoose:dc.port3
+dig[3] <= DigChoose:dc.port3
+seg[0] <= show:sh.port2
+seg[1] <= show:sh.port2
+seg[2] <= show:sh.port2
+seg[3] <= show:sh.port2
+seg[4] <= show:sh.port2
+seg[5] <= show:sh.port2
+seg[6] <= show:sh.port2
+led[0] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led[1] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led[2] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led[3] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led[4] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led[5] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led[6] <= led.DB_MAX_OUTPUT_PORT_TYPE
+led[7] <= led.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|showall|DigChoose:dc
+CLK => num[0]~reg0.CLK
+CLK => num[1]~reg0.CLK
+CLK => num[2]~reg0.CLK
+CLK => num[3]~reg0.CLK
+CLK => num[4]~reg0.CLK
+CLK => dig[0]~reg0.CLK
+CLK => dig[1]~reg0.CLK
+CLK => dig[2]~reg0.CLK
+CLK => dig[3]~reg0.CLK
+sub => dig.OUTPUTSELECT
+sub => dig.OUTPUTSELECT
+sub => dig.OUTPUTSELECT
+sub => dig.OUTPUTSELECT
+sub => num.OUTPUTSELECT
+sub => num.OUTPUTSELECT
+sub => num.OUTPUTSELECT
+sub => num.OUTPUTSELECT
+sub => num.OUTPUTSELECT
+ALUOut[0] => Selector3.IN5
+ALUOut[1] => Selector2.IN5
+ALUOut[2] => Selector1.IN5
+ALUOut[3] => Selector0.IN5
+ALUOut[4] => Selector3.IN4
+ALUOut[5] => Selector2.IN4
+ALUOut[6] => Selector1.IN4
+ALUOut[7] => Selector0.IN4
+dig[0] <= dig[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig[1] <= dig[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig[2] <= dig[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dig[3] <= dig[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+num[0] <= num[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+num[1] <= num[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+num[2] <= num[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+num[3] <= num[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+num[4] <= num[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|showall|show:sh
+CLK => seg[0]~reg0.CLK
+CLK => seg[1]~reg0.CLK
+CLK => seg[2]~reg0.CLK
+CLK => seg[3]~reg0.CLK
+CLK => seg[4]~reg0.CLK
+CLK => seg[5]~reg0.CLK
+CLK => seg[6]~reg0.CLK
+num[0] => Decoder0.IN4
+num[1] => Decoder0.IN3
+num[2] => Decoder0.IN2
+num[3] => Decoder0.IN1
+num[4] => Decoder0.IN0
+seg[0] <= seg[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= seg[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= seg[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= seg[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= seg[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= seg[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= seg[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

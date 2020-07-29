@@ -1,0 +1,185 @@
+Flow report for SCPU
+Fri May 29 16:01:44 2020
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------------------------+
+; Flow Summary                                                                          ;
++------------------------------------+--------------------------------------------------+
+; Flow Status                        ; Successful - Fri May 29 16:01:44 2020            ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
+; Revision Name                      ; SCPU                                             ;
+; Top-level Entity Name              ; SCPU                                             ;
+; Family                             ; Cyclone II                                       ;
+; Device                             ; EP2C5Q208C8                                      ;
+; Timing Models                      ; Final                                            ;
+; Total logic elements               ; 1,134 / 4,608 ( 25 % )                           ;
+;     Total combinational functions  ; 793 / 4,608 ( 17 % )                             ;
+;     Dedicated logic registers      ; 729 / 4,608 ( 16 % )                             ;
+; Total registers                    ; 729                                              ;
+; Total pins                         ; 29 / 142 ( 20 % )                                ;
+; Total virtual pins                 ; 0                                                ;
+; Total memory bits                  ; 13,184 / 119,808 ( 11 % )                        ;
+; Embedded Multiplier 9-bit elements ; 0 / 26 ( 0 % )                                   ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                                    ;
++------------------------------------+--------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 05/29/2020 16:01:01 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; SCPU                ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                                  ;
++--------------------------------------+---------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
+; Assignment Name                      ; Value                                                                                                                     ; Default Value ; Entity Name ; Section Id       ;
++--------------------------------------+---------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
+; COMPILER_SIGNATURE_ID                ; 220295151548220.159073926004728                                                                                           ; --            ; --          ; --               ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                                        ; --            ; --          ; SCPU_test        ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; SCPU_test                                                                                                                 ; --            ; --          ; eda_simulation   ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                                                                                               ; --            ; --          ; eda_simulation   ;
+; EDA_RUN_TOOL_AUTOMATICALLY           ; Off                                                                                                                       ; --            ; --          ; eda_simulation   ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)                                                                                                 ; <None>        ; --          ; --               ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                                                                                           ; --            ; --          ; eda_simulation   ;
+; EDA_TEST_BENCH_FILE                  ; SCPU_test.v                                                                                                               ; --            ; --          ; SCPU_test        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; SCPU_test                                                                                                                 ; --            ; --          ; SCPU_test        ;
+; EDA_TEST_BENCH_NAME                  ; SCPU_test                                                                                                                 ; --            ; --          ; eda_simulation   ;
+; EDA_TIME_SCALE                       ; 1 ps                                                                                                                      ; --            ; --          ; eda_simulation   ;
+; ENABLE_SIGNALTAP                     ; On                                                                                                                        ; --            ; --          ; --               ;
+; IP_TOOL_NAME                         ; RAM: 1-PORT                                                                                                               ; --            ; --          ; --               ;
+; IP_TOOL_NAME                         ; ROM: 1-PORT                                                                                                               ; --            ; --          ; --               ;
+; IP_TOOL_NAME                         ; LPM_MUX                                                                                                                   ; --            ; --          ; --               ;
+; IP_TOOL_NAME                         ; LPM_MUX                                                                                                                   ; --            ; --          ; --               ;
+; IP_TOOL_NAME                         ; LPM_MUX                                                                                                                   ; --            ; --          ; --               ;
+; IP_TOOL_NAME                         ; LPM_MUX                                                                                                                   ; --            ; --          ; --               ;
+; IP_TOOL_VERSION                      ; 13.0                                                                                                                      ; --            ; --          ; --               ;
+; IP_TOOL_VERSION                      ; 13.0                                                                                                                      ; --            ; --          ; --               ;
+; IP_TOOL_VERSION                      ; 13.0                                                                                                                      ; --            ; --          ; --               ;
+; IP_TOOL_VERSION                      ; 13.0                                                                                                                      ; --            ; --          ; --               ;
+; IP_TOOL_VERSION                      ; 13.0                                                                                                                      ; --            ; --          ; --               ;
+; IP_TOOL_VERSION                      ; 13.0                                                                                                                      ; --            ; --          ; --               ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                                                                                                        ; --            ; --          ; --               ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                                                                                                         ; --            ; --          ; --               ;
+; MISC_FILE                            ; DataRAM.bsf                                                                                                               ; --            ; --          ; --               ;
+; MISC_FILE                            ; DataRAM_bb.v                                                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                            ; InstrROM.bsf                                                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                            ; InstrROM_bb.v                                                                                                             ; --            ; --          ; --               ;
+; MISC_FILE                            ; Mux_data.bsf                                                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                            ; Mux_data_bb.v                                                                                                             ; --            ; --          ; --               ;
+; MISC_FILE                            ; Mux_M2R.bsf                                                                                                               ; --            ; --          ; --               ;
+; MISC_FILE                            ; Mux_M2R_bb.v                                                                                                              ; --            ; --          ; --               ;
+; MISC_FILE                            ; Mux_writeaddr.bsf                                                                                                         ; --            ; --          ; --               ;
+; MISC_FILE                            ; Mux_writeaddr_bb.v                                                                                                        ; --            ; --          ; --               ;
+; MISC_FILE                            ; Mem_Mux.bsf                                                                                                               ; --            ; --          ; --               ;
+; MISC_FILE                            ; Mem_Mux_bb.v                                                                                                              ; --            ; --          ; --               ;
+; PARTITION_COLOR                      ; 16764057                                                                                                                  ; --            ; --          ; Top              ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING                                                                                                     ; --            ; --          ; Top              ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                                                                                                                    ; --            ; --          ; Top              ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                                                                                              ; --            ; --          ; --               ;
+; SLD_FILE                             ; C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/SCPU(1)/output_files/stp_auto_stripped.stp            ; --            ; --          ; --               ;
+; SLD_NODE_CREATOR_ID                  ; 110                                                                                                                       ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_ENTITY_NAME                 ; sld_signaltap                                                                                                             ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_NODE_INFO=805334528                                                                                                   ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_POWER_UP_TRIGGER=0                                                                                                    ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0                                                                             ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SEGMENT_SIZE=128                                                                                                      ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ATTRIBUTE_MEM_MODE=OFF                                                                                                ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_FLOW_USE_GENERATED=0                                                                                            ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_BITS=11                                                                                                         ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_BUFFER_FULL_STOP=1                                                                                                    ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_CURRENT_RESOURCE_WIDTH=1                                                                                              ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL=1                                                                                                       ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SAMPLE_DEPTH=128                                                                                                      ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_IN_ENABLED=0                                                                                                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,                                                                                      ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL_PIPELINE=1                                                                                              ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ENABLE_ADVANCED_TRIGGER=0                                                                                             ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_DATA_BITS=27                                                                                                          ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_BITS=27                                                                                                       ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK_LENGTH=102                                                                                             ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_NODE_CRC_LOWORD=2436                                                                                                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_NODE_CRC_HIWORD=3635                                                                                                  ; --            ; --          ; auto_signaltap_0 ;
+; USE_SIGNALTAP_FILE                   ; output_files/stp.stp                                                                                                      ; --            ; --          ; --               ;
++--------------------------------------+---------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:21     ; 1.0                     ; 4712 MB             ; 00:00:19                           ;
+; Fitter                    ; 00:00:08     ; 1.2                     ; 5065 MB             ; 00:00:08                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 4580 MB             ; 00:00:02                           ;
+; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 4599 MB             ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 4564 MB             ; 00:00:03                           ;
+; Total                     ; 00:00:37     ; --                      ; --                  ; 00:00:35                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; DESKTOP-A1GBR7G  ; Windows 7 ; 6.2        ; x86_64         ;
+; Fitter                    ; DESKTOP-A1GBR7G  ; Windows 7 ; 6.2        ; x86_64         ;
+; Assembler                 ; DESKTOP-A1GBR7G  ; Windows 7 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; DESKTOP-A1GBR7G  ; Windows 7 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; DESKTOP-A1GBR7G  ; Windows 7 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off SCPU -c SCPU
+quartus_fit --read_settings_files=off --write_settings_files=off SCPU -c SCPU
+quartus_asm --read_settings_files=off --write_settings_files=off SCPU -c SCPU
+quartus_sta SCPU -c SCPU
+quartus_eda --read_settings_files=off --write_settings_files=off SCPU -c SCPU
+
+
+

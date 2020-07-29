@@ -1,0 +1,250 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do imm_PC_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {imm_PC.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module imm_PC
+# 
+# Top level modules:
+# 	imm_PC
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1) {C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1)/imm_PC_test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module imm_PC_test
+# 
+# Top level modules:
+# 	imm_PC_test
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  imm_PC_test
+# vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps imm_PC_test 
+# Loading work.imm_PC_test
+# Loading work.imm_PC
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from imm_PC_v.sdo
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# Loading timing data from imm_PC_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /imm_PC_test File: C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1)/imm_PC_test.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = xxxxxxxx PC = xxxxxxxX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = Xxxxxxxx PC = xxxxxxxX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = XxXxxxxx PC = xxxxxxxX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = XxXxxxxx PC = xxxxxxxX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = XxXXxxxx PC = xxxxxxxX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = XxXXxxxx PC = xxxxxxxX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = XxXXXxxx PC = xxxxxxxX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = XxXXXxxx PC = xxxxxxxX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXXXxxx PC = xxxxxxxX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXXXxxx PC = xxxxxxxX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXXXxxx PC = xxxxxxxX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXXXxxx PC = xxxxxxxX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXXXXxx PC = xxxxxxxX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXXXXxx PC = xxxxxxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXX0Xxx PC = xxxxxxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXX0Xxx PC = xxxxxxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXX0Xxx PC = xxxxxxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXX0Xxx PC = xxxxxxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XX00Xxx PC = xxxxxxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XX00Xxx PC = XxxxxxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XX00Xxx PC = XxxxxxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XX00Xxx PC = XxxXxxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XX00Xxx PC = XXxXxxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XX00Xxx PC = XXxXxxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XX00Xxx PC = XXxXxxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 0X000Xxx PC = XXxXxxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000Xxx PC = XXxXxxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000Xxx PC = XXXXxxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000Xxx PC = XXXXXxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000Xxx PC = XXXXXxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000Xxx PC = XXXXXxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XxX PC = XXXXXxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XxX PC = XXXXXxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XxX PC = XXXXXxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XxX PC = XXXXXxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XxX PC = XXXXXxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XxX PC = XXXXXxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XXX PC = XXXXXxXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XXX PC = XXXXXXXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XXX PC = XXXXXXXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = 0XXX0XXX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = 0XXX00XX
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = 0XXX00X0
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = 0XXX00X0
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = 0XX000X0
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000X0 PC = 0XX000X0
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000X0 PC = 0XX00000
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000X0 PC = 0X000000
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000X0 PC = 00000000
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000000 PC = 00000000
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00001000 PC = 00000000
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00001200 PC = 00000000
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005200 PC = 00000000
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005600 PC = 00000000
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005610 PC = 00000000
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005610 PC = 00000004
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005630 PC = 00000004
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005638 PC = 00000004
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005678 PC = 00000004
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005678 PC = 00000000
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005678 PC = 00000008
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005678 PC = 0000000c
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005678 PC = 0000001c
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005678 PC = 00000018
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005678 PC = 00000010
+# Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005678 PC = 00000014
+# Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 00000014
+# Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 00000004
+# Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 00010004
+# Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08010004
+# Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08014004
+# Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08114004
+# Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08114024
+# Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08115024
+# Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08115824
+# Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08115924
+# Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08915924
+# Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08915920
+# Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 089159a0
+# Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 089159e0
+# Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08d159e0
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d159e0
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d059e0
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d019e0
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d019c0
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d099c0
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d091c0
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d091c4
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d0b1c4
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d0b3c4
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d2b3c4
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d2b3e4
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d2a3e4
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d223e4
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d22be4
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d22be0
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d22fe0
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d62fe0
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d60fe0
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d60de0
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d60de8
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d40de8
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d40da8
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d50da8
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d54da8
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d54d88
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d54588
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d5458c
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d5658c
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d5678c
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d5679c
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d4679c
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d467bc
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d4e7bc
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d4e7b8
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d4e3b8
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d4c3b8
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d4c1b8
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d4c1b0
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d4c130
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d6c130
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d6c170
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d68170
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d68150
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de8150
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de9150
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de1150
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de1950
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de1954
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08da1954
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08da1b54
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d81b54
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d91b54
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d95b54
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d95b74
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d95374
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d95370
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d95770
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d97770
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d97570
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d97578
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d97538
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d87538
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d87518
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d86518
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d8e518
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d8ed18
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d8ed1c
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d8cd1c
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d8cf1c
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dacf1c
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dacf0c
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08da8f0c
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08da0f0c
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08da0f08
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08da0b08
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de0b08
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de2b08
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de2908
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de2900
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dc2900
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dd2900
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dd2920
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dda920
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dda120
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dda020
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dda024
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dd8024
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dd8224
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dd82a4
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dd82e4
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dc82e4
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dcc2e4
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dcc2c4
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dcd2c4
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dcdac4
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dcdac0
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dcdec0
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dcdcc0
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dcdcc8
+# Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dedcc8
+# ** Note: $finish    : C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1)/imm_PC_test.v(29)
+#    Time: 400 ns  Iteration: 0  Instance: /imm_PC_test
+# 1
+# Break in Module imm_PC_test at C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1)/imm_PC_test.v line 29
+# Simulation Breakpoint: 1
+# Break in Module imm_PC_test at C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1)/imm_PC_test.v line 29
+# MACRO ./imm_PC_run_msim_gate_verilog.do PAUSED at line 17

@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\projects\SingleCPU\mux_M2R\simulation\qsim
+vmux_M2R
+Z1 I5^0[<:KhK4=>3S2mmDHYN3
+Z2 Vdk5WoSSh@zB@FXG1HdPg93
+Z3 dC:\altera\13.0sp1\projects\SingleCPU\mux_M2R\simulation\qsim
+Z4 w1588411757
+Z5 8mux_M2R.vo
+Z6 Fmux_M2R.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 nmux_@m2@r
+!i10b 1
+Z10 !s100 P8^5zLPHDefj1TnOSC5<U0
+!s85 0
+Z11 !s108 1588411758.795000
+Z12 !s107 mux_M2R.vo|
+Z13 !s90 -work|work|mux_M2R.vo|
+!s101 -O0
+vmux_M2R_vlg_check_tst
+!i10b 1
+!s100 IU3kE6C7USOM_WzVa?@ac0
+IAME]`Uk78Yc[LClLaMgZ[1
+V567UzcXNoUc@_m?D6JOf[2
+R3
+Z14 w1588411755
+Z15 8mux_M2R.vt
+Z16 Fmux_M2R.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1588411759.149000
+Z18 !s107 mux_M2R.vt|
+Z19 !s90 -work|work|mux_M2R.vt|
+!s101 -O0
+R8
+nmux_@m2@r_vlg_check_tst
+vmux_M2R_vlg_sample_tst
+!i10b 1
+!s100 ;1Q;fBoVOhi7KVllcl9o=3
+Ic3AWe`JA:^5IiS[5;N84N0
+VaDG1L7efOSWE2J@2eM9iO3
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+nmux_@m2@r_vlg_sample_tst
+vmux_M2R_vlg_vec_tst
+!i10b 1
+!s100 8o4mSHMJc;e?<^Y<e<eEH1
+IP_2jFak3BO5CcmU@aAeNW2
+VF1BSQU1mRHMAU6cA2:ODl3
+R3
+R14
+R15
+R16
+L0 713
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+nmux_@m2@r_vlg_vec_tst

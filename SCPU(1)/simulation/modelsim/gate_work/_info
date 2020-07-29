@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp3\SingleCPU\SCPU\simulation\modelsim
+vSCPU
+IX:HalNAm>@J>SLS9MJ`Ro1
+V]_YUG`:WO_aE12<BkD;1m2
+Z1 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp3\SingleCPU\SCPU\simulation\modelsim
+w1588845558
+8SCPU.vo
+FSCPU.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+n@s@c@p@u
+!i10b 1
+!s100 N6763@:VGZl]ofA;5XNaJ2
+!s85 0
+!s108 1588845582.137000
+!s107 SCPU.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|SCPU.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vSCPU_test
+!i10b 1
+!s100 0gGKVDkPH=DmI05_Q1_Si2
+I_=dhc[zeH_Gen;^A@D2@H2
+VHZEPmoz4@]?7d^Tz]GlVP0
+R1
+w1588839159
+8C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v
+FC:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1588845586.397000
+!s107 C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU|C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU/SCPU_test.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/SCPU -O0
+n@s@c@p@u_test

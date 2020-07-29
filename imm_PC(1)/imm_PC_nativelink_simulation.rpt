@@ -1,0 +1,272 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneii
+Quartus root          :  c:/altera/13.0sp1/quartus/bin64/
+Quartus sim root      :  c:/altera/13.0sp1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  imm_PC.vo
+Sim SDF file          :  imm_PC__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File imm_PC_run_msim_gate_verilog.do already exists - backing up current file as imm_PC_run_msim_gate_verilog.do.bak10
+Probing transcript
+ModelSim-Altera Info: # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+ModelSim-Altera Info: # do imm_PC_run_msim_gate_verilog.do 
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Warning: # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Info: #          Updated modelsim.ini.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {imm_PC.vo}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module imm_PC
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	imm_PC
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1) {C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1)/imm_PC_test.v}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module imm_PC_test
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	imm_PC_test
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  imm_PC_test
+ModelSim-Altera Info: # vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps imm_PC_test 
+ModelSim-Altera Info: # Loading work.imm_PC_test
+ModelSim-Altera Info: # Loading work.imm_PC
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_lcell_comb
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_io
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_mux21
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_dffe
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_asynch_io
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_clkctrl
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_mux41
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_ena_reg
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_lcell_ff
+ModelSim-Altera Info: # SDF 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Loading instances from imm_PC_v.sdo
+ModelSim-Altera Info: # Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+ModelSim-Altera Info: # Loading timing data from imm_PC_v.sdo
+ModelSim-Altera Info: # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+ModelSim-Altera Info: #    Time: 0 ps  Iteration: 0  Instance: /imm_PC_test File: C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1)/imm_PC_test.v
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # add wave *
+ModelSim-Altera Info: # view structure
+ModelSim-Altera Info: # .main_pane.structure.interior.cs.body.struct
+ModelSim-Altera Info: # view signals
+ModelSim-Altera Info: # .main_pane.objects.interior.cs.body.tree
+ModelSim-Altera Info: # run -all
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = xxxxxxxx PC = xxxxxxxX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = Xxxxxxxx PC = xxxxxxxX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = XxXxxxxx PC = xxxxxxxX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = XxXxxxxx PC = xxxxxxxX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = XxXXxxxx PC = xxxxxxxX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = XxXXxxxx PC = xxxxxxxX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = XxXXXxxx PC = xxxxxxxX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = XxXXXxxx PC = xxxxxxxX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXXXxxx PC = xxxxxxxX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXXXxxx PC = xxxxxxxX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXXXxxx PC = xxxxxxxX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXXXxxx PC = xxxxxxxX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXXXXxx PC = xxxxxxxX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXXXXxx PC = xxxxxxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXX0Xxx PC = xxxxxxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXX0Xxx PC = xxxxxxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXX0Xxx PC = xxxxxxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XXX0Xxx PC = xxxxxxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XX00Xxx PC = xxxxxxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XX00Xxx PC = XxxxxxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XX00Xxx PC = XxxxxxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XX00Xxx PC = XxxXxxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XX00Xxx PC = XXxXxxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XX00Xxx PC = XXxXxxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0XX00Xxx PC = XXxXxxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 0X000Xxx PC = XXxXxxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000Xxx PC = XXxXxxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000Xxx PC = XXXXxxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000Xxx PC = XXXXXxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000Xxx PC = XXXXXxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000Xxx PC = XXXXXxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XxX PC = XXXXXxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XxX PC = XXXXXxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XxX PC = XXXXXxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XxX PC = XXXXXxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XxX PC = XXXXXxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XxX PC = XXXXXxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XXX PC = XXXXXxXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XXX PC = XXXXXXXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000XXX PC = XXXXXXXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = XXXXXXXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = 0XXX0XXX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = 0XXX00XX
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = 0XXX00X0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = 0XXX00X0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000XX PC = 0XX000X0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000X0 PC = 0XX000X0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000X0 PC = 0XX00000
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000X0 PC = 0X000000
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 000000X0 PC = 00000000
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00000000 PC = 00000000
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00001000 PC = 00000000
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00001200 PC = 00000000
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005200 PC = 00000000
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005600 PC = 00000000
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005610 PC = 00000000
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005610 PC = 00000004
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005630 PC = 00000004
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005638 PC = 00000004
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005678 PC = 00000004
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005678 PC = 00000000
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005678 PC = 00000008
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005678 PC = 0000000c
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005678 PC = 0000001c
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005678 PC = 00000018
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005678 PC = 00000010
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 0 imm = 00005678 PC = 00000014
+ModelSim-Altera Info: # Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 00000014
+ModelSim-Altera Info: # Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 00000004
+ModelSim-Altera Info: # Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 00010004
+ModelSim-Altera Info: # Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08010004
+ModelSim-Altera Info: # Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08014004
+ModelSim-Altera Info: # Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08114004
+ModelSim-Altera Info: # Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08114024
+ModelSim-Altera Info: # Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08115024
+ModelSim-Altera Info: # Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08115824
+ModelSim-Altera Info: # Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08115924
+ModelSim-Altera Info: # Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08915924
+ModelSim-Altera Info: # Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08915920
+ModelSim-Altera Info: # Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 089159a0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 089159e0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 1 Bzero = 0 imm = 00005678 PC = 08d159e0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d159e0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d059e0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d019e0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d019c0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d099c0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d091c0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d091c4
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d0b1c4
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d0b3c4
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d2b3c4
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d2b3e4
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d2a3e4
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d223e4
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d22be4
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d22be0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d22fe0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d62fe0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d60fe0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d60de0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d60de8
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d40de8
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d40da8
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d50da8
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d54da8
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d54d88
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d54588
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d5458c
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d5658c
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d5678c
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d5679c
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d4679c
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d467bc
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d4e7bc
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d4e7b8
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d4e3b8
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d4c3b8
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d4c1b8
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d4c1b0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d4c130
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d6c130
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d6c170
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d68170
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d68150
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de8150
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de9150
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de1150
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de1950
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de1954
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08da1954
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08da1b54
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d81b54
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d91b54
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d95b54
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d95b74
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d95374
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d95370
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d95770
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d97770
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d97570
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d97578
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d97538
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d87538
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d87518
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d86518
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d8e518
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d8ed18
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d8ed1c
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d8cd1c
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08d8cf1c
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dacf1c
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dacf0c
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08da8f0c
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08da0f0c
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08da0f08
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08da0b08
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de0b08
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de2b08
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de2908
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08de2900
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dc2900
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dd2900
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dd2920
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dda920
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dda120
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dda020
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dda024
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dd8024
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dd8224
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dd82a4
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dd82e4
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dc82e4
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dcc2e4
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dcc2c4
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dcd2c4
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dcdac4
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dcdac0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dcdec0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dcdcc0
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dcdcc8
+ModelSim-Altera Info: # Instr = 12345678 Jump = 0 Bzero = 1 imm = 00005678 PC = 08dedcc8
+ModelSim-Altera Info: # ** Note: $finish    : C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1)/imm_PC_test.v(29)
+ModelSim-Altera Info: #    Time: 400 ns  Iteration: 0  Instance: /imm_PC_test
+ModelSim-Altera Info: # 1
+ModelSim-Altera Info: # Break in Module imm_PC_test at C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1)/imm_PC_test.v line 29
+ModelSim-Altera Info: # Simulation Breakpoint: 1
+ModelSim-Altera Info: # Break in Module imm_PC_test at C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1)/imm_PC_test.v line 29
+ModelSim-Altera Info: # MACRO ./imm_PC_run_msim_gate_verilog.do PAUSED at line 17
+Info: NativeLink simulation flow was successful

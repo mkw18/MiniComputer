@@ -1,0 +1,8 @@
+module mux_data(ALUSrc, RtData, Imm32, DataB);
+	input ALUSrc;
+	input [31:0] RtData, Imm32;
+	output reg [31:0] DataB;
+	
+	always if (ALUSrc == 0) DataB = RtData;
+		else DataB = Imm32;
+endmodule

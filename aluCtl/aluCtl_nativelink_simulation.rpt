@@ -1,0 +1,122 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneii
+Quartus root          :  c:/altera/13.0sp1/quartus/bin64/
+Quartus sim root      :  c:/altera/13.0sp1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  aluCtl.vo
+Sim SDF file          :  aluCtl__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File aluCtl_run_msim_gate_verilog.do already exists - backing up current file as aluCtl_run_msim_gate_verilog.do.bak3
+Probing transcript
+ModelSim-Altera Info: # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+ModelSim-Altera Info: # do aluCtl_run_msim_gate_verilog.do 
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Warning: # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Info: #          Updated modelsim.ini.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {aluCtl.vo}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module aluCtl
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	aluCtl
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl {C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl/aluCtl_test.v}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module aluCtl_test
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	aluCtl_test
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  aluCtl_test
+ModelSim-Altera Info: # vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps aluCtl_test 
+ModelSim-Altera Info: # Loading work.aluCtl_test
+ModelSim-Altera Info: # Loading work.aluCtl
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_io
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_mux21
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_dffe
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_asynch_io
+ModelSim-Altera Info: # Loading cycloneii_ver.cycloneii_lcell_comb
+ModelSim-Altera Info: # SDF 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Loading instances from aluCtl_v.sdo
+ModelSim-Altera Info: # Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+ModelSim-Altera Info: # Loading timing data from aluCtl_v.sdo
+ModelSim-Altera Info: # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+ModelSim-Altera Info: #    Time: 0 ps  Iteration: 0  Instance: /aluCtl_test File: C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl/aluCtl_test.v
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # add wave *
+ModelSim-Altera Info: # view structure
+ModelSim-Altera Info: # .main_pane.structure.interior.cs.body.struct
+ModelSim-Altera Info: # view signals
+ModelSim-Altera Info: # .main_pane.objects.interior.cs.body.tree
+ModelSim-Altera Info: # run -all
+ModelSim-Altera Info: # ALUop = 00 func = 32 ALUCtl =  x
+ModelSim-Altera Info: # ALUop = 00 func = 32 ALUCtl =  X
+ModelSim-Altera Info: # ALUop = 00 func = 32 ALUCtl =  X
+ModelSim-Altera Info: # ALUop = 00 func = 32 ALUCtl =  X
+ModelSim-Altera Info: # ALUop = 00 func = 32 ALUCtl =  2
+ModelSim-Altera Info: # ALUop = 01 func = 32 ALUCtl =  2
+ModelSim-Altera Info: # ALUop = 01 func = 32 ALUCtl =  6
+ModelSim-Altera Info: # ALUop = 10 func = 32 ALUCtl =  6
+ModelSim-Altera Info: # ALUop = 10 func = 32 ALUCtl =  7
+ModelSim-Altera Info: # ALUop = 10 func = 32 ALUCtl = 15
+ModelSim-Altera Info: # ALUop = 10 func = 32 ALUCtl = 11
+ModelSim-Altera Info: # ALUop = 10 func = 32 ALUCtl = 10
+ModelSim-Altera Info: # ALUop = 10 func = 32 ALUCtl =  2
+ModelSim-Altera Info: # ALUop = 10 func = 34 ALUCtl =  2
+ModelSim-Altera Info: # ALUop = 10 func = 34 ALUCtl =  6
+ModelSim-Altera Info: # ALUop = 10 func = 36 ALUCtl =  6
+ModelSim-Altera Info: # ALUop = 10 func = 36 ALUCtl =  7
+ModelSim-Altera Info: # ALUop = 10 func = 36 ALUCtl =  6
+ModelSim-Altera Info: # ALUop = 10 func = 36 ALUCtl =  2
+ModelSim-Altera Info: # ALUop = 10 func = 36 ALUCtl = 10
+ModelSim-Altera Info: # ALUop = 10 func = 36 ALUCtl =  8
+ModelSim-Altera Info: # ALUop = 10 func = 36 ALUCtl =  0
+ModelSim-Altera Info: # ALUop = 10 func = 37 ALUCtl =  0
+ModelSim-Altera Info: # ALUop = 10 func = 37 ALUCtl =  1
+ModelSim-Altera Info: # ALUop = 10 func = 39 ALUCtl =  1
+ModelSim-Altera Info: # ALUop = 10 func = 39 ALUCtl =  0
+ModelSim-Altera Info: # ALUop = 10 func = 39 ALUCtl =  4
+ModelSim-Altera Info: # ALUop = 10 func = 39 ALUCtl = 12
+ModelSim-Altera Info: # ALUop = 10 func = 42 ALUCtl = 12
+ModelSim-Altera Info: # ALUop = 10 func = 42 ALUCtl = 13
+ModelSim-Altera Info: # ALUop = 10 func = 42 ALUCtl = 12
+ModelSim-Altera Info: # ALUop = 10 func = 42 ALUCtl = 14
+ModelSim-Altera Info: # ALUop = 10 func = 42 ALUCtl =  6
+ModelSim-Altera Info: # ALUop = 10 func = 42 ALUCtl =  7
+ModelSim-Altera Info: # ALUop = 10 func = 10 ALUCtl =  7
+ModelSim-Altera Info: # ALUop = 10 func = 10 ALUCtl = 15
+ModelSim-Altera Info: # ALUop = 10 func = 32 ALUCtl = 15
+ModelSim-Altera Info: # ALUop = 10 func = 32 ALUCtl = 14
+ModelSim-Altera Info: # ALUop = 10 func = 32 ALUCtl = 10
+ModelSim-Altera Info: # ALUop = 10 func = 32 ALUCtl =  2
+ModelSim-Altera Info: # ALUop = 11 func = 32 ALUCtl =  2
+ModelSim-Altera Info: # ALUop = 11 func = 32 ALUCtl =  6
+ModelSim-Altera Info: # ALUop = 11 func = 32 ALUCtl =  7
+ModelSim-Altera Info: # ALUop = 11 func = 32 ALUCtl = 15
+ModelSim-Altera Info: # ** Note: $finish    : C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl/aluCtl_test.v(32)
+ModelSim-Altera Info: #    Time: 2 us  Iteration: 0  Instance: /aluCtl_test
+ModelSim-Altera Info: # 1
+ModelSim-Altera Info: # Break in Module aluCtl_test at C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl/aluCtl_test.v line 32
+ModelSim-Altera Info: # Simulation Breakpoint: 1
+ModelSim-Altera Info: # Break in Module aluCtl_test at C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl/aluCtl_test.v line 32
+ModelSim-Altera Info: # MACRO ./aluCtl_run_msim_gate_verilog.do PAUSED at line 17
+Info: NativeLink simulation flow was successful

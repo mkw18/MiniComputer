@@ -1,0 +1,70 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  cycloneii
+Quartus root          :  c:/altera/13.0sp1/quartus/bin64/
+Quartus sim root      :  c:/altera/13.0sp1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  mainCtl.vo
+Sim SDF file          :  mainCtl__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File mainCtl_run_msim_gate_verilog.do already exists - backing up current file as mainCtl_run_msim_gate_verilog.do.bak4
+Probing transcript
+ModelSim-Altera Info: # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+ModelSim-Altera Info: # do mainCtl_run_msim_gate_verilog.do 
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Warning: # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Info: #          Updated modelsim.ini.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {mainCtl.vo}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module mainCtl
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	mainCtl
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/mainCtl {C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/mainCtl/mainCtl_test.v}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module mainCtl_test
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	mainCtl_test
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  mainCtl_test
+ModelSim-Altera Info: # vsim -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps mainCtl_test 
+ModelSim-Altera Info: # Loading work.mainCtl_test
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # add wave *
+ModelSim-Altera Info: # view structure
+ModelSim-Altera Info: # .main_pane.structure.interior.cs.body.struct
+ModelSim-Altera Info: # view signals
+ModelSim-Altera Info: # .main_pane.objects.interior.cs.body.tree
+ModelSim-Altera Info: # run -all
+ModelSim-Altera Info: # opcode =  0 RegDst = z Branch = z jump = z MemRead = z M2R = z MemWrite = z ALUSrc = z RegWrite = z
+ModelSim-Altera Info: # opcode =  2 RegDst = z Branch = z jump = z MemRead = z M2R = z MemWrite = z ALUSrc = z RegWrite = z
+ModelSim-Altera Info: # opcode =  4 RegDst = z Branch = z jump = z MemRead = z M2R = z MemWrite = z ALUSrc = z RegWrite = z
+ModelSim-Altera Info: # opcode = 35 RegDst = z Branch = z jump = z MemRead = z M2R = z MemWrite = z ALUSrc = z RegWrite = z
+ModelSim-Altera Info: # opcode = 43 RegDst = z Branch = z jump = z MemRead = z M2R = z MemWrite = z ALUSrc = z RegWrite = z
+ModelSim-Altera Info: # ** Note: $finish    : C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/mainCtl/mainCtl_test.v(22)
+ModelSim-Altera Info: #    Time: 600 ns  Iteration: 0  Instance: /mainCtl_test
+ModelSim-Altera Info: # 1
+ModelSim-Altera Info: # Break in Module mainCtl_test at C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/mainCtl/mainCtl_test.v line 22
+ModelSim-Altera Info: # Simulation Breakpoint: 1
+ModelSim-Altera Info: # Break in Module mainCtl_test at C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/mainCtl/mainCtl_test.v line 22
+ModelSim-Altera Info: # MACRO ./mainCtl_run_msim_gate_verilog.do PAUSED at line 17
+Info: NativeLink simulation flow was successful

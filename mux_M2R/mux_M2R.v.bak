@@ -1,0 +1,9 @@
+module mux_M2R(M2R, data1, data2, WriteData);
+	input M2R;
+	input [31:0] data1, data2;
+	output reg [31:0] WriteData;
+	
+	always if (M2R == 0) WriteData = data1;
+		else WriteData = data2;
+		
+endmodule

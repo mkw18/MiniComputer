@@ -1,0 +1,37 @@
+|aluCtl
+ALUop[0] => Mux0.IN5
+ALUop[0] => Mux1.IN5
+ALUop[0] => Decoder1.IN1
+ALUop[0] => Mux2.IN5
+ALUop[0] => Equal0.IN31
+ALUop[1] => Mux0.IN4
+ALUop[1] => Mux1.IN4
+ALUop[1] => Decoder1.IN0
+ALUop[1] => Mux2.IN4
+ALUop[1] => Equal0.IN0
+func[0] => Decoder0.IN5
+func[0] => Equal1.IN31
+func[0] => Equal2.IN31
+func[1] => Decoder0.IN4
+func[1] => Equal1.IN30
+func[1] => Equal2.IN1
+func[2] => Decoder0.IN3
+func[2] => Equal1.IN29
+func[2] => Equal2.IN30
+func[3] => Decoder0.IN2
+func[3] => Equal1.IN28
+func[3] => Equal2.IN29
+func[4] => Decoder0.IN1
+func[4] => Equal1.IN27
+func[4] => Equal2.IN28
+func[5] => Decoder0.IN0
+func[5] => Equal1.IN0
+func[5] => Equal2.IN0
+ALUCtl[0] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+ALUCtl[1] <= ALUCtl.DB_MAX_OUTPUT_PORT_TYPE
+ALUCtl[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+ALUCtl[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+add <= add.DB_MAX_OUTPUT_PORT_TYPE
+sub <= sub.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,284 @@
+$comment
+	File created using the following command:
+		vcd file signExt.msim.vcd -direction
+$end
+$date
+	Sat May 02 16:47:59 2020
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module signExt_vlg_vec_tst $end
+$var reg 16 ! Imm16 [15:0] $end
+$var wire 1 " Imm32 [31] $end
+$var wire 1 # Imm32 [30] $end
+$var wire 1 $ Imm32 [29] $end
+$var wire 1 % Imm32 [28] $end
+$var wire 1 & Imm32 [27] $end
+$var wire 1 ' Imm32 [26] $end
+$var wire 1 ( Imm32 [25] $end
+$var wire 1 ) Imm32 [24] $end
+$var wire 1 * Imm32 [23] $end
+$var wire 1 + Imm32 [22] $end
+$var wire 1 , Imm32 [21] $end
+$var wire 1 - Imm32 [20] $end
+$var wire 1 . Imm32 [19] $end
+$var wire 1 / Imm32 [18] $end
+$var wire 1 0 Imm32 [17] $end
+$var wire 1 1 Imm32 [16] $end
+$var wire 1 2 Imm32 [15] $end
+$var wire 1 3 Imm32 [14] $end
+$var wire 1 4 Imm32 [13] $end
+$var wire 1 5 Imm32 [12] $end
+$var wire 1 6 Imm32 [11] $end
+$var wire 1 7 Imm32 [10] $end
+$var wire 1 8 Imm32 [9] $end
+$var wire 1 9 Imm32 [8] $end
+$var wire 1 : Imm32 [7] $end
+$var wire 1 ; Imm32 [6] $end
+$var wire 1 < Imm32 [5] $end
+$var wire 1 = Imm32 [4] $end
+$var wire 1 > Imm32 [3] $end
+$var wire 1 ? Imm32 [2] $end
+$var wire 1 @ Imm32 [1] $end
+$var wire 1 A Imm32 [0] $end
+$var wire 1 B sampler $end
+$scope module i1 $end
+$var wire 1 C gnd $end
+$var wire 1 D vcc $end
+$var wire 1 E unknown $end
+$var tri1 1 F devclrn $end
+$var tri1 1 G devpor $end
+$var tri1 1 H devoe $end
+$var wire 1 I Imm16~combout [15] $end
+$var wire 1 J Imm16~combout [14] $end
+$var wire 1 K Imm16~combout [13] $end
+$var wire 1 L Imm16~combout [12] $end
+$var wire 1 M Imm16~combout [11] $end
+$var wire 1 N Imm16~combout [10] $end
+$var wire 1 O Imm16~combout [9] $end
+$var wire 1 P Imm16~combout [8] $end
+$var wire 1 Q Imm16~combout [7] $end
+$var wire 1 R Imm16~combout [6] $end
+$var wire 1 S Imm16~combout [5] $end
+$var wire 1 T Imm16~combout [4] $end
+$var wire 1 U Imm16~combout [3] $end
+$var wire 1 V Imm16~combout [2] $end
+$var wire 1 W Imm16~combout [1] $end
+$var wire 1 X Imm16~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b1110001101 !
+1A
+0@
+1?
+1>
+0=
+0<
+0;
+1:
+19
+18
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+xB
+0C
+1D
+xE
+1F
+1G
+1H
+1X
+0W
+1V
+1U
+0T
+0S
+0R
+1Q
+1P
+1O
+0N
+0M
+0L
+0K
+0J
+0I
+$end
+#100000
+b1000001110001101 !
+b1100001110001101 !
+b1100000110001101 !
+b1100000010001101 !
+b1100000000001101 !
+b1100000000000101 !
+b1100000000000001 !
+b1100000000000000 !
+0X
+0V
+0U
+0Q
+0P
+0O
+1J
+1I
+0B
+0A
+0?
+0>
+0:
+09
+08
+13
+1"
+1#
+1$
+1%
+1&
+1'
+1(
+1)
+1*
+1+
+1,
+1-
+1.
+1/
+10
+11
+12
+#240000
+b1110000000000000 !
+b1111000000000000 !
+b1111100000000000 !
+b111100000000000 !
+1M
+1L
+1K
+0I
+1B
+16
+15
+14
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+02
+#430000
+b111100000000010 !
+b11100000000010 !
+b11100000001010 !
+b11100000001110 !
+b11100000001111 !
+b1100000001111 !
+b100000001111 !
+b1111 !
+b1000000000001111 !
+1X
+1W
+1V
+1U
+0M
+0L
+0K
+0J
+1I
+0B
+1A
+1@
+1?
+1>
+06
+05
+04
+03
+1"
+1#
+1$
+1%
+1&
+1'
+1(
+1)
+1*
+1+
+1,
+1-
+1.
+1/
+10
+11
+12
+#590000
+b1000000000001101 !
+b1000000000000101 !
+b1000000000000001 !
+b1000000000000000 !
+b0 !
+0X
+0W
+0V
+0U
+0I
+1B
+0A
+0@
+0?
+0>
+0"
+0#
+0$
+0%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+0.
+0/
+00
+01
+02
+#1000000

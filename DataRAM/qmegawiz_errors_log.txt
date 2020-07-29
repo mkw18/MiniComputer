@@ -1,0 +1,13 @@
+
+
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/DataRAM/DataRAM.v
+
+May 04 10PM:12:04>: The following design file, which has identical name but a different extension 
+from the specified variation file, already exists in the working directory:
+
+DataRAM.bdf
+
+This may create a conflict of design files and/or lead to undesirable side
+effects.
+
+Is it OK to continue file generation?

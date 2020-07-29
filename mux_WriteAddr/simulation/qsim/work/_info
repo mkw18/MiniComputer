@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\projects\SingleCPU\mux_WriteAddr\simulation\qsim
+vmux_WriteAddr
+Z1 IcoN[hUf_lL=KIc2_0zMX40
+Z2 Vh9BFMoo88eehGi`WhYOmc0
+Z3 dC:\altera\13.0sp1\projects\SingleCPU\mux_WriteAddr\simulation\qsim
+Z4 w1588411152
+Z5 8mux_WriteAddr.vo
+Z6 Fmux_WriteAddr.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+Z9 nmux_@write@addr
+!i10b 1
+Z10 !s100 S9FXjcZf?ezKiX]H2NQVB3
+!s85 0
+Z11 !s108 1588411154.198000
+Z12 !s107 mux_WriteAddr.vo|
+Z13 !s90 -work|work|mux_WriteAddr.vo|
+!s101 -O0
+vmux_WriteAddr_vlg_check_tst
+!i10b 1
+!s100 aDS`do@z@XFzcN:T42o?<3
+I`3=b>;KboSHlbcG[AD?L53
+VY^;7BQLF[6HFeR[h]K9Qa1
+R3
+Z14 w1588411150
+Z15 8mux_WriteAddr.vt
+Z16 Fmux_WriteAddr.vt
+L0 61
+R7
+r1
+!s85 0
+31
+Z17 !s108 1588411154.471000
+Z18 !s107 mux_WriteAddr.vt|
+Z19 !s90 -work|work|mux_WriteAddr.vt|
+!s101 -O0
+R8
+nmux_@write@addr_vlg_check_tst
+vmux_WriteAddr_vlg_sample_tst
+!i10b 1
+!s100 QH^9=no3D3j2[`BGE1:JE3
+I5?m_C_=zWW5`eiVW=4og=2
+VYVnDS6OOOcMM`<loc9bXX2
+R3
+R14
+R15
+R16
+L0 29
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+nmux_@write@addr_vlg_sample_tst
+vmux_WriteAddr_vlg_vec_tst
+!i10b 1
+!s100 PLUS`A5b@1?O;4B3PU=:Z0
+I;hl7F<GdO1THh0<N9`V=O1
+VK>1KbeRC0:E9]EZ@=hOz:3
+R3
+R14
+R15
+R16
+L0 227
+R7
+r1
+!s85 0
+31
+R17
+R18
+R19
+!s101 -O0
+R8
+nmux_@write@addr_vlg_vec_tst

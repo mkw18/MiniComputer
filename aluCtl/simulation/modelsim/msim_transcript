@@ -1,0 +1,100 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do aluCtl_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {aluCtl.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module aluCtl
+# 
+# Top level modules:
+# 	aluCtl
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl {C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl/aluCtl_test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module aluCtl_test
+# 
+# Top level modules:
+# 	aluCtl_test
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  aluCtl_test
+# vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps aluCtl_test 
+# Loading work.aluCtl_test
+# Loading work.aluCtl
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from aluCtl_v.sdo
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# Loading timing data from aluCtl_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /aluCtl_test File: C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl/aluCtl_test.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ALUop = 00 func = 32 ALUCtl =  x
+# ALUop = 00 func = 32 ALUCtl =  X
+# ALUop = 00 func = 32 ALUCtl =  X
+# ALUop = 00 func = 32 ALUCtl =  X
+# ALUop = 00 func = 32 ALUCtl =  2
+# ALUop = 01 func = 32 ALUCtl =  2
+# ALUop = 01 func = 32 ALUCtl =  6
+# ALUop = 10 func = 32 ALUCtl =  6
+# ALUop = 10 func = 32 ALUCtl =  7
+# ALUop = 10 func = 32 ALUCtl = 15
+# ALUop = 10 func = 32 ALUCtl = 11
+# ALUop = 10 func = 32 ALUCtl = 10
+# ALUop = 10 func = 32 ALUCtl =  2
+# ALUop = 10 func = 34 ALUCtl =  2
+# ALUop = 10 func = 34 ALUCtl =  6
+# ALUop = 10 func = 36 ALUCtl =  6
+# ALUop = 10 func = 36 ALUCtl =  7
+# ALUop = 10 func = 36 ALUCtl =  6
+# ALUop = 10 func = 36 ALUCtl =  2
+# ALUop = 10 func = 36 ALUCtl = 10
+# ALUop = 10 func = 36 ALUCtl =  8
+# ALUop = 10 func = 36 ALUCtl =  0
+# ALUop = 10 func = 37 ALUCtl =  0
+# ALUop = 10 func = 37 ALUCtl =  1
+# ALUop = 10 func = 39 ALUCtl =  1
+# ALUop = 10 func = 39 ALUCtl =  0
+# ALUop = 10 func = 39 ALUCtl =  4
+# ALUop = 10 func = 39 ALUCtl = 12
+# ALUop = 10 func = 42 ALUCtl = 12
+# ALUop = 10 func = 42 ALUCtl = 13
+# ALUop = 10 func = 42 ALUCtl = 12
+# ALUop = 10 func = 42 ALUCtl = 14
+# ALUop = 10 func = 42 ALUCtl =  6
+# ALUop = 10 func = 42 ALUCtl =  7
+# ALUop = 10 func = 10 ALUCtl =  7
+# ALUop = 10 func = 10 ALUCtl = 15
+# ALUop = 10 func = 32 ALUCtl = 15
+# ALUop = 10 func = 32 ALUCtl = 14
+# ALUop = 10 func = 32 ALUCtl = 10
+# ALUop = 10 func = 32 ALUCtl =  2
+# ALUop = 11 func = 32 ALUCtl =  2
+# ALUop = 11 func = 32 ALUCtl =  6
+# ALUop = 11 func = 32 ALUCtl =  7
+# ALUop = 11 func = 32 ALUCtl = 15
+# ** Note: $finish    : C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl/aluCtl_test.v(32)
+#    Time: 2 us  Iteration: 0  Instance: /aluCtl_test
+# 1
+# Break in Module aluCtl_test at C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl/aluCtl_test.v line 32
+# Simulation Breakpoint: 1
+# Break in Module aluCtl_test at C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/aluCtl/aluCtl_test.v line 32
+# MACRO ./aluCtl_run_msim_gate_verilog.do PAUSED at line 17

@@ -1,0 +1,369 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do showall_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {showall.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module showall
+# 
+# Top level modules:
+# 	showall
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall {C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall/showall_test.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module showall_test
+# 
+# Top level modules:
+# 	showall_test
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs="+acc"  showall_test
+# vsim +transport_int_delays +transport_path_delays -L cycloneii_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps showall_test 
+# Loading work.showall_test
+# Loading work.showall
+# Loading cycloneii_ver.cycloneii_io
+# Loading cycloneii_ver.cycloneii_mux21
+# Loading cycloneii_ver.cycloneii_dffe
+# Loading cycloneii_ver.cycloneii_asynch_io
+# Loading cycloneii_ver.cycloneii_clkctrl
+# Loading cycloneii_ver.cycloneii_mux41
+# Loading cycloneii_ver.cycloneii_ena_reg
+# Loading cycloneii_ver.cycloneii_lcell_comb
+# Loading cycloneii_ver.cycloneii_lcell_ff
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from showall_v.sdo
+# Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
+# Loading timing data from showall_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /showall_test File: C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall/showall_test.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# add = 1 sub = 0 ALUOut = 00 dig = xxxx seg = xxxxxxx led = xx
+# add = 1 sub = 0 ALUOut = 00 dig = xxxx seg = x0xxxxx led = xx
+# add = 1 sub = 0 ALUOut = 00 dig = xxxx seg = x0xx0xx led = xx
+# add = 1 sub = 0 ALUOut = 00 dig = xxxx seg = x00x0xx led = xx
+# add = 1 sub = 0 ALUOut = 00 dig = xxx1 seg = x00x0xx led = xx
+# add = 1 sub = 0 ALUOut = 00 dig = 0xx1 seg = x00x0xx led = xx
+# add = 1 sub = 0 ALUOut = 00 dig = 0xx1 seg = x0000xx led = xx
+# add = 1 sub = 0 ALUOut = 00 dig = 0xx1 seg = x0000x0 led = xx
+# add = 1 sub = 0 ALUOut = 00 dig = 0xx1 seg = x000000 led = xx
+# add = 1 sub = 0 ALUOut = 00 dig = 00x1 seg = x000000 led = xx
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = x000000 led = xx
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = xx
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = xX
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = xX
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = XX
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = XX
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = XX
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = 0X
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = 0X
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = 00
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0100000 led = 00
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0100100 led = 00
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0110100 led = 00
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0111100 led = 00
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0111101 led = 00
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0111111 led = 00
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0011111 led = 00
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0011011 led = 00
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0001011 led = 00
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000011 led = 00
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000010 led = 00
+# add = 1 sub = 0 ALUOut = 00 dig = 0001 seg = 0000000 led = 00
+# add = 1 sub = 0 ALUOut = 14 dig = 0001 seg = 0000000 led = 00
+# add = 1 sub = 0 ALUOut = 14 dig = 0001 seg = 0000000 led = 10
+# add = 1 sub = 0 ALUOut = 14 dig = 0001 seg = 0000000 led = 14
+# add = 1 sub = 0 ALUOut = 15 dig = 0001 seg = 0000000 led = 14
+# add = 1 sub = 0 ALUOut = 15 dig = 0001 seg = 0000000 led = 15
+# add = 1 sub = 0 ALUOut = 16 dig = 0001 seg = 0000000 led = 15
+# add = 1 sub = 0 ALUOut = 16 dig = 0001 seg = 0000000 led = 14
+# add = 1 sub = 0 ALUOut = 16 dig = 0001 seg = 0000000 led = 16
+# add = 1 sub = 0 ALUOut = 17 dig = 0001 seg = 0000000 led = 16
+# add = 1 sub = 0 ALUOut = 17 dig = 0001 seg = 0000000 led = 17
+# add = 1 sub = 0 ALUOut = 18 dig = 0001 seg = 0000000 led = 17
+# add = 1 sub = 0 ALUOut = 18 dig = 0001 seg = 0000000 led = 16
+# add = 1 sub = 0 ALUOut = 18 dig = 0001 seg = 0000000 led = 14
+# add = 1 sub = 0 ALUOut = 18 dig = 0001 seg = 0000000 led = 1c
+# add = 1 sub = 0 ALUOut = 18 dig = 0001 seg = 0000000 led = 18
+# add = 1 sub = 0 ALUOut = 19 dig = 0001 seg = 0000000 led = 18
+# add = 1 sub = 0 ALUOut = 19 dig = 0001 seg = 0000000 led = 19
+# add = 1 sub = 0 ALUOut = 1a dig = 0001 seg = 0000000 led = 19
+# add = 1 sub = 0 ALUOut = 1a dig = 0001 seg = 0000000 led = 18
+# add = 1 sub = 0 ALUOut = 1a dig = 0001 seg = 0000000 led = 1a
+# add = 1 sub = 0 ALUOut = 1b dig = 0001 seg = 0000000 led = 1a
+# add = 1 sub = 0 ALUOut = 1b dig = 0001 seg = 0000000 led = 1b
+# add = 1 sub = 0 ALUOut = 1c dig = 0001 seg = 0000000 led = 1b
+# add = 1 sub = 0 ALUOut = 1c dig = 0001 seg = 0000000 led = 1a
+# add = 1 sub = 0 ALUOut = 1c dig = 0001 seg = 0000000 led = 18
+# add = 1 sub = 0 ALUOut = 1c dig = 0001 seg = 0000000 led = 1c
+# add = 1 sub = 0 ALUOut = 1d dig = 0001 seg = 0000000 led = 1c
+# add = 1 sub = 0 ALUOut = 1d dig = 0001 seg = 0000000 led = 1d
+# add = 1 sub = 0 ALUOut = 1e dig = 0001 seg = 0000000 led = 1d
+# add = 1 sub = 0 ALUOut = 1e dig = 0001 seg = 0000000 led = 1c
+# add = 1 sub = 0 ALUOut = 1e dig = 0001 seg = 0000000 led = 1e
+# add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0000000 led = 1e
+# add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0000000 led = 0e
+# add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0000000 led = 0a
+# add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0000000 led = 08
+# add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0000 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0010 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0110 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 1100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 1000 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 1000 seg = 0100000 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 1000 seg = 0110000 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 1001 seg = 0110000 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0110000 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0111000 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0111001 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 0111011 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 1111011 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 1011011 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 1011111 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0001 seg = 1001111 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0000 seg = 1001111 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0000 seg = 1000111 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0000 seg = 1000110 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0010 seg = 1000110 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0010 seg = 0000110 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0010 seg = 0000010 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0010 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0110 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 1e dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 1100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 1000 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 1000 seg = 0100000 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 1000 seg = 0110000 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 1001 seg = 0110000 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 0001 seg = 0110000 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 0001 seg = 0110001 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 0001 seg = 1110001 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 0001 seg = 1010001 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 0001 seg = 1010101 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 0001 seg = 1000101 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 0000 seg = 1000101 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 0000 seg = 1000100 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 0000 seg = 1000110 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 0010 seg = 1000110 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 0010 seg = 0000110 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 0010 seg = 0000010 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 0010 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 0110 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 1f dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 1100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 1000 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 1000 seg = 0100000 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 1000 seg = 0100100 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 1000 seg = 0110100 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 1001 seg = 0110100 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 0001 seg = 0110100 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 0001 seg = 0111100 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 0001 seg = 0111101 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 0001 seg = 0111111 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 0001 seg = 0011111 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 0001 seg = 0011011 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 0000 seg = 0011011 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 0010 seg = 0011011 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 0010 seg = 1011011 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 0010 seg = 1001011 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 0010 seg = 1000011 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 0010 seg = 1000010 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 0010 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 0110 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 0100 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 20 dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 1100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 1000 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 1000 seg = 0000100 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 1001 seg = 0000100 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 0001 seg = 0000100 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 0001 seg = 0000110 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 0001 seg = 0000010 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 0001 seg = 0010010 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 0000 seg = 0010010 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 0000 seg = 0011010 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 0000 seg = 0011011 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 0010 seg = 0011011 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 0010 seg = 1011011 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 0010 seg = 1001011 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 0010 seg = 1000011 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 0010 seg = 1000010 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 0010 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 0110 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 0100 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 21 dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 1100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 1000 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 1000 seg = 0010000 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 1001 seg = 0010000 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 0001 seg = 0010000 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 0001 seg = 0011000 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 0001 seg = 0011001 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 0001 seg = 0011011 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 0001 seg = 1011011 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 0000 seg = 1011011 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 0010 seg = 1011011 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 0010 seg = 1001011 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 0010 seg = 1000011 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 0010 seg = 1000010 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 0010 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 0110 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 0100 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 22 dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 1100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 1000 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 1000 seg = 0000100 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 1001 seg = 0000100 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 0001 seg = 0000100 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 0001 seg = 0001100 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 0001 seg = 0001101 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 0001 seg = 0001111 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 0001 seg = 1001111 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 0001 seg = 1001011 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 0001 seg = 1011011 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 0000 seg = 1011011 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 0010 seg = 1011011 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 0010 seg = 1001011 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 0010 seg = 1000011 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 0010 seg = 1000010 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 0010 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 0110 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 0100 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 23 dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 1100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 1000 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 1000 seg = 0100000 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 1000 seg = 0100100 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 1001 seg = 0100100 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0001 seg = 0100100 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0001 seg = 0100110 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0001 seg = 1100110 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0001 seg = 1000110 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0001 seg = 1000010 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0001 seg = 1010010 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0000 seg = 1010010 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0000 seg = 1011010 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0000 seg = 1011011 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0010 seg = 1011011 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0010 seg = 1001011 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0010 seg = 1000011 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0010 seg = 1000010 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0010 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0110 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0100 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 24 dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 1100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 1000 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 1000 seg = 0100000 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 1000 seg = 0100100 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 1001 seg = 0100100 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0001 seg = 0100100 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0001 seg = 0101100 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0001 seg = 0101101 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0001 seg = 1101101 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0001 seg = 1001101 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0001 seg = 1001001 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0001 seg = 1011001 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0000 seg = 1011001 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0000 seg = 1011011 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0010 seg = 1011011 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0010 seg = 1001011 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0010 seg = 1000011 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0010 seg = 1000010 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0010 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0110 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0100 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 25 dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 1100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 1000 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 1000 seg = 0100000 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 1000 seg = 0100100 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 1000 seg = 0110100 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 1001 seg = 0110100 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 0001 seg = 0110100 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 0001 seg = 0111100 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 0001 seg = 0111101 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 0001 seg = 1111101 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 0001 seg = 1011101 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 0001 seg = 1011001 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 0000 seg = 1011001 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 0000 seg = 1011011 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 0010 seg = 1011011 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 0010 seg = 1001011 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 0010 seg = 1000011 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 0010 seg = 1000010 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 0010 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 0110 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 0100 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 26 dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 1100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 1000 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 1000 seg = 0000100 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 1001 seg = 0000100 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 0001 seg = 0000100 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 0001 seg = 0000101 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 0001 seg = 0000111 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 0001 seg = 0000011 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 0001 seg = 0010011 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 0000 seg = 0010011 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 0000 seg = 0011011 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 0010 seg = 0011011 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 0010 seg = 1011011 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 0010 seg = 1001011 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 0010 seg = 1000011 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 0010 seg = 1000010 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 0010 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 0110 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 0100 seg = 1000000 led = 00
+# add = 0 sub = 1 ALUOut = 27 dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 28 dig = 0100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 28 dig = 1100 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 28 dig = 1000 seg = 0000000 led = 00
+# add = 0 sub = 1 ALUOut = 28 dig = 1000 seg = 0100000 led = 00
+# add = 0 sub = 1 ALUOut = 28 dig = 1000 seg = 0100100 led = 00
+# add = 0 sub = 1 ALUOut = 28 dig = 1000 seg = 0110100 led = 00
+# add = 0 sub = 1 ALUOut = 28 dig = 1001 seg = 0110100 led = 00
+# add = 0 sub = 1 ALUOut = 28 dig = 0001 seg = 0110100 led = 00
+# add = 0 sub = 1 ALUOut = 28 dig = 0001 seg = 0111100 led = 00
+# add = 0 sub = 1 ALUOut = 28 dig = 0001 seg = 0111101 led = 00
+# add = 0 sub = 1 ALUOut = 28 dig = 0001 seg = 0111111 led = 00
+# add = 0 sub = 1 ALUOut = 28 dig = 0001 seg = 1111111 led = 00
+# add = 0 sub = 0 ALUOut = 28 dig = 0001 seg = 1111111 led = 00
+# add = 0 sub = 0 ALUOut = 28 dig = 0001 seg = 1011111 led = 00
+# add = 0 sub = 0 ALUOut = 28 dig = 0001 seg = 1011011 led = 00
+# add = 0 sub = 0 ALUOut = 28 dig = 0001 seg = 1001011 led = 00
+# add = 0 sub = 0 ALUOut = 28 dig = 0001 seg = 1000011 led = 00
+# add = 0 sub = 0 ALUOut = 28 dig = 0001 seg = 1000010 led = 00
+# add = 0 sub = 0 ALUOut = 28 dig = 0001 seg = 1000000 led = 00
+# add = 0 sub = 0 ALUOut = 28 dig = 0001 seg = 0000000 led = 00
+# ** Note: $finish    : C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall/showall_test.v(42)
+#    Time: 3 us  Iteration: 0  Instance: /showall_test
+# 1
+# Break in Module showall_test at C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall/showall_test.v line 42
+# Simulation Breakpoint: 1
+# Break in Module showall_test at C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp4/MiniComputer/showall/showall_test.v line 42
+# MACRO ./showall_run_msim_gate_verilog.do PAUSED at line 17

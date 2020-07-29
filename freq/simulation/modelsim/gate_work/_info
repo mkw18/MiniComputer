@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\projects\ALU\freq\simulation\modelsim
+vfreq
+IP4c`T=o4=TmzTNfWoXQk[0
+Vhh>DiJZY]<`djIPJReP;23
+Z1 dC:\altera\13.0sp1\projects\ALU\freq\simulation\modelsim
+w1587863335
+8freq.vo
+Ffreq.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 EB0@oBUTHDDBz_VDjTUb>2
+!s85 0
+!s108 1587863349.918000
+!s107 freq.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|freq.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vfreq_test
+!i10b 1
+!s100 V90z0=2PJHUY8f>FEPQJS1
+I:[T1QOmK<ZTAo6o82>D]G1
+VO`RgWO3Ol1Po2C;ch1D=31
+R1
+w1575873716
+8C:/altera/13.0sp1/projects/ALU/freq/freq_test.v
+FC:/altera/13.0sp1/projects/ALU/freq/freq_test.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1587863350.174000
+!s107 C:/altera/13.0sp1/projects/ALU/freq/freq_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/altera/13.0sp1/projects/ALU/freq|C:/altera/13.0sp1/projects/ALU/freq/freq_test.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/altera/13.0sp1/projects/ALU/freq -O0

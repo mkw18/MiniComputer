@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp3\SingleCPU(1)\regFile\simulation\modelsim
+vregFile
+I59eZe=PHizRWOIml7h;4A0
+VU`]SFlPKfznG[5K1h>LXN1
+Z1 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp3\SingleCPU(1)\regFile\simulation\modelsim
+w1589531264
+8regFile.vo
+FregFile.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+nreg@file
+!i10b 1
+!s100 X?_2lgo@^bB_W8hhI6VKR1
+!s85 0
+!s108 1589531279.741000
+!s107 regFile.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|regFile.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vregFile_test
+!i10b 1
+!s100 YRWC4<@588e<P]L^4Z^=81
+I<U49LUbTG@FJB5_DSaNb12
+VGP:`2CXGf@9V=nBH718^n2
+R1
+w1588747995
+8C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/regFile/regFile_test.v
+FC:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/regFile/regFile_test.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1589531280.310000
+!s107 C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/regFile/regFile_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/regFile|C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/regFile/regFile_test.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/regFile -O0
+nreg@file_test

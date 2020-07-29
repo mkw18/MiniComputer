@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp3\SingleCPU\imm_PC(1)\simulation\modelsim
+vimm_PC
+I0e5UlZ:fPD4_<c4l8?nfA2
+V[a5icV8Va?he[9F<P^QC_2
+Z1 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp3\SingleCPU\imm_PC(1)\simulation\modelsim
+w1589245128
+8imm_PC.vo
+Fimm_PC.vo
+L0 31
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+nimm_@p@c
+!i10b 1
+!s100 ;gSV@PUfG[JJ@PJgiKKIn2
+!s85 0
+!s108 1589245141.717000
+!s107 imm_PC.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|imm_PC.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0
+vimm_PC_test
+!i10b 1
+!s100 d_L<02hY^5nHFKAY<^fd83
+IkYlU;lMfmAYRJZ0aAlk<<3
+VN9ZhI^j?YdaYTl<2UCJ3=1
+R1
+w1589244678
+8C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1)/imm_PC_test.v
+FC:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1)/imm_PC_test.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1589245142.115000
+!s107 C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1)/imm_PC_test.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1)|C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1)/imm_PC_test.v|
+!s101 -O0
+R3
+!s92 -vlog01compat -work work +incdir+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/imm_PC(1) -O0
+nimm_@p@c_test

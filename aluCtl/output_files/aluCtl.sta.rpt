@@ -1,0 +1,580 @@
+TimeQuest Timing Analyzer report for aluCtl
+Fri May 29 14:28:35 2020
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                                       ;
++--------------------+--------------------------------------------------------------------+
+; Quartus II Version ; Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version ;
+; Revision Name      ; aluCtl                                                             ;
+; Device Family      ; Cyclone II                                                         ;
+; Device Name        ; EP2C5T144C6                                                        ;
+; Timing Models      ; Final                                                              ;
+; Delay Model        ; Combined                                                           ;
+; Rise/Fall Delays   ; Unavailable                                                        ;
++--------------------+--------------------------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++--------------------------------------------------------------+
+; Propagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; ALUop[0]   ; ALUCtl[0]   ; 11.031 ;        ;        ; 11.031 ;
+; ALUop[0]   ; ALUCtl[1]   ; 11.737 ;        ;        ; 11.737 ;
+; ALUop[0]   ; ALUCtl[2]   ; 10.582 ;        ;        ; 10.582 ;
+; ALUop[0]   ; ALUCtl[3]   ; 12.213 ;        ;        ; 12.213 ;
+; ALUop[0]   ; add         ;        ; 11.725 ; 11.725 ;        ;
+; ALUop[0]   ; sub         ;        ; 11.194 ; 11.194 ;        ;
+; ALUop[1]   ; ALUCtl[0]   ; 6.078  ;        ;        ; 6.078  ;
+; ALUop[1]   ; ALUCtl[1]   ;        ; 6.773  ; 6.773  ;        ;
+; ALUop[1]   ; ALUCtl[2]   ; 5.772  ;        ;        ; 5.772  ;
+; ALUop[1]   ; ALUCtl[3]   ; 6.984  ;        ;        ; 6.984  ;
+; ALUop[1]   ; add         ; 6.496  ;        ;        ; 6.496  ;
+; ALUop[1]   ; sub         ; 5.956  ;        ;        ; 5.956  ;
+; func[0]    ; ALUCtl[0]   ; 6.414  ; 6.414  ; 6.414  ; 6.414  ;
+; func[0]    ; ALUCtl[1]   ;        ; 7.271  ; 7.271  ;        ;
+; func[0]    ; ALUCtl[2]   ; 6.545  ;        ;        ; 6.545  ;
+; func[0]    ; ALUCtl[3]   ; 7.320  ;        ;        ; 7.320  ;
+; func[0]    ; add         ;        ; 6.727  ; 6.727  ;        ;
+; func[0]    ; sub         ;        ; 6.186  ; 6.186  ;        ;
+; func[1]    ; ALUCtl[0]   ; 6.592  ; 6.592  ; 6.592  ; 6.592  ;
+; func[1]    ; ALUCtl[1]   ; 7.426  ;        ;        ; 7.426  ;
+; func[1]    ; ALUCtl[2]   ; 6.734  ;        ;        ; 6.734  ;
+; func[1]    ; ALUCtl[3]   ; 7.497  ; 7.497  ; 7.497  ; 7.497  ;
+; func[1]    ; add         ;        ; 6.337  ; 6.337  ;        ;
+; func[1]    ; sub         ; 5.803  ;        ;        ; 5.803  ;
+; func[2]    ; ALUCtl[0]   ; 6.287  ; 6.287  ; 6.287  ; 6.287  ;
+; func[2]    ; ALUCtl[1]   ;        ; 7.146  ; 7.146  ;        ;
+; func[2]    ; ALUCtl[2]   ;        ; 6.429  ; 6.429  ;        ;
+; func[2]    ; ALUCtl[3]   ; 7.191  ; 7.191  ; 7.191  ; 7.191  ;
+; func[2]    ; add         ;        ; 6.608  ; 6.608  ;        ;
+; func[2]    ; sub         ;        ; 6.067  ; 6.067  ;        ;
+; func[3]    ; ALUCtl[0]   ; 10.782 ;        ;        ; 10.782 ;
+; func[3]    ; ALUCtl[1]   ; 11.588 ;        ;        ; 11.588 ;
+; func[3]    ; ALUCtl[2]   ; 10.919 ;        ;        ; 10.919 ;
+; func[3]    ; ALUCtl[3]   ; 11.687 ;        ;        ; 11.687 ;
+; func[3]    ; add         ;        ; 11.054 ; 11.054 ;        ;
+; func[3]    ; sub         ;        ; 10.513 ; 10.513 ;        ;
+; func[4]    ; ALUCtl[0]   ; 10.823 ;        ;        ; 10.823 ;
+; func[4]    ; ALUCtl[1]   ; 11.529 ;        ;        ; 11.529 ;
+; func[4]    ; ALUCtl[2]   ; 11.115 ;        ;        ; 11.115 ;
+; func[4]    ; ALUCtl[3]   ; 12.005 ;        ;        ; 12.005 ;
+; func[4]    ; add         ;        ; 11.517 ; 11.517 ;        ;
+; func[4]    ; sub         ;        ; 10.986 ; 10.986 ;        ;
+; func[5]    ; ALUCtl[0]   ;        ; 10.615 ; 10.615 ;        ;
+; func[5]    ; ALUCtl[1]   ;        ; 11.321 ; 11.321 ;        ;
+; func[5]    ; ALUCtl[2]   ;        ; 10.881 ; 10.881 ;        ;
+; func[5]    ; ALUCtl[3]   ;        ; 11.797 ; 11.797 ;        ;
+; func[5]    ; add         ; 11.309 ;        ;        ; 11.309 ;
+; func[5]    ; sub         ; 10.778 ;        ;        ; 10.778 ;
++------------+-------------+--------+--------+--------+--------+
+
+
++--------------------------------------------------------------+
+; Minimum Propagation Delay                                    ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; ALUop[0]   ; ALUCtl[0]   ; 11.031 ;        ;        ; 11.031 ;
+; ALUop[0]   ; ALUCtl[1]   ; 11.737 ;        ;        ; 11.737 ;
+; ALUop[0]   ; ALUCtl[2]   ; 10.582 ;        ;        ; 10.582 ;
+; ALUop[0]   ; ALUCtl[3]   ; 12.213 ;        ;        ; 12.213 ;
+; ALUop[0]   ; add         ;        ; 11.725 ; 11.725 ;        ;
+; ALUop[0]   ; sub         ;        ; 11.194 ; 11.194 ;        ;
+; ALUop[1]   ; ALUCtl[0]   ; 6.078  ;        ;        ; 6.078  ;
+; ALUop[1]   ; ALUCtl[1]   ;        ; 6.773  ; 6.773  ;        ;
+; ALUop[1]   ; ALUCtl[2]   ; 5.772  ;        ;        ; 5.772  ;
+; ALUop[1]   ; ALUCtl[3]   ; 6.984  ;        ;        ; 6.984  ;
+; ALUop[1]   ; add         ; 6.496  ;        ;        ; 6.496  ;
+; ALUop[1]   ; sub         ; 5.956  ;        ;        ; 5.956  ;
+; func[0]    ; ALUCtl[0]   ; 6.414  ; 6.414  ; 6.414  ; 6.414  ;
+; func[0]    ; ALUCtl[1]   ;        ; 7.271  ; 7.271  ;        ;
+; func[0]    ; ALUCtl[2]   ; 6.545  ;        ;        ; 6.545  ;
+; func[0]    ; ALUCtl[3]   ; 7.320  ;        ;        ; 7.320  ;
+; func[0]    ; add         ;        ; 6.727  ; 6.727  ;        ;
+; func[0]    ; sub         ;        ; 6.186  ; 6.186  ;        ;
+; func[1]    ; ALUCtl[0]   ; 6.592  ; 6.592  ; 6.592  ; 6.592  ;
+; func[1]    ; ALUCtl[1]   ; 7.426  ;        ;        ; 7.426  ;
+; func[1]    ; ALUCtl[2]   ; 6.734  ;        ;        ; 6.734  ;
+; func[1]    ; ALUCtl[3]   ; 7.497  ; 7.497  ; 7.497  ; 7.497  ;
+; func[1]    ; add         ;        ; 6.337  ; 6.337  ;        ;
+; func[1]    ; sub         ; 5.803  ;        ;        ; 5.803  ;
+; func[2]    ; ALUCtl[0]   ; 6.287  ; 6.287  ; 6.287  ; 6.287  ;
+; func[2]    ; ALUCtl[1]   ;        ; 7.146  ; 7.146  ;        ;
+; func[2]    ; ALUCtl[2]   ;        ; 6.429  ; 6.429  ;        ;
+; func[2]    ; ALUCtl[3]   ; 7.191  ; 7.191  ; 7.191  ; 7.191  ;
+; func[2]    ; add         ;        ; 6.608  ; 6.608  ;        ;
+; func[2]    ; sub         ;        ; 6.067  ; 6.067  ;        ;
+; func[3]    ; ALUCtl[0]   ; 10.782 ;        ;        ; 10.782 ;
+; func[3]    ; ALUCtl[1]   ; 11.588 ;        ;        ; 11.588 ;
+; func[3]    ; ALUCtl[2]   ; 10.919 ;        ;        ; 10.919 ;
+; func[3]    ; ALUCtl[3]   ; 11.687 ;        ;        ; 11.687 ;
+; func[3]    ; add         ;        ; 11.054 ; 11.054 ;        ;
+; func[3]    ; sub         ;        ; 10.513 ; 10.513 ;        ;
+; func[4]    ; ALUCtl[0]   ; 10.823 ;        ;        ; 10.823 ;
+; func[4]    ; ALUCtl[1]   ; 11.529 ;        ;        ; 11.529 ;
+; func[4]    ; ALUCtl[2]   ; 11.115 ;        ;        ; 11.115 ;
+; func[4]    ; ALUCtl[3]   ; 12.005 ;        ;        ; 12.005 ;
+; func[4]    ; add         ;        ; 11.517 ; 11.517 ;        ;
+; func[4]    ; sub         ;        ; 10.986 ; 10.986 ;        ;
+; func[5]    ; ALUCtl[0]   ;        ; 10.615 ; 10.615 ;        ;
+; func[5]    ; ALUCtl[1]   ;        ; 11.321 ; 11.321 ;        ;
+; func[5]    ; ALUCtl[2]   ;        ; 10.881 ; 10.881 ;        ;
+; func[5]    ; ALUCtl[3]   ;        ; 11.797 ; 11.797 ;        ;
+; func[5]    ; add         ; 11.309 ;        ;        ; 11.309 ;
+; func[5]    ; sub         ; 10.778 ;        ;        ; 10.778 ;
++------------+-------------+--------+--------+--------+--------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++----------------------------------------------------------+
+; Propagation Delay                                        ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; ALUop[0]   ; ALUCtl[0]   ; 6.015 ;       ;       ; 6.015 ;
+; ALUop[0]   ; ALUCtl[1]   ; 6.373 ;       ;       ; 6.373 ;
+; ALUop[0]   ; ALUCtl[2]   ; 5.836 ;       ;       ; 5.836 ;
+; ALUop[0]   ; ALUCtl[3]   ; 6.622 ;       ;       ; 6.622 ;
+; ALUop[0]   ; add         ;       ; 6.416 ; 6.416 ;       ;
+; ALUop[0]   ; sub         ;       ; 6.161 ; 6.161 ;       ;
+; ALUop[1]   ; ALUCtl[0]   ; 3.082 ;       ;       ; 3.082 ;
+; ALUop[1]   ; ALUCtl[1]   ;       ; 3.402 ; 3.402 ;       ;
+; ALUop[1]   ; ALUCtl[2]   ; 2.948 ;       ;       ; 2.948 ;
+; ALUop[1]   ; ALUCtl[3]   ; 3.568 ;       ;       ; 3.568 ;
+; ALUop[1]   ; add         ; 3.361 ;       ;       ; 3.361 ;
+; ALUop[1]   ; sub         ; 3.098 ;       ;       ; 3.098 ;
+; func[0]    ; ALUCtl[0]   ; 3.205 ; 3.205 ; 3.205 ; 3.205 ;
+; func[0]    ; ALUCtl[1]   ;       ; 3.610 ; 3.610 ;       ;
+; func[0]    ; ALUCtl[2]   ; 3.262 ;       ;       ; 3.262 ;
+; func[0]    ; ALUCtl[3]   ; 3.687 ;       ;       ; 3.687 ;
+; func[0]    ; add         ;       ; 3.430 ; 3.430 ;       ;
+; func[0]    ; sub         ;       ; 3.171 ; 3.171 ;       ;
+; func[1]    ; ALUCtl[0]   ; 3.287 ; 3.287 ; 3.287 ; 3.287 ;
+; func[1]    ; ALUCtl[1]   ; 3.695 ;       ;       ; 3.695 ;
+; func[1]    ; ALUCtl[2]   ; 3.357 ;       ;       ; 3.357 ;
+; func[1]    ; ALUCtl[3]   ; 3.768 ; 3.768 ; 3.768 ; 3.768 ;
+; func[1]    ; add         ;       ; 3.267 ; 3.267 ;       ;
+; func[1]    ; sub         ; 3.039 ;       ;       ; 3.039 ;
+; func[2]    ; ALUCtl[0]   ; 3.158 ; 3.158 ; 3.158 ; 3.158 ;
+; func[2]    ; ALUCtl[1]   ;       ; 3.566 ; 3.566 ;       ;
+; func[2]    ; ALUCtl[2]   ;       ; 3.229 ; 3.229 ;       ;
+; func[2]    ; ALUCtl[3]   ; 3.636 ; 3.636 ; 3.636 ; 3.636 ;
+; func[2]    ; add         ;       ; 3.388 ; 3.388 ;       ;
+; func[2]    ; sub         ;       ; 3.129 ; 3.129 ;       ;
+; func[3]    ; ALUCtl[0]   ; 5.889 ;       ;       ; 5.889 ;
+; func[3]    ; ALUCtl[1]   ; 6.294 ;       ;       ; 6.294 ;
+; func[3]    ; ALUCtl[2]   ; 5.958 ;       ;       ; 5.958 ;
+; func[3]    ; ALUCtl[3]   ; 6.375 ;       ;       ; 6.375 ;
+; func[3]    ; add         ;       ; 6.119 ; 6.119 ;       ;
+; func[3]    ; sub         ;       ; 5.860 ; 5.860 ;       ;
+; func[4]    ; ALUCtl[0]   ; 5.912 ;       ;       ; 5.912 ;
+; func[4]    ; ALUCtl[1]   ; 6.270 ;       ;       ; 6.270 ;
+; func[4]    ; ALUCtl[2]   ; 6.037 ;       ;       ; 6.037 ;
+; func[4]    ; ALUCtl[3]   ; 6.519 ;       ;       ; 6.519 ;
+; func[4]    ; add         ;       ; 6.313 ; 6.313 ;       ;
+; func[4]    ; sub         ;       ; 6.058 ; 6.058 ;       ;
+; func[5]    ; ALUCtl[0]   ;       ; 5.783 ; 5.783 ;       ;
+; func[5]    ; ALUCtl[1]   ;       ; 6.141 ; 6.141 ;       ;
+; func[5]    ; ALUCtl[2]   ;       ; 5.900 ; 5.900 ;       ;
+; func[5]    ; ALUCtl[3]   ;       ; 6.390 ; 6.390 ;       ;
+; func[5]    ; add         ; 6.184 ;       ;       ; 6.184 ;
+; func[5]    ; sub         ; 5.929 ;       ;       ; 5.929 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------+
+; Minimum Propagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; ALUop[0]   ; ALUCtl[0]   ; 6.015 ;       ;       ; 6.015 ;
+; ALUop[0]   ; ALUCtl[1]   ; 6.373 ;       ;       ; 6.373 ;
+; ALUop[0]   ; ALUCtl[2]   ; 5.836 ;       ;       ; 5.836 ;
+; ALUop[0]   ; ALUCtl[3]   ; 6.622 ;       ;       ; 6.622 ;
+; ALUop[0]   ; add         ;       ; 6.416 ; 6.416 ;       ;
+; ALUop[0]   ; sub         ;       ; 6.161 ; 6.161 ;       ;
+; ALUop[1]   ; ALUCtl[0]   ; 3.082 ;       ;       ; 3.082 ;
+; ALUop[1]   ; ALUCtl[1]   ;       ; 3.402 ; 3.402 ;       ;
+; ALUop[1]   ; ALUCtl[2]   ; 2.948 ;       ;       ; 2.948 ;
+; ALUop[1]   ; ALUCtl[3]   ; 3.568 ;       ;       ; 3.568 ;
+; ALUop[1]   ; add         ; 3.361 ;       ;       ; 3.361 ;
+; ALUop[1]   ; sub         ; 3.098 ;       ;       ; 3.098 ;
+; func[0]    ; ALUCtl[0]   ; 3.205 ; 3.205 ; 3.205 ; 3.205 ;
+; func[0]    ; ALUCtl[1]   ;       ; 3.610 ; 3.610 ;       ;
+; func[0]    ; ALUCtl[2]   ; 3.262 ;       ;       ; 3.262 ;
+; func[0]    ; ALUCtl[3]   ; 3.687 ;       ;       ; 3.687 ;
+; func[0]    ; add         ;       ; 3.430 ; 3.430 ;       ;
+; func[0]    ; sub         ;       ; 3.171 ; 3.171 ;       ;
+; func[1]    ; ALUCtl[0]   ; 3.287 ; 3.287 ; 3.287 ; 3.287 ;
+; func[1]    ; ALUCtl[1]   ; 3.695 ;       ;       ; 3.695 ;
+; func[1]    ; ALUCtl[2]   ; 3.357 ;       ;       ; 3.357 ;
+; func[1]    ; ALUCtl[3]   ; 3.768 ; 3.768 ; 3.768 ; 3.768 ;
+; func[1]    ; add         ;       ; 3.267 ; 3.267 ;       ;
+; func[1]    ; sub         ; 3.039 ;       ;       ; 3.039 ;
+; func[2]    ; ALUCtl[0]   ; 3.158 ; 3.158 ; 3.158 ; 3.158 ;
+; func[2]    ; ALUCtl[1]   ;       ; 3.566 ; 3.566 ;       ;
+; func[2]    ; ALUCtl[2]   ;       ; 3.229 ; 3.229 ;       ;
+; func[2]    ; ALUCtl[3]   ; 3.636 ; 3.636 ; 3.636 ; 3.636 ;
+; func[2]    ; add         ;       ; 3.388 ; 3.388 ;       ;
+; func[2]    ; sub         ;       ; 3.129 ; 3.129 ;       ;
+; func[3]    ; ALUCtl[0]   ; 5.889 ;       ;       ; 5.889 ;
+; func[3]    ; ALUCtl[1]   ; 6.294 ;       ;       ; 6.294 ;
+; func[3]    ; ALUCtl[2]   ; 5.958 ;       ;       ; 5.958 ;
+; func[3]    ; ALUCtl[3]   ; 6.375 ;       ;       ; 6.375 ;
+; func[3]    ; add         ;       ; 6.119 ; 6.119 ;       ;
+; func[3]    ; sub         ;       ; 5.860 ; 5.860 ;       ;
+; func[4]    ; ALUCtl[0]   ; 5.912 ;       ;       ; 5.912 ;
+; func[4]    ; ALUCtl[1]   ; 6.270 ;       ;       ; 6.270 ;
+; func[4]    ; ALUCtl[2]   ; 6.037 ;       ;       ; 6.037 ;
+; func[4]    ; ALUCtl[3]   ; 6.519 ;       ;       ; 6.519 ;
+; func[4]    ; add         ;       ; 6.313 ; 6.313 ;       ;
+; func[4]    ; sub         ;       ; 6.058 ; 6.058 ;       ;
+; func[5]    ; ALUCtl[0]   ;       ; 5.783 ; 5.783 ;       ;
+; func[5]    ; ALUCtl[1]   ;       ; 6.141 ; 6.141 ;       ;
+; func[5]    ; ALUCtl[2]   ;       ; 5.900 ; 5.900 ;       ;
+; func[5]    ; ALUCtl[3]   ;       ; 6.390 ; 6.390 ;       ;
+; func[5]    ; add         ; 6.184 ;       ;       ; 6.184 ;
+; func[5]    ; sub         ; 5.929 ;       ;       ; 5.929 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++--------------------------------------------------------------+
+; Progagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; ALUop[0]   ; ALUCtl[0]   ; 11.031 ;        ;        ; 11.031 ;
+; ALUop[0]   ; ALUCtl[1]   ; 11.737 ;        ;        ; 11.737 ;
+; ALUop[0]   ; ALUCtl[2]   ; 10.582 ;        ;        ; 10.582 ;
+; ALUop[0]   ; ALUCtl[3]   ; 12.213 ;        ;        ; 12.213 ;
+; ALUop[0]   ; add         ;        ; 11.725 ; 11.725 ;        ;
+; ALUop[0]   ; sub         ;        ; 11.194 ; 11.194 ;        ;
+; ALUop[1]   ; ALUCtl[0]   ; 6.078  ;        ;        ; 6.078  ;
+; ALUop[1]   ; ALUCtl[1]   ;        ; 6.773  ; 6.773  ;        ;
+; ALUop[1]   ; ALUCtl[2]   ; 5.772  ;        ;        ; 5.772  ;
+; ALUop[1]   ; ALUCtl[3]   ; 6.984  ;        ;        ; 6.984  ;
+; ALUop[1]   ; add         ; 6.496  ;        ;        ; 6.496  ;
+; ALUop[1]   ; sub         ; 5.956  ;        ;        ; 5.956  ;
+; func[0]    ; ALUCtl[0]   ; 6.414  ; 6.414  ; 6.414  ; 6.414  ;
+; func[0]    ; ALUCtl[1]   ;        ; 7.271  ; 7.271  ;        ;
+; func[0]    ; ALUCtl[2]   ; 6.545  ;        ;        ; 6.545  ;
+; func[0]    ; ALUCtl[3]   ; 7.320  ;        ;        ; 7.320  ;
+; func[0]    ; add         ;        ; 6.727  ; 6.727  ;        ;
+; func[0]    ; sub         ;        ; 6.186  ; 6.186  ;        ;
+; func[1]    ; ALUCtl[0]   ; 6.592  ; 6.592  ; 6.592  ; 6.592  ;
+; func[1]    ; ALUCtl[1]   ; 7.426  ;        ;        ; 7.426  ;
+; func[1]    ; ALUCtl[2]   ; 6.734  ;        ;        ; 6.734  ;
+; func[1]    ; ALUCtl[3]   ; 7.497  ; 7.497  ; 7.497  ; 7.497  ;
+; func[1]    ; add         ;        ; 6.337  ; 6.337  ;        ;
+; func[1]    ; sub         ; 5.803  ;        ;        ; 5.803  ;
+; func[2]    ; ALUCtl[0]   ; 6.287  ; 6.287  ; 6.287  ; 6.287  ;
+; func[2]    ; ALUCtl[1]   ;        ; 7.146  ; 7.146  ;        ;
+; func[2]    ; ALUCtl[2]   ;        ; 6.429  ; 6.429  ;        ;
+; func[2]    ; ALUCtl[3]   ; 7.191  ; 7.191  ; 7.191  ; 7.191  ;
+; func[2]    ; add         ;        ; 6.608  ; 6.608  ;        ;
+; func[2]    ; sub         ;        ; 6.067  ; 6.067  ;        ;
+; func[3]    ; ALUCtl[0]   ; 10.782 ;        ;        ; 10.782 ;
+; func[3]    ; ALUCtl[1]   ; 11.588 ;        ;        ; 11.588 ;
+; func[3]    ; ALUCtl[2]   ; 10.919 ;        ;        ; 10.919 ;
+; func[3]    ; ALUCtl[3]   ; 11.687 ;        ;        ; 11.687 ;
+; func[3]    ; add         ;        ; 11.054 ; 11.054 ;        ;
+; func[3]    ; sub         ;        ; 10.513 ; 10.513 ;        ;
+; func[4]    ; ALUCtl[0]   ; 10.823 ;        ;        ; 10.823 ;
+; func[4]    ; ALUCtl[1]   ; 11.529 ;        ;        ; 11.529 ;
+; func[4]    ; ALUCtl[2]   ; 11.115 ;        ;        ; 11.115 ;
+; func[4]    ; ALUCtl[3]   ; 12.005 ;        ;        ; 12.005 ;
+; func[4]    ; add         ;        ; 11.517 ; 11.517 ;        ;
+; func[4]    ; sub         ;        ; 10.986 ; 10.986 ;        ;
+; func[5]    ; ALUCtl[0]   ;        ; 10.615 ; 10.615 ;        ;
+; func[5]    ; ALUCtl[1]   ;        ; 11.321 ; 11.321 ;        ;
+; func[5]    ; ALUCtl[2]   ;        ; 10.881 ; 10.881 ;        ;
+; func[5]    ; ALUCtl[3]   ;        ; 11.797 ; 11.797 ;        ;
+; func[5]    ; add         ; 11.309 ;        ;        ; 11.309 ;
+; func[5]    ; sub         ; 10.778 ;        ;        ; 10.778 ;
++------------+-------------+--------+--------+--------+--------+
+
+
++----------------------------------------------------------+
+; Minimum Progagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; ALUop[0]   ; ALUCtl[0]   ; 6.015 ;       ;       ; 6.015 ;
+; ALUop[0]   ; ALUCtl[1]   ; 6.373 ;       ;       ; 6.373 ;
+; ALUop[0]   ; ALUCtl[2]   ; 5.836 ;       ;       ; 5.836 ;
+; ALUop[0]   ; ALUCtl[3]   ; 6.622 ;       ;       ; 6.622 ;
+; ALUop[0]   ; add         ;       ; 6.416 ; 6.416 ;       ;
+; ALUop[0]   ; sub         ;       ; 6.161 ; 6.161 ;       ;
+; ALUop[1]   ; ALUCtl[0]   ; 3.082 ;       ;       ; 3.082 ;
+; ALUop[1]   ; ALUCtl[1]   ;       ; 3.402 ; 3.402 ;       ;
+; ALUop[1]   ; ALUCtl[2]   ; 2.948 ;       ;       ; 2.948 ;
+; ALUop[1]   ; ALUCtl[3]   ; 3.568 ;       ;       ; 3.568 ;
+; ALUop[1]   ; add         ; 3.361 ;       ;       ; 3.361 ;
+; ALUop[1]   ; sub         ; 3.098 ;       ;       ; 3.098 ;
+; func[0]    ; ALUCtl[0]   ; 3.205 ; 3.205 ; 3.205 ; 3.205 ;
+; func[0]    ; ALUCtl[1]   ;       ; 3.610 ; 3.610 ;       ;
+; func[0]    ; ALUCtl[2]   ; 3.262 ;       ;       ; 3.262 ;
+; func[0]    ; ALUCtl[3]   ; 3.687 ;       ;       ; 3.687 ;
+; func[0]    ; add         ;       ; 3.430 ; 3.430 ;       ;
+; func[0]    ; sub         ;       ; 3.171 ; 3.171 ;       ;
+; func[1]    ; ALUCtl[0]   ; 3.287 ; 3.287 ; 3.287 ; 3.287 ;
+; func[1]    ; ALUCtl[1]   ; 3.695 ;       ;       ; 3.695 ;
+; func[1]    ; ALUCtl[2]   ; 3.357 ;       ;       ; 3.357 ;
+; func[1]    ; ALUCtl[3]   ; 3.768 ; 3.768 ; 3.768 ; 3.768 ;
+; func[1]    ; add         ;       ; 3.267 ; 3.267 ;       ;
+; func[1]    ; sub         ; 3.039 ;       ;       ; 3.039 ;
+; func[2]    ; ALUCtl[0]   ; 3.158 ; 3.158 ; 3.158 ; 3.158 ;
+; func[2]    ; ALUCtl[1]   ;       ; 3.566 ; 3.566 ;       ;
+; func[2]    ; ALUCtl[2]   ;       ; 3.229 ; 3.229 ;       ;
+; func[2]    ; ALUCtl[3]   ; 3.636 ; 3.636 ; 3.636 ; 3.636 ;
+; func[2]    ; add         ;       ; 3.388 ; 3.388 ;       ;
+; func[2]    ; sub         ;       ; 3.129 ; 3.129 ;       ;
+; func[3]    ; ALUCtl[0]   ; 5.889 ;       ;       ; 5.889 ;
+; func[3]    ; ALUCtl[1]   ; 6.294 ;       ;       ; 6.294 ;
+; func[3]    ; ALUCtl[2]   ; 5.958 ;       ;       ; 5.958 ;
+; func[3]    ; ALUCtl[3]   ; 6.375 ;       ;       ; 6.375 ;
+; func[3]    ; add         ;       ; 6.119 ; 6.119 ;       ;
+; func[3]    ; sub         ;       ; 5.860 ; 5.860 ;       ;
+; func[4]    ; ALUCtl[0]   ; 5.912 ;       ;       ; 5.912 ;
+; func[4]    ; ALUCtl[1]   ; 6.270 ;       ;       ; 6.270 ;
+; func[4]    ; ALUCtl[2]   ; 6.037 ;       ;       ; 6.037 ;
+; func[4]    ; ALUCtl[3]   ; 6.519 ;       ;       ; 6.519 ;
+; func[4]    ; add         ;       ; 6.313 ; 6.313 ;       ;
+; func[4]    ; sub         ;       ; 6.058 ; 6.058 ;       ;
+; func[5]    ; ALUCtl[0]   ;       ; 5.783 ; 5.783 ;       ;
+; func[5]    ; ALUCtl[1]   ;       ; 6.141 ; 6.141 ;       ;
+; func[5]    ; ALUCtl[2]   ;       ; 5.900 ; 5.900 ;       ;
+; func[5]    ; ALUCtl[3]   ;       ; 6.390 ; 6.390 ;       ;
+; func[5]    ; add         ; 6.184 ;       ;       ; 6.184 ;
+; func[5]    ; sub         ; 5.929 ;       ;       ; 5.929 ;
++------------+-------------+-------+-------+-------+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 8     ; 8    ;
+; Unconstrained Input Port Paths  ; 48    ; 48   ;
+; Unconstrained Output Ports      ; 6     ; 6    ;
+; Unconstrained Output Port Paths ; 48    ; 48   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
+    Info: Processing started: Fri May 29 14:28:33 2020
+Info: Command: quartus_sta aluCtl -c aluCtl
+Info: qsta_default_script.tcl version: #1
+Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'aluCtl.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4586 megabytes
+    Info: Processing ended: Fri May 29 14:28:35 2020
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+

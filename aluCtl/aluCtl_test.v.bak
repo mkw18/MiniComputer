@@ -1,0 +1,33 @@
+`timescale 10 ns / 1 ns
+
+module aluCtl_test;
+   reg [1:0] ALUop;
+	reg [5:0] func;
+	wire [3:0] ALUCtl;
+	
+	aluCtl ctl(ALUop, func, ALUCtl);
+	
+	initial
+	begin
+	   ALUop = 0;
+		func = 32;
+		#1 ALUop = 1;
+		#1 ALUop = 2;
+		#1 func = 34;
+		#1 func = 36;
+		#1 func = 37;
+		#1 func = 39;
+		#1 func = 42;
+		#1 func = 10;
+		#1 func = 32;
+		#1 ALUop = 3;
+		#2;
+	end
+	
+	initial
+	begin
+	   $monitor("ALUop = %b func = %d ALUCtl = %d", ALUop, func, ALUCtl);
+		#20;
+		$finish;
+	end
+endmodule

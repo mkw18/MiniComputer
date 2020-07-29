@@ -1,0 +1,49 @@
+Quartus II Archive log --	C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/SCPU.qarlog
+
+Archive:	C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/SCPU.qar
+Date:		Sat May 16 23:13:27 2020
+Quartus II 64-Bit		13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+
+	=========== Files Selected: ===========
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/ALU/ALU.v
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/DataRAM/DataRAM.mif
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/DataRAM.bsf
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/DataRAM.qip
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/DataRAM.v
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/DataRAM_bb.v
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/InstrROM.bsf
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/InstrROM.qip
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/InstrROM.v
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/InstrROM_bb.v
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/Mux_M2R.bsf
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/Mux_M2R.qip
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/Mux_M2R.v
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/Mux_M2R_bb.v
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/Mux_data.bsf
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/Mux_data.qip
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/Mux_data.v
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/Mux_data_bb.v
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/Mux_writeaddr.bsf
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/Mux_writeaddr.qip
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/Mux_writeaddr.v
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/Mux_writeaddr_bb.v
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/SCPU.bdf
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/SCPU.qpf
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/SCPU.qsf
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/SCPU_test.v
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/incremental_db/compiled_partitions/SCPU.db_info
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/output_files/stp.stp
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/SCPU(1)/output_files/stp_auto_stripped.stp
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/aluCtl/aluCtl.v
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/commandROM/comROM.mif
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/imm_PC(1)/imm_PC.v
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/mainCtl/mainCtl.v
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU(1)/regFile/regFile.v
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/DataRAM/DataRAM.mif
+C:/Users/SC/Documents/Sophomoreii/COAD/experiment/exp3/SingleCPU/commandROM/comROM.mif
+C:/altera/13.0sp1/projects/ALU(1)/freq/freq.v
+c:/altera/13.0sp1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 38 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,35 @@
+`timescale 10 ns / 1 ns
+
+module regFile_test;
+   reg CLK, reset, regWr;
+	reg [5:0] RsAddr, RtAddr, WriteAddr;
+	reg [31:0] WriteData;
+	
+	wire [31:0] RsData, RtData;
+	
+	regFile rw(CLK, reset, regWr, RsAddr, RtAddr, WriteAddr, WriteData, RsData, RtData)
+	
+	always #1
+	CLK = ~CLK;
+	
+	initial
+	begin
+	   CLK = 0;
+		reset = 1;
+		regWr = 1;
+		WriteAddr = 5'b00000;
+		WriteData = 32'h1234fac9;
+		#10 WriteAddr = 5'b00001;
+		WriteData = 32'h00ab3591;
+		#10 WriteAddr = 5'b00100;
+		WriteData = 32'h98765432;
+		#10 WriteAddr = 5'b10000;
+		WriteData = 32'h7632abcf;
+		#10 regWr = 0;
+		RsAddr = 5'b00000;
+		RtAddr = 5'b00001;
+		#10 RsAddr = 5'b10000;
+		RtAddr = 5'b00100;
+		#10;
+	end
+endmodule

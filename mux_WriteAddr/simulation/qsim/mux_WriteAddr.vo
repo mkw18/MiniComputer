@@ -1,0 +1,702 @@
+// Copyright (C) 1991-2013 Altera Corporation
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, Altera MegaCore Function License 
+// Agreement, or other applicable license agreement, including, 
+// without limitation, that your use is for the sole purpose of 
+// programming logic devices manufactured by Altera and sold by 
+// Altera or its authorized distributors.  Please refer to the 
+// applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version"
+
+// DATE "05/02/2020 17:19:12"
+
+// 
+// Device: Altera EP2C5T144C6 Package TQFP144
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module mux_WriteAddr (
+	RegDst,
+	RtAddr,
+	RdAddr,
+	WriteAddr);
+input 	RegDst;
+input 	[4:0] RtAddr;
+input 	[4:0] RdAddr;
+output 	[4:0] WriteAddr;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \RegDst~combout ;
+wire \WriteAddr~0_combout ;
+wire \WriteAddr~1_combout ;
+wire \WriteAddr~2_combout ;
+wire \WriteAddr~3_combout ;
+wire \WriteAddr~4_combout ;
+wire [4:0] \RtAddr~combout ;
+wire [4:0] \RdAddr~combout ;
+
+
+cycloneii_io \RdAddr[0]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\RdAddr~combout [0]),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(RdAddr[0]));
+// synopsys translate_off
+defparam \RdAddr[0]~I .input_async_reset = "none";
+defparam \RdAddr[0]~I .input_power_up = "low";
+defparam \RdAddr[0]~I .input_register_mode = "none";
+defparam \RdAddr[0]~I .input_sync_reset = "none";
+defparam \RdAddr[0]~I .oe_async_reset = "none";
+defparam \RdAddr[0]~I .oe_power_up = "low";
+defparam \RdAddr[0]~I .oe_register_mode = "none";
+defparam \RdAddr[0]~I .oe_sync_reset = "none";
+defparam \RdAddr[0]~I .operation_mode = "input";
+defparam \RdAddr[0]~I .output_async_reset = "none";
+defparam \RdAddr[0]~I .output_power_up = "low";
+defparam \RdAddr[0]~I .output_register_mode = "none";
+defparam \RdAddr[0]~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cycloneii_io \RtAddr[0]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\RtAddr~combout [0]),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(RtAddr[0]));
+// synopsys translate_off
+defparam \RtAddr[0]~I .input_async_reset = "none";
+defparam \RtAddr[0]~I .input_power_up = "low";
+defparam \RtAddr[0]~I .input_register_mode = "none";
+defparam \RtAddr[0]~I .input_sync_reset = "none";
+defparam \RtAddr[0]~I .oe_async_reset = "none";
+defparam \RtAddr[0]~I .oe_power_up = "low";
+defparam \RtAddr[0]~I .oe_register_mode = "none";
+defparam \RtAddr[0]~I .oe_sync_reset = "none";
+defparam \RtAddr[0]~I .operation_mode = "input";
+defparam \RtAddr[0]~I .output_async_reset = "none";
+defparam \RtAddr[0]~I .output_power_up = "low";
+defparam \RtAddr[0]~I .output_register_mode = "none";
+defparam \RtAddr[0]~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cycloneii_io \RegDst~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\RegDst~combout ),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(RegDst));
+// synopsys translate_off
+defparam \RegDst~I .input_async_reset = "none";
+defparam \RegDst~I .input_power_up = "low";
+defparam \RegDst~I .input_register_mode = "none";
+defparam \RegDst~I .input_sync_reset = "none";
+defparam \RegDst~I .oe_async_reset = "none";
+defparam \RegDst~I .oe_power_up = "low";
+defparam \RegDst~I .oe_register_mode = "none";
+defparam \RegDst~I .oe_sync_reset = "none";
+defparam \RegDst~I .operation_mode = "input";
+defparam \RegDst~I .output_async_reset = "none";
+defparam \RegDst~I .output_power_up = "low";
+defparam \RegDst~I .output_register_mode = "none";
+defparam \RegDst~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cycloneii_lcell_comb \WriteAddr~0 (
+// Equation(s):
+// \WriteAddr~0_combout  = (\RegDst~combout  & (\RdAddr~combout [0])) # (!\RegDst~combout  & ((\RtAddr~combout [0])))
+
+	.dataa(\RdAddr~combout [0]),
+	.datab(\RtAddr~combout [0]),
+	.datac(vcc),
+	.datad(\RegDst~combout ),
+	.cin(gnd),
+	.combout(\WriteAddr~0_combout ),
+	.cout());
+// synopsys translate_off
+defparam \WriteAddr~0 .lut_mask = 16'hAACC;
+defparam \WriteAddr~0 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+cycloneii_io \RdAddr[1]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\RdAddr~combout [1]),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(RdAddr[1]));
+// synopsys translate_off
+defparam \RdAddr[1]~I .input_async_reset = "none";
+defparam \RdAddr[1]~I .input_power_up = "low";
+defparam \RdAddr[1]~I .input_register_mode = "none";
+defparam \RdAddr[1]~I .input_sync_reset = "none";
+defparam \RdAddr[1]~I .oe_async_reset = "none";
+defparam \RdAddr[1]~I .oe_power_up = "low";
+defparam \RdAddr[1]~I .oe_register_mode = "none";
+defparam \RdAddr[1]~I .oe_sync_reset = "none";
+defparam \RdAddr[1]~I .operation_mode = "input";
+defparam \RdAddr[1]~I .output_async_reset = "none";
+defparam \RdAddr[1]~I .output_power_up = "low";
+defparam \RdAddr[1]~I .output_register_mode = "none";
+defparam \RdAddr[1]~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cycloneii_io \RtAddr[1]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\RtAddr~combout [1]),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(RtAddr[1]));
+// synopsys translate_off
+defparam \RtAddr[1]~I .input_async_reset = "none";
+defparam \RtAddr[1]~I .input_power_up = "low";
+defparam \RtAddr[1]~I .input_register_mode = "none";
+defparam \RtAddr[1]~I .input_sync_reset = "none";
+defparam \RtAddr[1]~I .oe_async_reset = "none";
+defparam \RtAddr[1]~I .oe_power_up = "low";
+defparam \RtAddr[1]~I .oe_register_mode = "none";
+defparam \RtAddr[1]~I .oe_sync_reset = "none";
+defparam \RtAddr[1]~I .operation_mode = "input";
+defparam \RtAddr[1]~I .output_async_reset = "none";
+defparam \RtAddr[1]~I .output_power_up = "low";
+defparam \RtAddr[1]~I .output_register_mode = "none";
+defparam \RtAddr[1]~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cycloneii_lcell_comb \WriteAddr~1 (
+// Equation(s):
+// \WriteAddr~1_combout  = (\RegDst~combout  & (\RdAddr~combout [1])) # (!\RegDst~combout  & ((\RtAddr~combout [1])))
+
+	.dataa(\RdAddr~combout [1]),
+	.datab(\RtAddr~combout [1]),
+	.datac(vcc),
+	.datad(\RegDst~combout ),
+	.cin(gnd),
+	.combout(\WriteAddr~1_combout ),
+	.cout());
+// synopsys translate_off
+defparam \WriteAddr~1 .lut_mask = 16'hAACC;
+defparam \WriteAddr~1 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+cycloneii_io \RdAddr[2]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\RdAddr~combout [2]),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(RdAddr[2]));
+// synopsys translate_off
+defparam \RdAddr[2]~I .input_async_reset = "none";
+defparam \RdAddr[2]~I .input_power_up = "low";
+defparam \RdAddr[2]~I .input_register_mode = "none";
+defparam \RdAddr[2]~I .input_sync_reset = "none";
+defparam \RdAddr[2]~I .oe_async_reset = "none";
+defparam \RdAddr[2]~I .oe_power_up = "low";
+defparam \RdAddr[2]~I .oe_register_mode = "none";
+defparam \RdAddr[2]~I .oe_sync_reset = "none";
+defparam \RdAddr[2]~I .operation_mode = "input";
+defparam \RdAddr[2]~I .output_async_reset = "none";
+defparam \RdAddr[2]~I .output_power_up = "low";
+defparam \RdAddr[2]~I .output_register_mode = "none";
+defparam \RdAddr[2]~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cycloneii_io \RtAddr[2]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\RtAddr~combout [2]),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(RtAddr[2]));
+// synopsys translate_off
+defparam \RtAddr[2]~I .input_async_reset = "none";
+defparam \RtAddr[2]~I .input_power_up = "low";
+defparam \RtAddr[2]~I .input_register_mode = "none";
+defparam \RtAddr[2]~I .input_sync_reset = "none";
+defparam \RtAddr[2]~I .oe_async_reset = "none";
+defparam \RtAddr[2]~I .oe_power_up = "low";
+defparam \RtAddr[2]~I .oe_register_mode = "none";
+defparam \RtAddr[2]~I .oe_sync_reset = "none";
+defparam \RtAddr[2]~I .operation_mode = "input";
+defparam \RtAddr[2]~I .output_async_reset = "none";
+defparam \RtAddr[2]~I .output_power_up = "low";
+defparam \RtAddr[2]~I .output_register_mode = "none";
+defparam \RtAddr[2]~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cycloneii_lcell_comb \WriteAddr~2 (
+// Equation(s):
+// \WriteAddr~2_combout  = (\RegDst~combout  & (\RdAddr~combout [2])) # (!\RegDst~combout  & ((\RtAddr~combout [2])))
+
+	.dataa(\RdAddr~combout [2]),
+	.datab(\RtAddr~combout [2]),
+	.datac(vcc),
+	.datad(\RegDst~combout ),
+	.cin(gnd),
+	.combout(\WriteAddr~2_combout ),
+	.cout());
+// synopsys translate_off
+defparam \WriteAddr~2 .lut_mask = 16'hAACC;
+defparam \WriteAddr~2 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+cycloneii_io \RdAddr[3]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\RdAddr~combout [3]),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(RdAddr[3]));
+// synopsys translate_off
+defparam \RdAddr[3]~I .input_async_reset = "none";
+defparam \RdAddr[3]~I .input_power_up = "low";
+defparam \RdAddr[3]~I .input_register_mode = "none";
+defparam \RdAddr[3]~I .input_sync_reset = "none";
+defparam \RdAddr[3]~I .oe_async_reset = "none";
+defparam \RdAddr[3]~I .oe_power_up = "low";
+defparam \RdAddr[3]~I .oe_register_mode = "none";
+defparam \RdAddr[3]~I .oe_sync_reset = "none";
+defparam \RdAddr[3]~I .operation_mode = "input";
+defparam \RdAddr[3]~I .output_async_reset = "none";
+defparam \RdAddr[3]~I .output_power_up = "low";
+defparam \RdAddr[3]~I .output_register_mode = "none";
+defparam \RdAddr[3]~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cycloneii_io \RtAddr[3]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\RtAddr~combout [3]),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(RtAddr[3]));
+// synopsys translate_off
+defparam \RtAddr[3]~I .input_async_reset = "none";
+defparam \RtAddr[3]~I .input_power_up = "low";
+defparam \RtAddr[3]~I .input_register_mode = "none";
+defparam \RtAddr[3]~I .input_sync_reset = "none";
+defparam \RtAddr[3]~I .oe_async_reset = "none";
+defparam \RtAddr[3]~I .oe_power_up = "low";
+defparam \RtAddr[3]~I .oe_register_mode = "none";
+defparam \RtAddr[3]~I .oe_sync_reset = "none";
+defparam \RtAddr[3]~I .operation_mode = "input";
+defparam \RtAddr[3]~I .output_async_reset = "none";
+defparam \RtAddr[3]~I .output_power_up = "low";
+defparam \RtAddr[3]~I .output_register_mode = "none";
+defparam \RtAddr[3]~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cycloneii_lcell_comb \WriteAddr~3 (
+// Equation(s):
+// \WriteAddr~3_combout  = (\RegDst~combout  & (\RdAddr~combout [3])) # (!\RegDst~combout  & ((\RtAddr~combout [3])))
+
+	.dataa(\RdAddr~combout [3]),
+	.datab(\RtAddr~combout [3]),
+	.datac(vcc),
+	.datad(\RegDst~combout ),
+	.cin(gnd),
+	.combout(\WriteAddr~3_combout ),
+	.cout());
+// synopsys translate_off
+defparam \WriteAddr~3 .lut_mask = 16'hAACC;
+defparam \WriteAddr~3 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+cycloneii_io \RdAddr[4]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\RdAddr~combout [4]),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(RdAddr[4]));
+// synopsys translate_off
+defparam \RdAddr[4]~I .input_async_reset = "none";
+defparam \RdAddr[4]~I .input_power_up = "low";
+defparam \RdAddr[4]~I .input_register_mode = "none";
+defparam \RdAddr[4]~I .input_sync_reset = "none";
+defparam \RdAddr[4]~I .oe_async_reset = "none";
+defparam \RdAddr[4]~I .oe_power_up = "low";
+defparam \RdAddr[4]~I .oe_register_mode = "none";
+defparam \RdAddr[4]~I .oe_sync_reset = "none";
+defparam \RdAddr[4]~I .operation_mode = "input";
+defparam \RdAddr[4]~I .output_async_reset = "none";
+defparam \RdAddr[4]~I .output_power_up = "low";
+defparam \RdAddr[4]~I .output_register_mode = "none";
+defparam \RdAddr[4]~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cycloneii_io \RtAddr[4]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(\RtAddr~combout [4]),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(RtAddr[4]));
+// synopsys translate_off
+defparam \RtAddr[4]~I .input_async_reset = "none";
+defparam \RtAddr[4]~I .input_power_up = "low";
+defparam \RtAddr[4]~I .input_register_mode = "none";
+defparam \RtAddr[4]~I .input_sync_reset = "none";
+defparam \RtAddr[4]~I .oe_async_reset = "none";
+defparam \RtAddr[4]~I .oe_power_up = "low";
+defparam \RtAddr[4]~I .oe_register_mode = "none";
+defparam \RtAddr[4]~I .oe_sync_reset = "none";
+defparam \RtAddr[4]~I .operation_mode = "input";
+defparam \RtAddr[4]~I .output_async_reset = "none";
+defparam \RtAddr[4]~I .output_power_up = "low";
+defparam \RtAddr[4]~I .output_register_mode = "none";
+defparam \RtAddr[4]~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cycloneii_lcell_comb \WriteAddr~4 (
+// Equation(s):
+// \WriteAddr~4_combout  = (\RegDst~combout  & (\RdAddr~combout [4])) # (!\RegDst~combout  & ((\RtAddr~combout [4])))
+
+	.dataa(\RdAddr~combout [4]),
+	.datab(\RtAddr~combout [4]),
+	.datac(vcc),
+	.datad(\RegDst~combout ),
+	.cin(gnd),
+	.combout(\WriteAddr~4_combout ),
+	.cout());
+// synopsys translate_off
+defparam \WriteAddr~4 .lut_mask = 16'hAACC;
+defparam \WriteAddr~4 .sum_lutc_input = "datac";
+// synopsys translate_on
+
+cycloneii_io \WriteAddr[0]~I (
+	.datain(\WriteAddr~0_combout ),
+	.oe(vcc),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(WriteAddr[0]));
+// synopsys translate_off
+defparam \WriteAddr[0]~I .input_async_reset = "none";
+defparam \WriteAddr[0]~I .input_power_up = "low";
+defparam \WriteAddr[0]~I .input_register_mode = "none";
+defparam \WriteAddr[0]~I .input_sync_reset = "none";
+defparam \WriteAddr[0]~I .oe_async_reset = "none";
+defparam \WriteAddr[0]~I .oe_power_up = "low";
+defparam \WriteAddr[0]~I .oe_register_mode = "none";
+defparam \WriteAddr[0]~I .oe_sync_reset = "none";
+defparam \WriteAddr[0]~I .operation_mode = "output";
+defparam \WriteAddr[0]~I .output_async_reset = "none";
+defparam \WriteAddr[0]~I .output_power_up = "low";
+defparam \WriteAddr[0]~I .output_register_mode = "none";
+defparam \WriteAddr[0]~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cycloneii_io \WriteAddr[1]~I (
+	.datain(\WriteAddr~1_combout ),
+	.oe(vcc),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(WriteAddr[1]));
+// synopsys translate_off
+defparam \WriteAddr[1]~I .input_async_reset = "none";
+defparam \WriteAddr[1]~I .input_power_up = "low";
+defparam \WriteAddr[1]~I .input_register_mode = "none";
+defparam \WriteAddr[1]~I .input_sync_reset = "none";
+defparam \WriteAddr[1]~I .oe_async_reset = "none";
+defparam \WriteAddr[1]~I .oe_power_up = "low";
+defparam \WriteAddr[1]~I .oe_register_mode = "none";
+defparam \WriteAddr[1]~I .oe_sync_reset = "none";
+defparam \WriteAddr[1]~I .operation_mode = "output";
+defparam \WriteAddr[1]~I .output_async_reset = "none";
+defparam \WriteAddr[1]~I .output_power_up = "low";
+defparam \WriteAddr[1]~I .output_register_mode = "none";
+defparam \WriteAddr[1]~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cycloneii_io \WriteAddr[2]~I (
+	.datain(\WriteAddr~2_combout ),
+	.oe(vcc),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(WriteAddr[2]));
+// synopsys translate_off
+defparam \WriteAddr[2]~I .input_async_reset = "none";
+defparam \WriteAddr[2]~I .input_power_up = "low";
+defparam \WriteAddr[2]~I .input_register_mode = "none";
+defparam \WriteAddr[2]~I .input_sync_reset = "none";
+defparam \WriteAddr[2]~I .oe_async_reset = "none";
+defparam \WriteAddr[2]~I .oe_power_up = "low";
+defparam \WriteAddr[2]~I .oe_register_mode = "none";
+defparam \WriteAddr[2]~I .oe_sync_reset = "none";
+defparam \WriteAddr[2]~I .operation_mode = "output";
+defparam \WriteAddr[2]~I .output_async_reset = "none";
+defparam \WriteAddr[2]~I .output_power_up = "low";
+defparam \WriteAddr[2]~I .output_register_mode = "none";
+defparam \WriteAddr[2]~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cycloneii_io \WriteAddr[3]~I (
+	.datain(\WriteAddr~3_combout ),
+	.oe(vcc),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(WriteAddr[3]));
+// synopsys translate_off
+defparam \WriteAddr[3]~I .input_async_reset = "none";
+defparam \WriteAddr[3]~I .input_power_up = "low";
+defparam \WriteAddr[3]~I .input_register_mode = "none";
+defparam \WriteAddr[3]~I .input_sync_reset = "none";
+defparam \WriteAddr[3]~I .oe_async_reset = "none";
+defparam \WriteAddr[3]~I .oe_power_up = "low";
+defparam \WriteAddr[3]~I .oe_register_mode = "none";
+defparam \WriteAddr[3]~I .oe_sync_reset = "none";
+defparam \WriteAddr[3]~I .operation_mode = "output";
+defparam \WriteAddr[3]~I .output_async_reset = "none";
+defparam \WriteAddr[3]~I .output_power_up = "low";
+defparam \WriteAddr[3]~I .output_register_mode = "none";
+defparam \WriteAddr[3]~I .output_sync_reset = "none";
+// synopsys translate_on
+
+cycloneii_io \WriteAddr[4]~I (
+	.datain(\WriteAddr~4_combout ),
+	.oe(vcc),
+	.outclk(gnd),
+	.outclkena(vcc),
+	.inclk(gnd),
+	.inclkena(vcc),
+	.areset(gnd),
+	.sreset(gnd),
+	.differentialin(gnd),
+	.linkin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.devoe(devoe),
+	.combout(),
+	.regout(),
+	.differentialout(),
+	.linkout(),
+	.padio(WriteAddr[4]));
+// synopsys translate_off
+defparam \WriteAddr[4]~I .input_async_reset = "none";
+defparam \WriteAddr[4]~I .input_power_up = "low";
+defparam \WriteAddr[4]~I .input_register_mode = "none";
+defparam \WriteAddr[4]~I .input_sync_reset = "none";
+defparam \WriteAddr[4]~I .oe_async_reset = "none";
+defparam \WriteAddr[4]~I .oe_power_up = "low";
+defparam \WriteAddr[4]~I .oe_register_mode = "none";
+defparam \WriteAddr[4]~I .oe_sync_reset = "none";
+defparam \WriteAddr[4]~I .operation_mode = "output";
+defparam \WriteAddr[4]~I .output_async_reset = "none";
+defparam \WriteAddr[4]~I .output_power_up = "low";
+defparam \WriteAddr[4]~I .output_register_mode = "none";
+defparam \WriteAddr[4]~I .output_sync_reset = "none";
+// synopsys translate_on
+
+endmodule

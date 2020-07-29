@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.0sp1\projects\SingleCPU\mainCtl\simulation\qsim
+vmainCtl
+Z1 !s100 AdcZ_n[j[LXcd@RS8NHLY2
+Z2 IKnVWTXgS]UDah]ZIeg7X:2
+Z3 ViV4L[?j^WZVdnljPXY<L61
+Z4 dC:\Users\SC\Documents\Sophomoreii\COAD\experiment\exp3\SingleCPU\mainCtl\simulation\qsim
+Z5 w1588586122
+Z6 8mainCtl.vo
+Z7 FmainCtl.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|mainCtl.vo|
+Z10 o-work work -O0
+Z11 nmain@ctl
+!i10b 1
+!s85 0
+Z12 !s108 1588586124.114000
+Z13 !s107 mainCtl.vo|
+!s101 -O0
+vmainCtl_vlg_check_tst
+!i10b 1
+!s100 MEK_ZizijSz3GeE_a24]Q0
+IaW5Ng9YGZ3SSE18F]:HdN2
+Z14 VaENhhQS64dk<0n6K1c[Dm2
+R4
+Z15 w1588586120
+Z16 8mainCtl.vt
+Z17 FmainCtl.vt
+L0 57
+R8
+r1
+!s85 0
+31
+Z18 !s108 1588586124.351000
+Z19 !s107 mainCtl.vt|
+Z20 !s90 -work|work|mainCtl.vt|
+!s101 -O0
+R10
+Z21 nmain@ctl_vlg_check_tst
+vmainCtl_vlg_sample_tst
+!i10b 1
+Z22 !s100 NdOhTnJOn_6iz`zEJKJCQ2
+Z23 Ia`;3;JHG_oM08z1ajK8=:1
+Z24 VQoC:9Rke_zLZOG@Amc7;22
+R4
+R15
+R16
+R17
+L0 29
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z25 nmain@ctl_vlg_sample_tst
+vmainCtl_vlg_vec_tst
+!i10b 1
+Z26 !s100 gAhGgPmEZF:dOTm6Mzj:Q3
+Z27 IT6KYEmn0N_]jX1CWEZA0K1
+Z28 VBA]mfODJLi57CBki`0?DJ1
+R4
+R15
+R16
+R17
+Z29 L0 385
+R8
+r1
+!s85 0
+31
+R18
+R19
+R20
+!s101 -O0
+R10
+Z30 nmain@ctl_vlg_vec_tst
